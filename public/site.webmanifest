@@ -1,0 +1,42 @@
+{
+  "name": "Excalibur Auto Locksmiths",
+  "short_name": "Excalibur",
+  "description": "Mobile auto locksmith — Wigan, St Helens & North West. 24/7, cheaper than the dealer.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0c2a",
+  "theme_color": "#0b0c2a",
+  "categories": ["automotive", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Call Now",
+      "short_name": "Call",
+      "description": "Call Excalibur Auto Locksmiths",
+      "url": "tel:07831872740",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Emergency Locksmith",
+      "short_name": "Emergency",
+      "description": "24/7 emergency auto locksmith",
+      "url": "/emergency",
+      "icons": [{ "src": "/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
