@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import type { ReactNode } from 'react'
 import { notFound } from 'next/navigation'
 import Script from 'next/script'
 import { Clock, User, Phone, ArrowRight } from 'lucide-react'
@@ -16,7 +17,7 @@ const POSTS: Record<string, {
   date: string
   dateModified: string
   readTime: string
-  content: React.ReactNode
+  content: ReactNode
 }> = {
   'lost-car-keys-what-to-do-north-west': {
     title: "Lost Your Car Keys? Here's Exactly What To Do (North West Guide)",

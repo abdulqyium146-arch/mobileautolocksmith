@@ -17,7 +17,7 @@ export const SITE = {
     country: 'England',
     countryCode: 'GB',
   },
-  domain: 'https://www.excaliburautolocksmith.co.uk',
+  domain: 'https://mobileautolocksmiths.co.uk',
   reviewCount: 127,
   reviewScore: 4.9,
   keyCount: '10,000+',
