@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary:    #0b0c2a;
+  --color-accent:     #c0392b;
+  --color-gold:       #e2a800;
+  --color-surface:    #f5f6fa;
+  --color-dark:       #1a1a2e;
+  --color-text:       #1e2533;
+  --color-muted:      #6b7280;
+  --color-border:     #e5e7eb;
+  --color-white:      #ffffff;
+
+  --font-heading:     'Montserrat', sans-serif;
+  --font-body:        'Inter', sans-serif;
+
+  --radius-card:      12px;
+  --radius-btn:       8px;
+  --shadow-card:      0 4px 24px rgba(0,0,0,0.08);
+  --shadow-hover:     0 8px 32px rgba(0,0,0,0.14);
+
+  --transition-fast:  150ms ease;
+  --transition-base:  250ms ease;
+}
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background-color: var(--color-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    line-height: 1.2;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2
+           bg-accent text-white font-bold uppercase tracking-wider
+           px-6 py-3 rounded-btn min-h-[52px]
+           transition-all duration-150 ease-out
+           hover:bg-red-700 hover:-translate-y-0.5
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2
+           active:translate-y-0;
+    letter-spacing: 0.05em;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2
+           border-2 border-current font-bold uppercase tracking-wider
+           px-6 py-3 rounded-btn min-h-[52px]
+           transition-all duration-150 ease-out
+           hover:-translate-y-0.5
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-current focus-visible:ring-offset-2;
+    letter-spacing: 0.05em;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2
+           font-semibold px-4 py-2 rounded-btn
+           transition-colors duration-150
+           hover:bg-black/5
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-current;
+  }
+
+  .card {
+    @apply bg-white rounded-card p-6 transition-all duration-250;
+    box-shadow: var(--shadow-card);
+  }
+
+  .card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-3px);
+  }
+
+  .section {
+    @apply py-12 md:py-20;
+  }
+
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .phone-number {
+    @apply font-extrabold text-accent;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+  }
+
+  .section-heading {
+    @apply font-heading text-3xl md:text-4xl font-bold text-primary mb-4;
+  }
+
+  .section-subheading {
+    @apply text-lg text-muted max-w-2xl;
+  }
+
+  .trust-pill {
+    @apply flex items-center gap-2 text-sm font-semibold;
+  }
+
+  .price-badge {
+    @apply inline-block bg-gold text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
+  }
+}
+
+/* Visually hidden — accessible */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus,
+.sr-only:active {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Accordion animation */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Comparison table */
+.comparison-table {
+  @apply w-full border-collapse;
+}
+.comparison-table th,
+.comparison-table td {
+  @apply px-4 py-3 text-left border-b border-border;
+}
+.comparison-table th {
+  @apply bg-primary text-white font-bold text-sm uppercase tracking-wide;
+}
+.comparison-table tr:nth-child(even) td {
+  @apply bg-surface;
+}
+
+/* Mobile nav overlay */
+.mobile-nav-overlay {
+  @apply fixed inset-0 z-50 bg-primary flex flex-col;
+}

@@ -1,0 +1,7 @@
+# This file is auto-generated via app/robots.ts
+# Do not edit manually — changes here will be overwritten
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.excaliburautolocksmith.co.uk/sitemap.xml
