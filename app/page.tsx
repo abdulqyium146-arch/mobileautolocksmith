@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import { Phone, AlertTriangle, Star, CheckCircle, ArrowRight, MapPin } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 import { SERVICES } from '@/lib/services'
@@ -10,18 +9,13 @@ import { ReviewCard } from '@/components/ui/ReviewCard'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { TrustBar } from '@/components/ui/TrustBar'
 import { CTABanner } from '@/components/ui/CTABanner'
-import { buildLocalBusiness, buildFAQPage, buildAggregateRating } from '@/lib/schema'
+import { getHomepageMetadata } from '@/lib/seo/metadata'
+import { LocalBusinessSchema } from '@/components/schema/LocalBusinessSchema'
+import { FAQSchema } from '@/components/schema/FAQSchema'
+import { BreadcrumbSchema } from '@/components/schema/BreadcrumbSchema'
+import { buildBreadcrumbs } from '@/lib/seo/breadcrumbs'
 
-export const metadata: Metadata = {
-  title: `Auto Locksmith Wigan & St Helens | Excalibur — ${SITE.phone} | 24/7 Mobile`,
-  description: `Lost car keys in Wigan or St Helens? Excalibur Auto Locksmiths — mobile, 24/7, up to 60% cheaper than the main dealer. Ian & Adam come to you. Call ${SITE.phone}.`,
-  alternates: { canonical: '/' },
-  openGraph: {
-    title: `Auto Locksmith Wigan & St Helens | Excalibur — 24/7 Mobile`,
-    description: `Lost car keys in Wigan or St Helens? Excalibur — mobile, 24/7, up to 60% cheaper than the dealer.`,
-    url: SITE.domain,
-  },
-}
+export const metadata: Metadata = getHomepageMetadata()
 
 const HOMEPAGE_FAQS = [
   {
@@ -81,30 +75,11 @@ const VEHICLE_BRANDS = [
 ]
 
 export default function HomePage() {
-  const lbSchema = buildLocalBusiness()
-  const faqSchema = buildFAQPage(HOMEPAGE_FAQS)
-  const ratingSchema = buildAggregateRating()
-
   return (
     <>
-      <Script
-        id="schema-localbusiness-home"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lbSchema) }}
-      />
-      <Script
-        id="schema-faq-home"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="schema-rating-home"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }}
-      />
+      <LocalBusinessSchema pageUrl="https://mobileautolocksmiths.co.uk" />
+      <FAQSchema faqs={HOMEPAGE_FAQS} />
+      <BreadcrumbSchema items={buildBreadcrumbs({})} />
 
       {/* S1: Hero */}
       <section
@@ -362,7 +337,7 @@ export default function HomePage() {
             <table className="comparison-table min-w-[600px]" aria-label="Excalibur vs Main Dealer comparison">
               <thead>
                 <tr>
-                  <th scope="col" className="bg-dark text-white"></th>
+                  <th scope="col" className="bg-dark text-white"><span className="sr-only">Feature</span></th>
                   <th scope="col" className="bg-accent text-white">Excalibur</th>
                   <th scope="col" className="bg-dark text-white/70">Main Dealer</th>
                 </tr>

@@ -1,16 +1,19 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Script from 'next/script'
 import { Phone, Clock, PoundSterling, AlertTriangle, CheckCircle, ArrowRight, MapPin } from 'lucide-react'
 import { SERVICES, getServiceBySlug, getRelatedServices } from '@/lib/services'
 import { LOCATIONS } from '@/lib/locations'
 import { SITE } from '@/lib/siteConfig'
-import { buildService, buildLocalBusiness, buildFAQPage, buildBreadcrumb } from '@/lib/schema'
 import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { ServiceCard } from '@/components/ui/ServiceCard'
 import { CTABanner } from '@/components/ui/CTABanner'
+import { getServiceMetadata } from '@/lib/seo/metadata'
+import { LocalBusinessSchema } from '@/components/schema/LocalBusinessSchema'
+import { FAQSchema } from '@/components/schema/FAQSchema'
+import { BreadcrumbSchema } from '@/components/schema/BreadcrumbSchema'
+import { buildBreadcrumbs } from '@/lib/seo/breadcrumbs'
 
 type Props = {
   params: { service: string }
@@ -21,18 +24,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const service = getServiceBySlug(params.service)
-  if (!service) return {}
-  return {
-    title: service.metaTitle,
-    description: service.metaDescription,
-    alternates: { canonical: `/services/${service.slug}` },
-    openGraph: {
-      title: service.metaTitle,
-      description: service.metaDescription,
-      url: `${SITE.domain}/services/${service.slug}`,
-    },
-  }
+  return getServiceMetadata(params.service)
 }
 
 export default function ServicePage({ params }: Props) {
@@ -41,41 +33,11 @@ export default function ServicePage({ params }: Props) {
 
   const relatedServices = getRelatedServices(service.relatedSlugs)
 
-  const serviceSchema = buildService(service)
-  const lbSchema = buildLocalBusiness()
-  const faqSchema = buildFAQPage(service.faqs)
-  const breadcrumbSchema = buildBreadcrumb([
-    { name: 'Home', url: SITE.domain },
-    { name: 'Services', url: `${SITE.domain}/services` },
-    { name: service.name, url: `${SITE.domain}/services/${service.slug}` },
-  ])
-
   return (
     <>
-      <Script
-        id={`schema-service-${service.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <Script
-        id={`schema-lb-${service.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lbSchema) }}
-      />
-      <Script
-        id={`schema-faq-${service.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id={`schema-bc-${service.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <LocalBusinessSchema service={service.name} pageUrl={`https://mobileautolocksmiths.co.uk/services/${service.slug}`} />
+      <FAQSchema faqs={service.faqs} />
+      <BreadcrumbSchema items={buildBreadcrumbs({ service: service.slug })} />
 
       {/* Breadcrumb */}
       <div className="container">

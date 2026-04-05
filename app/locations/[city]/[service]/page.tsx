@@ -1,15 +1,19 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Script from 'next/script'
 import { Phone, MapPin, CheckCircle, ArrowRight } from 'lucide-react'
 import { LOCATIONS, getLocationBySlug, getNearbyLocations } from '@/lib/locations'
 import { SERVICES, getServiceBySlug } from '@/lib/services'
 import { SITE } from '@/lib/siteConfig'
-import { buildService, buildLocalBusiness, buildFAQPage, buildBreadcrumb } from '@/lib/schema'
 import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { CTABanner } from '@/components/ui/CTABanner'
+import { getLocationServiceMetadata } from '@/lib/seo/metadata'
+import { getServiceFAQs } from '@/lib/seo/faqs'
+import { LocalBusinessSchema } from '@/components/schema/LocalBusinessSchema'
+import { FAQSchema } from '@/components/schema/FAQSchema'
+import { BreadcrumbSchema } from '@/components/schema/BreadcrumbSchema'
+import { buildBreadcrumbs } from '@/lib/seo/breadcrumbs'
 
 type Props = { params: { city: string; service: string } }
 
@@ -24,19 +28,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const loc = getLocationBySlug(params.city)
-  const svc = getServiceBySlug(params.service)
-  if (!loc || !svc) return {}
-  return {
-    title: `${svc.name} in ${loc.name}, ${loc.county} | Excalibur — ${SITE.phone}`,
-    description: `Need ${svc.name.toLowerCase()} in ${loc.name}? Excalibur Auto Locksmiths is mobile, 24/7, and up to 60% cheaper than the dealer. On-site in ${loc.name} fast. Call ${SITE.phone}.`,
-    alternates: { canonical: `/locations/${loc.slug}/${svc.slug}` },
-    openGraph: {
-      title: `${svc.name} in ${loc.name} | Excalibur`,
-      description: `Mobile ${svc.name.toLowerCase()} in ${loc.name} — 24/7. Call ${SITE.phone}.`,
-      url: `${SITE.domain}/locations/${loc.slug}/${svc.slug}`,
-    },
-  }
+  return getLocationServiceMetadata(params.city, params.service)
 }
 
 function buildCityServiceFAQs(
@@ -69,42 +61,11 @@ export default function CityServicePage({ params }: Props) {
   const otherServices = SERVICES.filter(s => s.slug !== svc.slug).slice(0, 4)
   const faqs = buildCityServiceFAQs(svc, loc)
 
-  const serviceSchema = buildService(svc, loc.name)
-  const lbSchema = buildLocalBusiness(loc.name)
-  const faqSchema = buildFAQPage(faqs)
-  const bcSchema = buildBreadcrumb([
-    { name: 'Home', url: SITE.domain },
-    { name: 'Areas', url: `${SITE.domain}/locations` },
-    { name: loc.name, url: `${SITE.domain}/locations/${loc.slug}` },
-    { name: svc.name, url: `${SITE.domain}/locations/${loc.slug}/${svc.slug}` },
-  ])
-
   return (
     <>
-      <Script
-        id={`schema-svc-${loc.slug}-${svc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <Script
-        id={`schema-lb-${loc.slug}-${svc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lbSchema) }}
-      />
-      <Script
-        id={`schema-faq-${loc.slug}-${svc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id={`schema-bc-${loc.slug}-${svc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(bcSchema) }}
-      />
+      <LocalBusinessSchema city={loc.name} region={loc.county} service={svc.name} pageUrl={`https://mobileautolocksmiths.co.uk/locations/${loc.slug}/${svc.slug}`} />
+      <FAQSchema faqs={getServiceFAQs(params.service)} />
+      <BreadcrumbSchema items={buildBreadcrumbs({ city: params.city, service: params.service, isLocationService: true })} />
 
       <div className="container">
         <BreadcrumbNav

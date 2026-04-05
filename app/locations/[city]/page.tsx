@@ -1,16 +1,20 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Script from 'next/script'
 import { Phone, MapPin, CheckCircle, ArrowRight } from 'lucide-react'
 import { LOCATIONS, getLocationBySlug, getNearbyLocations } from '@/lib/locations'
 import { SERVICES } from '@/lib/services'
 import { SITE } from '@/lib/siteConfig'
-import { buildLocalBusiness, buildFAQPage, buildBreadcrumb } from '@/lib/schema'
 import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { ServiceCard } from '@/components/ui/ServiceCard'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { CTABanner } from '@/components/ui/CTABanner'
+import { getLocationMetadata } from '@/lib/seo/metadata'
+import { getLocationFAQs } from '@/lib/seo/faqs'
+import { LocalBusinessSchema } from '@/components/schema/LocalBusinessSchema'
+import { FAQSchema } from '@/components/schema/FAQSchema'
+import { BreadcrumbSchema } from '@/components/schema/BreadcrumbSchema'
+import { buildBreadcrumbs } from '@/lib/seo/breadcrumbs'
 
 type Props = { params: { city: string } }
 
@@ -19,18 +23,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const loc = getLocationBySlug(params.city)
-  if (!loc) return {}
-  return {
-    title: `Auto Locksmith ${loc.name} | Excalibur — Mobile, 24/7 | ${SITE.phone}`,
-    description: `Lost car keys in ${loc.name}? Excalibur Auto Locksmiths covers ${loc.name} (${loc.county}). Mobile, 24/7, up to 60% cheaper than the dealer. Call ${SITE.phone}.`,
-    alternates: { canonical: `/locations/${loc.slug}` },
-    openGraph: {
-      title: `Auto Locksmith ${loc.name} | Excalibur`,
-      description: `Mobile auto locksmith in ${loc.name} — 24/7, at your location. Call ${SITE.phone}.`,
-      url: `${SITE.domain}/locations/${loc.slug}`,
-    },
-  }
+  return getLocationMetadata(params.city)
 }
 
 function buildCityFAQs(loc: ReturnType<typeof getLocationBySlug>) {
@@ -62,34 +55,11 @@ export default function CityPage({ params }: Props) {
   const nearbyLocations = getNearbyLocations(loc.nearbySlugs)
   const faqs = buildCityFAQs(loc)
 
-  const lbSchema = buildLocalBusiness(loc.name)
-  const faqSchema = buildFAQPage(faqs)
-  const bcSchema = buildBreadcrumb([
-    { name: 'Home', url: SITE.domain },
-    { name: 'Areas', url: `${SITE.domain}/locations` },
-    { name: loc.name, url: `${SITE.domain}/locations/${loc.slug}` },
-  ])
-
   return (
     <>
-      <Script
-        id={`schema-lb-city-${loc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lbSchema) }}
-      />
-      <Script
-        id={`schema-faq-city-${loc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id={`schema-bc-city-${loc.slug}`}
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(bcSchema) }}
-      />
+      <LocalBusinessSchema city={loc.name} region={loc.county} pageUrl={`https://mobileautolocksmiths.co.uk/locations/${loc.slug}`} />
+      <FAQSchema faqs={getLocationFAQs(params.city)} />
+      <BreadcrumbSchema items={buildBreadcrumbs({ city: params.city })} />
 
       <div className="container">
         <BreadcrumbNav

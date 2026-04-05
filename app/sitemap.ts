@@ -4,7 +4,7 @@ import { LOCATIONS } from '@/lib/locations'
 import { SITE } from '@/lib/siteConfig'
 
 const BASE = SITE.domain
-const NOW = new Date().toISOString()
+const NOW = new Date()
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const urls: MetadataRoute.Sitemap = []
@@ -87,7 +87,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     urls.push({
       url: `${BASE}/blog/${slug}`,
       lastModified: NOW,
-      changeFrequency: 'never',
+      changeFrequency: 'monthly',
       priority: 0.55,
     })
   }

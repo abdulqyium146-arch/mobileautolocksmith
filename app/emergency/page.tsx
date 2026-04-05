@@ -1,32 +1,17 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Script from 'next/script'
 import { Phone, MapPin, ShieldCheck, Clock, Users, Key, Zap, AlertTriangle } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 import { LOCATIONS } from '@/lib/locations'
-import { buildLocalBusiness } from '@/lib/schema'
+import { getEmergencyMetadata } from '@/lib/seo/metadata'
+import { LocalBusinessSchema } from '@/components/schema/LocalBusinessSchema'
 
-export const metadata: Metadata = {
-  title: `Emergency Auto Locksmith North West | Available RIGHT NOW | ${SITE.phone}`,
-  description: `Emergency car locksmith in the North West — Excalibur Auto Locksmiths. Available 24/7 right now. Don't call a tow truck — call ${SITE.phone} first.`,
-  alternates: { canonical: '/emergency' },
-  openGraph: {
-    title: `Emergency Auto Locksmith North West | Excalibur — Available Now`,
-    description: `Stranded? Call Excalibur on ${SITE.phone} — 24/7 mobile emergency auto locksmith.`,
-  },
-}
+export const metadata: Metadata = getEmergencyMetadata()
 
 export default function EmergencyPage() {
-  const lbSchema = buildLocalBusiness()
-
   return (
     <>
-      <Script
-        id="schema-lb-emergency"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lbSchema) }}
-      />
+      <LocalBusinessSchema pageUrl="https://mobileautolocksmiths.co.uk/emergency" />
 
       {/* Red Hero */}
       <section

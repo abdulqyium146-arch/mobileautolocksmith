@@ -40,6 +40,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'Ian Casson' }],
   creator: 'Excalibur Auto Locksmiths',
   publisher: 'Excalibur Auto Locksmiths',
+  // TODO: Add Google Search Console verification
+  // 1. Go to https://search.google.com/search-console
+  // 2. Add property: https://mobileautolocksmiths.co.uk
+  // 3. Choose "HTML tag" method
+  // 4. Paste the content="..." value below:
+  // verification: { google: 'PASTE_YOUR_CODE_HERE' },
   robots: {
     index: true,
     follow: true,
@@ -65,16 +71,12 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: `Auto Locksmith Wigan & St Helens | Excalibur — 24/7 Mobile`,
-    description: SITE.description,
-    images: ['/images/og-default.jpg'],
+    description: 'Mobile auto locksmith covering Wigan, St Helens & the North West. Lost car keys replaced same day — 24/7, up to 60% cheaper than main dealers. Call Ian or Adam on 07831 872 740.',
   },
   alternates: {
     canonical: SITE.domain,
-  },
-  verification: {
-    google: 'REPLACE_WITH_SEARCH_CONSOLE_VERIFICATION_TOKEN',
   },
   other: {
     'hreflang:en-GB': SITE.domain,
