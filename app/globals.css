@@ -90,7 +90,7 @@
   }
 
   .card {
-    @apply bg-white rounded-card p-6 transition-all duration-250;
+    @apply bg-white rounded-card p-6 transition-all duration-200;
     box-shadow: var(--shadow-card);
   }
 
