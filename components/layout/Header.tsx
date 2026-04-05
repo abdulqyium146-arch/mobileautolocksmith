@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone, ChevronDown, Menu, X, Key } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 import { SERVICES } from '@/lib/services'
@@ -57,20 +58,17 @@ export function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded"
+            className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded"
             aria-label="Excalibur Auto Locksmiths — Home"
           >
-            <Key
-              size={28}
-              className="text-accent"
-              aria-hidden="true"
+            <Image
+              src="/excaliburAuto_locksmith_logo.svg"
+              alt="Excalibur Auto Locksmiths"
+              width={220}
+              height={68}
+              priority
+              className="h-12 lg:h-14 w-auto"
             />
-            <span className="font-heading font-black text-xl text-primary leading-tight">
-              Excalibur<br />
-              <span className="text-xs font-semibold text-muted tracking-widest uppercase leading-none">
-                Auto Locksmiths
-              </span>
-            </span>
           </Link>
 
           {/* Desktop Nav */}
@@ -187,10 +185,16 @@ export function Header() {
             <Link
               href="/"
               onClick={() => setMobileOpen(false)}
-              className="flex items-center gap-2 text-white"
+              className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
+              aria-label="Excalibur Auto Locksmiths — Home"
             >
-              <Key size={24} className="text-gold" aria-hidden="true" />
-              <span className="font-heading font-black text-lg">Excalibur Auto Locksmiths</span>
+              <Image
+                src="/excaliburAuto_locksmith_logo.svg"
+                alt="Excalibur Auto Locksmiths"
+                width={180}
+                height={56}
+                className="h-10 w-auto brightness-0 invert"
+              />
             </Link>
             <button
               onClick={() => setMobileOpen(false)}

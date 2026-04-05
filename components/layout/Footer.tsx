@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Phone, Mail, Key, MapPin, Clock } from 'lucide-react'
+import Image from 'next/image'
+import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 import { SERVICES } from '@/lib/services'
 import { LOCATIONS } from '@/lib/locations'
@@ -32,9 +33,14 @@ export function Footer() {
       <div className="container py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <Key size={24} className="text-gold" aria-hidden="true" />
-            <span className="font-heading font-black text-lg">Excalibur Auto Locksmiths</span>
+          <div className="mb-4">
+            <Image
+              src="/excaliburAuto_locksmith_logo.svg"
+              alt="Excalibur Auto Locksmiths"
+              width={200}
+              height={62}
+              className="h-12 w-auto brightness-0 invert"
+            />
           </div>
           <p className="text-white/70 text-sm leading-relaxed mb-4">
             Father & son mobile auto locksmith serving Wigan, St Helens, and the North West for over 30 years. We come to you.
