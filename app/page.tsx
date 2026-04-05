@@ -46,24 +46,28 @@ const REVIEWS = [
     name: 'Dave W.',
     city: 'Wigan',
     platform: 'Google Review',
+    date: '2024-09-15',
   },
   {
     quote: "Adam came out at 11pm when I'd locked myself out of my Vauxhall Astra near St Helens. He was calm, professional, and had me back in the car within 30 minutes. The price was very fair and I was incredibly relieved. I've saved the number for life.",
     name: 'Sarah M.',
     city: 'St Helens',
     platform: 'Google Review',
+    date: '2024-10-22',
   },
   {
     quote: "My Renault Megane card stopped working and Renault dealer wanted 10 days and nearly £300. Adam sorted it at my home in Bolton the same afternoon for much less. Brilliant father and son team — proper honest traders. Exactly what you want when you're stressed.",
     name: 'Chris B.',
     city: 'Bolton',
     platform: 'Google Review',
+    date: '2024-08-07',
   },
   {
     quote: "The key broke off in my BMW ignition on the A49 at 7am. Ian answered immediately, came to the roadside, extracted the broken piece and cut me a new key. Total lifesaver. I genuinely don't know what I'd have done without him. Absolute professional.",
     name: 'Tracey H.',
     city: 'Warrington',
     platform: 'Google Review',
+    date: '2024-11-03',
   },
 ]
 
