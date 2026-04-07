@@ -36,7 +36,7 @@ const POSTS: Record<string, {
         <p>This is the most expensive mistake North West drivers make. A tow truck takes your vehicle somewhere — usually a dealer — where you then pay again for the key replacement. You&apos;ve paid twice. In almost every case, a mobile auto locksmith can come to your vehicle and replace the key on-site. The car doesn&apos;t need to move.</p>
 
         <h2>Step 3: Call a Specialist Auto Locksmith First</h2>
-        <p>A mobile auto locksmith like Excalibur will come to your vehicle with the equipment to cut and programme a new key on-site. Call <a href="tel:07831872740">{SITE.phone}</a> — Ian or Adam will answer, take your vehicle details, give you a firm quote, and tell you how quickly they can reach you.</p>
+        <p>A mobile auto locksmith like Excalibur will come to your vehicle with the equipment to cut and programme a new key on-site. Call <a href="tel:07309903243">{SITE.phone}</a> — Ian or Adam will answer, take your vehicle details, give you a firm quote, and tell you how quickly they can reach you.</p>
 
         <h2>Step 4: Have These Details Ready</h2>
         <ul>
@@ -55,7 +55,7 @@ const POSTS: Record<string, {
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
           <p className="font-bold text-primary mb-2">North West? Call Excalibur Now</p>
           <p className="text-muted text-sm mb-3">Ian or Adam will answer personally. Honest quote. Fast response. No towing required.</p>
-          <a href="tel:07831872740" className="btn-primary inline-flex">
+          <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
           </a>
         </div>
@@ -68,7 +68,7 @@ const POSTS: Record<string, {
           <li>Smart/proximity key: from £150</li>
           <li>Renault key card: from £120</li>
         </ul>
-        <p>These prices are all-inclusive — cutting, programming, and call-out. For an exact quote for your specific vehicle, call <a href="tel:07831872740">{SITE.phone}</a>.</p>
+        <p>These prices are all-inclusive — cutting, programming, and call-out. For an exact quote for your specific vehicle, call <a href="tel:07309903243">{SITE.phone}</a>.</p>
 
         <h2>Summary</h2>
         <p>Lost car keys in the North West: search thoroughly, don&apos;t call a tow truck, call a specialist mobile locksmith first. Excalibur can usually be with you within the hour, anywhere across Wigan, St Helens, Bolton, Warrington, Liverpool, and the wider North West region.</p>
@@ -125,7 +125,7 @@ const POSTS: Record<string, {
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
           <p className="font-bold text-primary mb-2">Get an Honest Quote Now</p>
           <p className="text-muted text-sm mb-3">Call Ian or Adam for a firm price for your specific vehicle. No hidden extras.</p>
-          <a href="tel:07831872740" className="btn-primary inline-flex">
+          <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
           </a>
         </div>
@@ -144,7 +144,7 @@ const POSTS: Record<string, {
         </ul>
 
         <h2>The Bottom Line</h2>
-        <p>For any key type, on any vehicle, a specialist mobile auto locksmith will almost always be significantly cheaper than the main dealer — and usually faster too. For North West drivers, Excalibur Auto Locksmiths provides all key types at transparent pricing. Call <a href="tel:07831872740">{SITE.phone}</a> for your vehicle-specific quote.</p>
+        <p>For any key type, on any vehicle, a specialist mobile auto locksmith will almost always be significantly cheaper than the main dealer — and usually faster too. For North West drivers, Excalibur Auto Locksmiths provides all key types at transparent pricing. Call <a href="tel:07309903243">{SITE.phone}</a> for your vehicle-specific quote.</p>
       </div>
     ),
   },
@@ -195,7 +195,7 @@ const POSTS: Record<string, {
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
           <p className="font-bold text-primary mb-2">The Verdict</p>
           <p className="text-muted text-sm mb-3">For car key replacement, an independent specialist is cheaper, faster, more convenient, and available 24/7. Call Excalibur before the dealer — you can always call the dealer if we can&apos;t help (we almost always can).</p>
-          <a href="tel:07831872740" className="btn-primary inline-flex">
+          <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
           </a>
         </div>
@@ -246,7 +246,7 @@ const POSTS: Record<string, {
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
           <p className="font-bold text-primary mb-2">Need a Transponder Key Programmed?</p>
           <p className="text-muted text-sm mb-3">Excalibur programmes transponder keys for all makes and models — at your location, same day. Call for a quote.</p>
-          <a href="tel:07831872740" className="btn-primary inline-flex">
+          <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
           </a>
         </div>

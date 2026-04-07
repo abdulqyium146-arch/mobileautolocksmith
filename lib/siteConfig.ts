@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Excalibur Auto Locksmiths',
-  phone: '07831 872 740',
-  phoneTel: 'tel:07831872740',
+  phone: '07309 903 243',
+  phoneTel: 'tel:07309903243',
   email: 'excalibursecurity@hotmail.co.uk',
   emailHref: 'mailto:excalibursecurity@hotmail.co.uk',
   primaryCity: 'Wigan',
