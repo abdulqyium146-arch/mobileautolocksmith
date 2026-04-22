@@ -130,6 +130,40 @@ export function Footer() {
         </div>
       </div>
 
+      {/* Trusted Partners strip */}
+      <div className="border-t border-white/10 py-6">
+        <div className="container">
+          <p className="text-xs font-heading font-bold uppercase tracking-widest text-white/40 mb-4 text-center">
+            Trusted Partners
+          </p>
+          <div className="flex flex-wrap justify-center items-center gap-6">
+            <a
+              href="https://ashtonlockandkey.co.uk/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+              className="flex items-center gap-2 text-white/50 hover:text-white/80 transition-colors text-sm focus-ring"
+              aria-label="Ashton Lock and Key — trusted traditional locksmith partner (opens in new tab)"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-4 h-4 shrink-0"
+                aria-hidden="true"
+              >
+                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4" />
+              </svg>
+              Ashton Lock &amp; Key
+              <span className="text-white/30 text-xs">Traditional Locksmith Partner</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div className="border-t border-white/10 py-6">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/40">
