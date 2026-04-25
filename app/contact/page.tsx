@@ -203,6 +203,37 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* Map — geo signal: map embed anchored to NAP reinforces Local Pack ranking */}
+      <section className="section bg-white" aria-labelledby="map-heading">
+        <div className="container">
+          <h2 id="map-heading" className="section-heading mb-2">
+            Find Us on the Map
+          </h2>
+          <p className="text-muted mb-6">
+            Based in Wigan — we travel to you across the North West. No need to come to us.
+          </p>
+          <figure className="overflow-hidden rounded-xl shadow-md border border-border">
+            <div className="relative w-full h-[320px] md:h-[460px]">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.4502290865667!2d-2.7086666999999998!3d53.4961523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b1adc0e522e6f%3A0x90f5a3eacc1dc9fc!2sExcalibur%20Auto%20Locksmith!5e0!3m2!1sen!2s!4v1777100503673!5m2!1sen!2s"
+                className="absolute inset-0 w-full h-full border-0"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Excalibur Auto Locksmiths location — Wigan, Greater Manchester"
+              />
+            </div>
+            <figcaption className="bg-surface px-5 py-3 text-sm text-muted flex flex-wrap gap-x-4 gap-y-1">
+              <span><strong className="text-primary">Excalibur Auto Locksmiths</strong> · Wigan, Greater Manchester</span>
+              <span>Mobile service · North West England</span>
+              <a href={SITE.phoneTel} className="text-accent font-bold hover:underline focus-ring">
+                {SITE.phone}
+              </a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
     </>
   )
 }
