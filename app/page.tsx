@@ -38,6 +38,14 @@ const HOMEPAGE_FAQS = [
     question: 'What if my car has a transponder chip or smart key system?',
     answer: `This is our specialism. Every modern vehicle sold in the UK since 1998 uses a transponder system, and the majority of post-2015 vehicles use smart key or proximity systems. Ian and Adam carry dealer-grade programming equipment for all these systems. The process takes slightly longer than a mechanical-only key but is entirely done on-site at your location.`,
   },
+  {
+    question: 'Do you offer a car lockout service if my keys are locked inside?',
+    answer: `Yes — if your keys are locked inside the car, Excalibur's car unlock service opens the vehicle without any damage to doors, glass, or seals. We use specialist non-destructive entry tools. While we're on-site we can also cut a spare key so you're never locked out again. Call ${SITE.phone} and we'll come to you.`,
+  },
+  {
+    question: 'Do you cover car key replacement for BMW, Audi, VW, Mercedes and other prestige brands?',
+    answer: `Yes. We replace and programme car keys for all major brands including BMW, Audi, Volkswagen, Mercedes-Benz, Nissan, Ford, Vauxhall, Toyota, Hyundai, Kia, Peugeot, Renault, Fiat, Honda, Mazda, Land Rover, Volvo, SEAT, and Škoda. If you're unsure whether we cover your vehicle, call ${SITE.phone} and we'll confirm within seconds.`,
+  },
 ]
 
 const REVIEWS = [
@@ -115,9 +123,13 @@ export default function HomePage() {
               <span className="text-gold">St Helens?</span>
             </h1>
 
-            <p className="text-white/80 text-xl leading-relaxed mb-8 max-w-2xl">
-              Excalibur&apos;s mobile locksmiths come to you anywhere across the North West —
+            <p className="text-white/80 text-xl leading-relaxed mb-4 max-w-2xl">
+              Excalibur&apos;s mobile auto locksmiths come to you anywhere across the North West —
               24 hours a day, always cheaper than the main dealer.
+            </p>
+            <p className="text-white/60 text-sm mb-8 max-w-2xl">
+              Car key replacement · Car key cutting &amp; programming · Car lockout service ·
+              Key fob replacement · Emergency auto locksmith · All makes &amp; models
             </p>
 
             {/* CTA row */}

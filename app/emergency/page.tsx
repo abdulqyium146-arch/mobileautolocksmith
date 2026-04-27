@@ -127,6 +127,44 @@ export default function EmergencyPage() {
         </div>
       </section>
 
+      {/* Car Lockout & Unlock Service — keyword section */}
+      <section className="section bg-white" aria-labelledby="lockout-heading">
+        <div className="container max-w-3xl">
+          <h2 id="lockout-heading" className="section-heading mb-6">
+            Car Lockout Service — Keys Locked Inside? We Open It Without Damage
+          </h2>
+          <div className="space-y-4 text-muted leading-relaxed">
+            <p>
+              If your keys are locked inside the car, don&apos;t smash a window. Excalibur&apos;s
+              car unlock service uses specialist automotive tools to open your vehicle without
+              any damage to the door, glass, or weather seal — typically in under 30 minutes.
+            </p>
+            <p>
+              Locked out of your car in a car park? Keys inside at the roadside? Wherever you
+              are across Wigan, St Helens, or the wider North West, our mobile car lockout service
+              comes to you. No towing. No waiting for recovery. We drive directly to your location
+              and get you back inside.
+            </p>
+            <p>
+              While we&apos;re on-site, we can also cut a spare key so you&apos;re never in the
+              same situation again — at a fraction of the cost of a separate call-out.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-3 gap-4 mt-8">
+            {[
+              { title: 'Locked Out of Car', desc: 'Keys left inside — we open it without damage' },
+              { title: 'Car Unlock Service', desc: 'Non-destructive entry for all makes & models' },
+              { title: 'Keys Locked in Car', desc: 'On-site in most North West locations within 1 hr' },
+            ].map(item => (
+              <div key={item.title} className="bg-surface border border-border rounded-card p-4 text-center">
+                <p className="font-heading font-bold text-primary text-sm mb-1">{item.title}</p>
+                <p className="text-muted text-xs">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Coverage */}
       <section className="section bg-white" aria-labelledby="cov-heading">
         <div className="container">

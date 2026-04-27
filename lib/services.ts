@@ -35,9 +35,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'lost-vehicle-key-replacement',
     name: 'Lost Vehicle Key Replacement',
-    metaTitle: 'Lost Car Key Replacement | Excalibur — 07831 872 740',
+    metaTitle: 'Lost Car Keys Near Me | Same Day Replacement | Excalibur Auto Locksmiths',
     metaDescription:
-      "Lost your car keys in Wigan or St Helens? Excalibur's mobile locksmith replaces all key types on-site, same day. Up to 60% cheaper than the dealer. Call 07831 872 740.",
+      "Lost your car keys? Excalibur's mobile auto locksmith replaces lost car keys same day — all key types, all makes, across Wigan, St Helens & the North West. Up to 60% cheaper than the dealer. Call 07309 903 243.",
     h1: 'Lost Vehicle Key Replacement — On-Site, Same Day',
     tagline: "We replace your lost car key wherever you are — no tow truck, no waiting days.",
     painPoint:
@@ -55,7 +55,7 @@ export const SERVICES: Service[] = [
         step: 1,
         title: 'Call and Describe Your Vehicle',
         detail:
-          'Ring 07831 872 740 and tell Ian or Adam your vehicle make, model, and year. Have the V5C or VIN handy if possible — it speeds up key sourcing. You\'ll get a firm quote on the call.',
+          'Ring 07309 903 243 and tell Ian or Adam your vehicle make, model, and year. Have the V5C or VIN handy if possible — it speeds up key sourcing. You\'ll get a firm quote on the call.',
       },
       {
         step: 2,
@@ -118,7 +118,7 @@ export const SERVICES: Service[] = [
       {
         question: 'Do you cover the whole of the North West for lost key replacement?',
         answer:
-          "We cover the full North West region, including Wigan, St Helens, Bolton, Warrington, Liverpool, Southport, Leigh, Skelmersdale, Chorley, Ormskirk, Runcorn, Widnes, and all surrounding towns and villages. If you're unsure whether we cover your area, simply call 07831 872 740 and we'll confirm immediately.",
+          "We cover the full North West region, including Wigan, St Helens, Bolton, Warrington, Liverpool, Southport, Leigh, Skelmersdale, Chorley, Ormskirk, Runcorn, Widnes, and all surrounding towns and villages. If you're unsure whether we cover your area, simply call 07309 903 243 and we'll confirm immediately.",
       },
     ],
     relatedSlugs: ['spare-vehicle-keys', 'car-key-cutting', 'immobiliser-programming'],
@@ -128,9 +128,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'car-key-cutting',
     name: 'Car Key Cutting',
-    metaTitle: 'Car Key Cutting Wigan & North West | Excalibur Mobile',
+    metaTitle: 'Car Key Cutting Near Me | Mobile Service Wigan & North West | Excalibur',
     metaDescription:
-      "Mobile car key cutting across the North West — Excalibur Auto Locksmiths. All key types cut at your location. No waiting. Call 07831 872 740 for a same-day quote.",
+      "Mobile car key cutting across Wigan, St Helens & the North West — all key types cut at your location. Laser, standard & high-security blades. Same day, no dealer wait. Call 07309 903 243.",
     h1: 'Mobile Car Key Cutting — All Makes, All Key Types',
     tagline: 'Precision key cutting at your location — no workshop visit, no waiting days.',
     painPoint:
@@ -215,9 +215,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'immobiliser-programming',
     name: 'Immobiliser Programming',
-    metaTitle: 'Car Immobiliser Programming Wigan | Excalibur — 07831 872 740',
+    metaTitle: 'Car Immobiliser Programming Near Me | Wigan & North West | Excalibur',
     metaDescription:
-      "Car won't start? Immobiliser problem across the North West? Excalibur Auto Locksmiths programmes all makes on-site. 24/7 mobile service. Call 07831 872 740.",
+      "Car won't start? Immobiliser fault in Wigan, St Helens or across the North West? Excalibur programmes all makes on-site — 24/7 mobile service, same day. Call 07309 903 243.",
     h1: 'Car Immobiliser Programming — On-Site Across the North West',
     tagline: "Your car won't start because the immobiliser doesn't recognise the key — we fix that on the spot.",
     painPoint:
@@ -309,9 +309,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'coded-vehicle-keys',
     name: 'Coded Vehicle Keys',
-    metaTitle: 'Coded Vehicle Keys Wigan & North West | Excalibur Mobile',
+    metaTitle: 'Coded Car Keys Made Near Me | Cut & Programmed | Excalibur Auto Locksmiths',
     metaDescription:
-      'Coded vehicle key replacement for all makes across the North West. Excalibur Auto Locksmiths programmes coded keys on-site, same day. Call 07831 872 740.',
+      'Coded car key replacement for all makes across Wigan, St Helens & the North West. Excalibur programmes coded keys on-site, same day — car key cutting & programming. Call 07309 903 243.',
     h1: 'Coded Vehicle Keys — Cut and Programmed at Your Location',
     tagline: 'Coded keys for every modern vehicle — done on-site, not at the dealer.',
     painPoint:
@@ -402,9 +402,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'remote-key-fob-replacement',
     name: 'Remote Key Fob Replacement',
-    metaTitle: 'Remote Key Fob Replacement | Excalibur Auto Locksmiths',
+    metaTitle: 'Car Key Fob Replacement Near Me | Remote Key Fob | Excalibur Auto Locksmiths',
     metaDescription:
-      "Remote key fob stopped working? Excalibur replaces and programmes key fobs for all makes across the North West. Mobile, same-day service. Call 07831 872 740.",
+      "Car key fob stopped working or lost? Excalibur replaces & programmes remote key fobs for all makes across Wigan, St Helens & the North West. Mobile, same-day service. Call 07309 903 243.",
     h1: 'Remote Key Fob Replacement — Programmed On-Site the Same Day',
     tagline: "Broken, lost, or water-damaged key fob? We replace and programme it at your location.",
     painPoint:
@@ -496,9 +496,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'broken-car-key-extraction',
     name: 'Broken Car Key Extraction',
-    metaTitle: 'Broken Car Key Extraction | Excalibur Auto Locksmiths',
+    metaTitle: 'Broken Car Key Repair Near Me | Key Stuck in Ignition or Lock | Excalibur',
     metaDescription:
-      'Broken key stuck in ignition or door lock? Excalibur extracts broken car keys across the North West. Mobile, no damage. Call 07831 872 740 now.',
+      'Broken car key stuck in ignition or door lock? Excalibur extracts broken keys without damage across Wigan, St Helens & the North West. Mobile, no towing. Call 07309 903 243.',
     h1: 'Broken Car Key Extraction — Removed Without Damage',
     tagline: 'Key snapped in the lock or ignition? We extract it cleanly at your location.',
     painPoint:
@@ -588,9 +588,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'spare-vehicle-keys',
     name: 'Spare Vehicle Keys',
-    metaTitle: 'Spare Car Key Cut & Programmed | Excalibur — 07831 872 740',
+    metaTitle: 'Spare Car Key Made Near Me | Cut & Programmed | Excalibur Auto Locksmiths',
     metaDescription:
-      "Get a spare car key cut and programmed for any make or model across the North West. Excalibur's mobile service comes to you. From £65. Call 07831 872 740.",
+      "Get a spare car key made near you — cut & programmed for any make or model across Wigan, St Helens & the North West. Excalibur's mobile service comes to you. From £65. Call 07309 903 243.",
     h1: 'Spare Vehicle Keys — Cut and Programmed at Your Location',
     tagline: 'Having a spare key is the cheapest insurance against the most expensive emergency.',
     painPoint:
@@ -608,7 +608,7 @@ export const SERVICES: Service[] = [
         step: 1,
         title: 'Book a Convenient Time',
         detail:
-          "Unlike an emergency, a spare key can be planned. Call 07831 872 740 to arrange a time that suits you — we'll come to your home, workplace, or any other location.",
+          "Unlike an emergency, a spare key can be planned. Call 07309 903 243 to arrange a time that suits you — we'll come to your home, workplace, or any other location.",
       },
       {
         step: 2,
@@ -677,9 +677,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'stolen-key-deletion',
     name: 'Lost & Stolen Key Deletion',
-    metaTitle: 'Stolen Car Key Deletion | Excalibur Auto Locksmiths',
+    metaTitle: 'Stolen Car Key Replacement | Delete Lost Keys from Immobiliser | Excalibur',
     metaDescription:
-      "Had your car keys stolen? Excalibur deletes stolen keys from your vehicle's immobiliser and supplies new keys on-site. 24/7 North West. Call 07831 872 740.",
+      "Had your car keys stolen? Excalibur deletes stolen keys from your vehicle's immobiliser & supplies replacement keys on-site. 24/7, North West. Call 07309 903 243.",
     h1: 'Lost & Stolen Key Deletion — Protect Your Vehicle Today',
     tagline: "If your keys have been stolen, your car is only as secure as whoever found them. Delete the old key now.",
     painPoint:
@@ -689,7 +689,7 @@ export const SERVICES: Service[] = [
     bodyParagraphs: [
       "When your car keys are stolen — whether from your home, pocket, or workplace — the immediate concern is obvious: someone has a key that can start your vehicle. What many drivers don't realise is that simply having the car re-keyed isn't enough if the original keys are still programmed into the ECU. The vehicle's immobiliser holds a list of authorised key codes, and unless the stolen key's code is explicitly deleted from that list, it will still start the car. Excalibur's lost and stolen key deletion service removes all previously programmed keys from the ECU, then re-programs new keys — leaving the old stolen key completely dead.",
       "The process of deleting keys from an immobiliser requires the same dealer-grade diagnostic equipment as key programming — you need to access the ECU, authenticate with the correct security credentials, and overwrite or remove the stored key codes. This is not something that can be done with generic tools or a code reader — it requires manufacturer-specific software with the appropriate access level. Main dealers will perform this service, but typically only during business hours, after a significant wait, and at a cost that reflects their overheads. Excalibur provides the same technically identical service, mobile, 24/7, and at a fraction of the dealer cost.",
-      "If you've just discovered your keys are stolen, call Excalibur immediately — 07831 872 740. Ian or Adam will come to your vehicle, connect to the OBD port, delete all previously programmed keys from the immobiliser database, and programme a fresh set of new keys. This means the stolen key is completely useless for starting your vehicle. Combined with a change to your home security if the keys also included a house key or fob, you significantly reduce the risk of vehicle theft. Ian and Adam understand the urgency of this situation and will prioritise call-outs where security is at risk.",
+      "If you've just discovered your keys are stolen, call Excalibur immediately — 07309 903 243. Ian or Adam will come to your vehicle, connect to the OBD port, delete all previously programmed keys from the immobiliser database, and programme a fresh set of new keys. This means the stolen key is completely useless for starting your vehicle. Combined with a change to your home security if the keys also included a house key or fob, you significantly reduce the risk of vehicle theft. Ian and Adam understand the urgency of this situation and will prioritise call-outs where security is at risk.",
       "Beyond the immediate security concern, there are practical steps to consider after stolen key deletion. If the thieves know your vehicle's location, it may be worth moving the vehicle or informing the police before we arrive. Ian and Adam will always advise on the best order of operations. Over 30 years across the North West, they have handled countless stolen key situations, and they understand the anxiety that comes with it. The goal is to restore your sense of security as quickly as possible — a new set of keys in your hand and the old ones dead in the system.",
     ],
     process: [
@@ -697,7 +697,7 @@ export const SERVICES: Service[] = [
         step: 1,
         title: 'Emergency Call',
         detail:
-          "Call 07831 872 740 immediately. If the keys were stolen with knowledge of your vehicle's location, we will prioritise your call-out.",
+          "Call 07309 903 243 immediately. If the keys were stolen with knowledge of your vehicle's location, we will prioritise your call-out.",
       },
       {
         step: 2,
@@ -736,7 +736,7 @@ export const SERVICES: Service[] = [
       {
         question: "What should I do immediately after my car keys are stolen?",
         answer:
-          "Report the theft to the police immediately and get a crime reference number — you'll need this for any insurance claim. If the thieves know your vehicle's location, consider whether you can safely move it before calling us. Call Excalibur on 07831 872 740 to arrange immediate key deletion and replacement. Do not leave the vehicle in the same location where the theft occurred if it can be avoided.",
+          "Report the theft to the police immediately and get a crime reference number — you'll need this for any insurance claim. If the thieves know your vehicle's location, consider whether you can safely move it before calling us. Call Excalibur on 07309 903 243 to arrange immediate key deletion and replacement. Do not leave the vehicle in the same location where the theft occurred if it can be avoided.",
       },
       {
         question: "Can the thief still use the stolen key after you've deleted it?",
@@ -756,7 +756,7 @@ export const SERVICES: Service[] = [
       {
         question: 'Can you do this service outside normal business hours?',
         answer:
-          "Yes. Excalibur operates 24 hours a day, 7 days a week, 365 days a year. Stolen key situations are emergencies, and Ian and Adam treat them as such regardless of the time of day or night. Call 07831 872 740 at any hour.",
+          "Yes. Excalibur operates 24 hours a day, 7 days a week, 365 days a year. Stolen key situations are emergencies, and Ian and Adam treat them as such regardless of the time of day or night. Call 07309 903 243 at any hour.",
       },
     ],
     relatedSlugs: ['immobiliser-programming', 'lost-vehicle-key-replacement', 'lock-changes'],
@@ -766,9 +766,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'renault-key-card-replacement',
     name: 'Renault Key Card Replacement',
-    metaTitle: 'Renault Key Card Replacement | Excalibur — 07831 872 740',
+    metaTitle: 'Renault Key Card Replacement Near Me | Clio, Megane, Laguna | Excalibur',
     metaDescription:
-      "Lost or broken Renault key card? Excalibur replaces and programmes Renault key cards on-site across the North West. Same day. Call 07831 872 740.",
+      "Lost or broken Renault key card? Excalibur replaces & programmes Renault key cards on-site across Wigan, St Helens & the North West — same day. Call 07309 903 243.",
     h1: 'Renault Key Card Replacement — On-Site, Same Day',
     tagline: "Lost your Renault Clio, Megane, or Laguna card? We'll replace it wherever you are.",
     painPoint:
@@ -842,7 +842,7 @@ export const SERVICES: Service[] = [
       {
         question: 'How much does a Renault key card replacement cost?',
         answer:
-          "Renault dealers typically charge between £250 and £350 for a replacement key card including programming. Excalibur's pricing for a full replacement card, programming, and mobile call-out is significantly lower — typically starting from £120. Call 07831 872 740 for an exact quote for your specific Renault model.",
+          "Renault dealers typically charge between £250 and £350 for a replacement key card including programming. Excalibur's pricing for a full replacement card, programming, and mobile call-out is significantly lower — typically starting from £120. Call 07309 903 243 for an exact quote for your specific Renault model.",
       },
       {
         question: 'Do I need both my existing cards present when you programme a new one?',
@@ -857,9 +857,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'lock-changes',
     name: 'Vehicle Lock Changes',
-    metaTitle: 'Vehicle Lock Changes | Excalibur Auto Locksmiths North West',
+    metaTitle: 'Car Door Lock Repair Near Me | Vehicle Lock Changes | Excalibur North West',
     metaDescription:
-      "Vehicle lock changes for cars and vans across the North West. Excalibur replaces and re-keys vehicle locks on-site. 24/7. Call 07831 872 740.",
+      "Car door lock repair & vehicle lock changes for cars and vans across Wigan, St Helens & the North West. Excalibur replaces & re-keys vehicle locks on-site. 24/7. Call 07309 903 243.",
     h1: 'Vehicle Lock Changes — On-Site Replacement Across the North West',
     tagline: 'Security compromised, stolen keys, or worn locks? We change your vehicle locks at your location.',
     painPoint:
@@ -943,9 +943,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'keyless-entry-keys',
     name: 'Keyless Entry Keys',
-    metaTitle: 'Keyless Entry Key Replacement | Excalibur — 07831 872 740',
+    metaTitle: 'Keyless Entry Key Replacement Near Me | Smart Car Key | Excalibur',
     metaDescription:
-      "Lost keyless entry smart key? Excalibur programmes replacement keyless entry keys for all makes across the North West. Mobile, 24/7. Call 07831 872 740.",
+      "Lost keyless entry smart key? Excalibur programmes replacement smart car keys for all makes across Wigan, St Helens & the North West. Mobile, 24/7. Call 07309 903 243.",
     h1: 'Keyless Entry Key Replacement — Smart Keys Programmed On-Site',
     tagline: "Lost your hands-free smart key? We programme a replacement at your vehicle — no dealer wait.",
     painPoint:
@@ -1038,9 +1038,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'ford-vehicle-keys',
     name: 'Ford Vehicle Keys',
-    metaTitle: 'Ford Car Key Replacement | Excalibur — 07831 872 740',
+    metaTitle: 'Ford Car Key Replacement Near Me | All Ford Models | Excalibur Auto Locksmiths',
     metaDescription:
-      "Ford car key replacement and programming across the North West. All Ford models covered. Mobile, same day. Up to 60% cheaper than Ford dealer. Call 07831 872 740.",
+      "Ford car key replacement & programming across the North West. All Ford models — Fiesta, Focus, Mondeo, Transit. Mobile, same day. Up to 60% cheaper than Ford dealer. Call 07309 903 243.",
     h1: 'Ford Vehicle Key Replacement — All Models, On-Site Service',
     tagline: "From a Fiesta to a Transit — we programme Ford keys at your location, same day.",
     painPoint:
@@ -1133,17 +1133,17 @@ export const SERVICES: Service[] = [
   {
     slug: 'emergency-locksmith',
     name: '24/7 Emergency Locksmith',
-    metaTitle: 'Emergency Auto Locksmith 24/7 | Excalibur — 07831 872 740',
+    metaTitle: 'Emergency Car Locksmith 24/7 | Locked Out of Car Near Me | Excalibur',
     metaDescription:
-      "Emergency auto locksmith available 24/7 across the North West. Stranded right now? Call Excalibur on 07831 872 740 — Ian or Adam will answer personally.",
-    h1: '24/7 Emergency Auto Locksmith — Available Across the North West Right Now',
-    tagline: "Stranded with a key problem at 3am? Ian or Adam will answer the phone — guaranteed.",
+      "Emergency car locksmith — locked out of car, lost keys, car lockout service, keys locked inside. Excalibur covers the North West 24/7. Call Ian or Adam on 07309 903 243 right now.",
+    h1: 'Emergency Car Locksmith 24/7 — Locked Out or Lost Keys? We Come to You',
+    tagline: "Locked out of your car or lost your keys at 3am? Ian or Adam will answer — guaranteed.",
     painPoint:
-      "You're locked out, your key has broken, or you're stranded with a lost key. It's out of hours and you need help now, not in the morning.",
+      "You're locked out, your key has broken, or keys are locked inside the car. It's out of hours and you need a car lockout service now, not in the morning.",
     shortDesc:
-      '24-hour emergency auto locksmith for the entire North West. We answer every call personally — day, night, weekend, or bank holiday — and come to you.',
+      'Emergency car locksmith & car lockout service for the entire North West. Locked out of car, lost keys, keys locked inside — we answer every call 24/7 and come to you.',
     bodyParagraphs: [
-      "Car key emergencies don't respect office hours. A key that breaks in the ignition at midnight, a key locked inside the car in a remote car park, or the realisation at 6am that your only car key is nowhere to be found — these situations happen every day across the North West, at all hours. Excalibur Auto Locksmiths operates a genuine 24-hour, 7-day, 365-day emergency service. When you call 07831 872 740 at any time of day or night, you'll speak to Ian or Adam Casson directly — not a call centre, not an answering service, not a machine.",
+      "Car key emergencies don't respect office hours. A key that breaks in the ignition at midnight, a key locked inside the car in a remote car park, or the realisation at 6am that your only car key is nowhere to be found — these situations happen every day across the North West, at all hours. Excalibur Auto Locksmiths operates a genuine 24-hour, 7-day, 365-day emergency service. When you call 07309 903 243 at any time of day or night, you'll speak to Ian or Adam Casson directly — not a call centre, not an answering service, not a machine.",
       "The urgency of a genuine car key emergency means that how quickly help arrives matters enormously. Being stranded at night in an unfamiliar area, missing a flight, being late for work, or simply being stuck with children in the car are all situations where every extra minute of waiting adds to the stress and cost. Excalibur's mobile workshop means there's no need to tow the vehicle to a workshop — Ian or Adam travel directly to you, wherever your car is, and perform the work on-site. In most cases across the North West, response time is under one hour.",
       "The emergency locksmith service covers all of Excalibur's core capabilities — lost key replacement, broken key extraction, locked-out vehicle opening, immobiliser programming, key fob replacement, and any other key or lock emergency. There is no job too complex for an emergency call-out, and Ian and Adam carry a comprehensive toolkit and key blank stock to handle the most common scenarios without needing to source parts. For less common vehicles or unusual key types, they will advise honestly on whether they can assist immediately or whether a brief delay to source parts is required.",
       "What distinguishes a genuine 24/7 locksmith from a company that simply claims the label? You can call any time — including 3am on Christmas Day — and get Ian or Adam on the phone within moments. They will give you a realistic arrival time, a firm quote, and a reassuring voice that knows exactly what they're doing. After 30 years operating across Wigan, St Helens, and the wider North West, they have handled emergencies in every conceivable scenario — and they approach every one with the same calm professionalism. One call ends the stress.",
@@ -1151,7 +1151,7 @@ export const SERVICES: Service[] = [
     process: [
       {
         step: 1,
-        title: 'Call 07831 872 740 — Any Time',
+        title: 'Call 07309 903 243 — Any Time',
         detail:
           "Ian or Adam will answer personally, day or night. Describe your situation — vehicle type, location, and the nature of the problem — and get a firm quote and ETA on the call.",
       },
