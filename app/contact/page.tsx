@@ -1,11 +1,11 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 
 export const metadata: Metadata = {
-  title: `Contact Excalibur Auto Locksmiths | ${SITE.phone} | Wigan, North West`,
-  description: `Contact Excalibur Auto Locksmiths — call ${SITE.phone} for 24/7 emergency service, or email ${SITE.email}. Based in Wigan, serving the North West.`,
+  title: `Contact Mobile Auto Locksmith | ${SITE.phone} | Wigan, North West`,
+  description: `Contact Mobile Auto Locksmith — call ${SITE.phone} for 24/7 emergency service, or email ${SITE.email}. Based in Wigan, serving the North West.`,
   alternates: { canonical: '/contact' },
 }
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
       <section className="bg-primary py-16">
         <div className="container">
           <h1 className="font-heading font-black text-4xl md:text-5xl text-white mb-4">
-            Contact Excalibur Auto Locksmiths
+            Contact Mobile Auto Locksmith
           </h1>
           <p className="text-white/70 text-xl max-w-2xl">
             For emergencies, always call — we answer 24/7. For non-urgent enquiries,
@@ -221,11 +221,11 @@ export default function ContactPage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Excalibur Auto Locksmiths location — Wigan, Greater Manchester"
+                title="Mobile Auto Locksmith location — Wigan, Greater Manchester"
               />
             </div>
             <figcaption className="bg-surface px-5 py-3 text-sm text-muted flex flex-wrap gap-x-4 gap-y-1">
-              <span><strong className="text-primary">Excalibur Auto Locksmiths</strong> · Wigan, Greater Manchester</span>
+              <span><strong className="text-primary">Mobile Auto Locksmith</strong> · Wigan, Greater Manchester</span>
               <span>Mobile service · North West England</span>
               <a href={SITE.phoneTel} className="text-accent font-bold hover:underline focus-ring">
                 {SITE.phone}

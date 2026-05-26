@@ -36,7 +36,7 @@ const POSTS: Record<string, {
         <p>This is the most expensive mistake North West drivers make. A tow truck takes your vehicle somewhere — usually a dealer — where you then pay again for the key replacement. You&apos;ve paid twice. In almost every case, a mobile auto locksmith can come to your vehicle and replace the key on-site. The car doesn&apos;t need to move.</p>
 
         <h2>Step 3: Call a Specialist Auto Locksmith First</h2>
-        <p>A mobile auto locksmith like Excalibur will come to your vehicle with the equipment to cut and programme a new key on-site. Call <a href="tel:07309903243">{SITE.phone}</a> — Ian or Adam will answer, take your vehicle details, give you a firm quote, and tell you how quickly they can reach you.</p>
+        <p>A mobile auto locksmith like Mobile Auto Locksmith will come to your vehicle with the equipment to cut and programme a new key on-site. Call <a href="tel:07309903243">{SITE.phone}</a> — Ian or Adam will answer, take your vehicle details, give you a firm quote, and tell you how quickly they can reach you.</p>
 
         <h2>Step 4: Have These Details Ready</h2>
         <ul>
@@ -50,10 +50,10 @@ const POSTS: Record<string, {
         <p>If you&apos;re in a public car park or a safe location, stay with your vehicle. If you&apos;re in a location where you feel unsafe — a quiet road at night, for example — move to a nearby lit public area and let the locksmith know your updated location.</p>
 
         <h2>What About Going to the Main Dealer?</h2>
-        <p>The main dealer should generally be your last resort, not your first call. Dealers typically quote 3–14 days for key replacement, require towing in most cases, and charge significantly more than a specialist mobile locksmith. Excalibur&apos;s pricing for lost key replacement is consistently 40–60% lower than dealer equivalents, and the job is done at your vehicle the same day.</p>
+        <p>The main dealer should generally be your last resort, not your first call. Dealers typically quote 3–14 days for key replacement, require towing in most cases, and charge significantly more than a specialist mobile locksmith. Mobile Auto Locksmith&apos;s pricing for lost key replacement is consistently 40–60% lower than dealer equivalents, and the job is done at your vehicle the same day.</p>
 
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
-          <p className="font-bold text-primary mb-2">North West? Call Excalibur Now</p>
+          <p className="font-bold text-primary mb-2">North West? Call Mobile Auto Locksmith Now</p>
           <p className="text-muted text-sm mb-3">Ian or Adam will answer personally. Honest quote. Fast response. No towing required.</p>
           <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
@@ -71,7 +71,7 @@ const POSTS: Record<string, {
         <p>These prices are all-inclusive — cutting, programming, and call-out. For an exact quote for your specific vehicle, call <a href="tel:07309903243">{SITE.phone}</a>.</p>
 
         <h2>Summary</h2>
-        <p>Lost car keys in the North West: search thoroughly, don&apos;t call a tow truck, call a specialist mobile locksmith first. Excalibur can usually be with you within the hour, anywhere across Wigan, St Helens, Bolton, Warrington, Liverpool, and the wider North West region.</p>
+        <p>Lost car keys in the North West: search thoroughly, don&apos;t call a tow truck, call a specialist mobile locksmith first. Mobile Auto Locksmith can usually be with you within the hour, anywhere across Wigan, St Helens, Bolton, Warrington, Liverpool, and the wider North West region.</p>
       </div>
     ),
   },
@@ -132,7 +132,7 @@ const POSTS: Record<string, {
 
         <h2>Why Is the Main Dealer So Much More Expensive?</h2>
         <p>Three reasons: OEM parts (manufacturer-spec parts at manufacturer prices), dealer labour rates (significantly higher than specialist rates), and programming licence fees (dealers pay for software access per job, which is passed on to the customer).</p>
-        <p>A specialist mobile auto locksmith like Excalibur uses quality compatible parts (functionally identical to OEM), specialist labour rates that reflect the actual skill involved rather than a dealership service schedule, and professional-grade tools with the programming capability to handle all mainstream vehicles.</p>
+        <p>A specialist mobile auto locksmith like Mobile Auto Locksmith uses quality compatible parts (functionally identical to OEM), specialist labour rates that reflect the actual skill involved rather than a dealership service schedule, and professional-grade tools with the programming capability to handle all mainstream vehicles.</p>
 
         <h2>Factors That Affect Your Cost</h2>
         <ul>
@@ -144,7 +144,7 @@ const POSTS: Record<string, {
         </ul>
 
         <h2>The Bottom Line</h2>
-        <p>For any key type, on any vehicle, a specialist mobile auto locksmith will almost always be significantly cheaper than the main dealer — and usually faster too. For North West drivers, Excalibur Auto Locksmiths provides all key types at transparent pricing. Call <a href="tel:07309903243">{SITE.phone}</a> for your vehicle-specific quote.</p>
+        <p>For any key type, on any vehicle, a specialist mobile auto locksmith will almost always be significantly cheaper than the main dealer — and usually faster too. For North West drivers, Mobile Auto Locksmith provides all key types at transparent pricing. Call <a href="tel:07309903243">{SITE.phone}</a> for your vehicle-specific quote.</p>
       </div>
     ),
   },
@@ -165,7 +165,7 @@ const POSTS: Record<string, {
           <thead>
             <tr>
               <th>Key Type</th>
-              <th>Excalibur</th>
+              <th>Mobile Auto Locksmith</th>
               <th>Main Dealer</th>
             </tr>
           </thead>
@@ -187,14 +187,14 @@ const POSTS: Record<string, {
 
         <h2>Quality: Is There a Difference?</h2>
         <p>The most common concern about independent locksmiths is quality — are the keys as good as OEM? For a specialist who invests in professional-grade equipment and quality key blanks, the answer is yes. The transponder chip functionality is identical; the key blank material meets automotive standards; the programming uses the same underlying protocols as dealer tools.</p>
-        <p>The key word is &ldquo;specialist.&rdquo; A general locksmith who occasionally does car keys is not the same as Excalibur, whose entire business is automotive key programming. Ian and Adam have been doing this exclusively for over 30 years.</p>
+        <p>The key word is &ldquo;specialist.&rdquo; A general locksmith who occasionally does car keys is not the same as Mobile Auto Locksmith, whose entire business is automotive key programming. Ian and Adam have been doing this exclusively for over 30 years.</p>
 
         <h2>Hours: 24/7 vs 9–5</h2>
-        <p>Main dealers are not available at midnight on a Sunday. A specialist mobile auto locksmith who is genuinely 24/7 — as Excalibur is — resolves your emergency when it happens, not the next business morning.</p>
+        <p>Main dealers are not available at midnight on a Sunday. A specialist mobile auto locksmith who is genuinely 24/7 — as Mobile Auto Locksmith is — resolves your emergency when it happens, not the next business morning.</p>
 
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
           <p className="font-bold text-primary mb-2">The Verdict</p>
-          <p className="text-muted text-sm mb-3">For car key replacement, an independent specialist is cheaper, faster, more convenient, and available 24/7. Call Excalibur before the dealer — you can always call the dealer if we can&apos;t help (we almost always can).</p>
+          <p className="text-muted text-sm mb-3">For car key replacement, an independent specialist is cheaper, faster, more convenient, and available 24/7. Call Mobile Auto Locksmith before the dealer — you can always call the dealer if we can&apos;t help (we almost always can).</p>
           <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
           </a>
@@ -229,7 +229,7 @@ const POSTS: Record<string, {
           <li>The ECU confirms the new key is registered</li>
           <li>The key is tested by starting the engine</li>
         </ol>
-        <p>This process requires manufacturer-specific software — generic tools can&apos;t access all vehicles. A specialist like Excalibur invests in programming tools that cover all mainstream UK market vehicles.</p>
+        <p>This process requires manufacturer-specific software — generic tools can&apos;t access all vehicles. A specialist like Mobile Auto Locksmith invests in programming tools that cover all mainstream UK market vehicles.</p>
 
         <h2>What Are the Different Transponder Types?</h2>
         <p>Over the years, transponder technology has evolved. Common types include:</p>
@@ -241,18 +241,18 @@ const POSTS: Record<string, {
         </ul>
 
         <h2>Can Any Locksmith Programme Transponder Keys?</h2>
-        <p>No — this is one of the key distinctions between a specialist auto locksmith and a general locksmith. The programming requires OBD-level diagnostic equipment with the appropriate manufacturer software licences. Excalibur&apos;s investment in professional-grade automotive programming tools is what enables Ian and Adam to programme all major makes and models on-site across the North West.</p>
+        <p>No — this is one of the key distinctions between a specialist auto locksmith and a general locksmith. The programming requires OBD-level diagnostic equipment with the appropriate manufacturer software licences. Mobile Auto Locksmith&apos;s investment in professional-grade automotive programming tools is what enables Ian and Adam to programme all major makes and models on-site across the North West.</p>
 
         <div className="bg-accent/10 border border-accent/30 rounded-card p-5 my-6">
           <p className="font-bold text-primary mb-2">Need a Transponder Key Programmed?</p>
-          <p className="text-muted text-sm mb-3">Excalibur programmes transponder keys for all makes and models — at your location, same day. Call for a quote.</p>
+          <p className="text-muted text-sm mb-3">Mobile Auto Locksmith programmes transponder keys for all makes and models — at your location, same day. Call for a quote.</p>
           <a href="tel:07309903243" className="btn-primary inline-flex">
             <Phone size={16} /> {SITE.phone}
           </a>
         </div>
 
         <h2>Summary</h2>
-        <p>A transponder key is a car key containing an electronic chip that communicates with the vehicle&apos;s immobiliser. Every modern vehicle requires the transponder to be programmed to the specific car&apos;s ECU before the engine will start. This programming requires specialist equipment and cannot be done by a general key-cutting shop. For North West drivers, Excalibur Auto Locksmiths handles all transponder key types for all major makes — call <a href="tel:07831872740">{SITE.phone}</a> for assistance.</p>
+        <p>A transponder key is a car key containing an electronic chip that communicates with the vehicle&apos;s immobiliser. Every modern vehicle requires the transponder to be programmed to the specific car&apos;s ECU before the engine will start. This programming requires specialist equipment and cannot be done by a general key-cutting shop. For North West drivers, Mobile Auto Locksmith handles all transponder key types for all major makes — call <a href="tel:07309903243">{SITE.phone}</a> for assistance.</p>
       </div>
     ),
   },
@@ -370,7 +370,7 @@ export default function BlogPostPage({ params }: Props) {
 
           {/* Related links */}
           <div className="border-t border-border pt-8 mt-8">
-            <p className="font-semibold text-primary mb-4">More from Excalibur:</p>
+            <p className="font-semibold text-primary mb-4">More from Mobile Auto Locksmith:</p>
             <div className="flex flex-col gap-3">
               {[
                 { href: '/services/lost-vehicle-key-replacement', label: 'Lost Vehicle Key Replacement' },

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
@@ -9,8 +9,8 @@ import { CTABanner } from '@/components/ui/CTABanner'
 
 // Legacy page — canonical preserved for backlink equity
 export const metadata: Metadata = {
-  title: `Lost Car Keys St Helens | Excalibur Auto Locksmiths — ${SITE.phone}`,
-  description: `Lost your car keys in St Helens? Excalibur replaces all key types on-site, same day. Mobile auto locksmith in St Helens, WA9–WA12. Call ${SITE.phone}.`,
+  title: `Lost Car Keys St Helens | Mobile Auto Locksmith — ${SITE.phone}`,
+  description: `Lost your car keys in St Helens? Mobile Auto Locksmith replaces all key types on-site, same day. Mobile auto locksmith in St Helens, WA9–WA12. Call ${SITE.phone}.`,
   alternates: {
     canonical: '/lost-car-keys-st-helens',
   },
@@ -18,12 +18,12 @@ export const metadata: Metadata = {
 
 const FAQS = [
   {
-    question: 'How quickly can Excalibur reach me in St Helens?',
-    answer: `St Helens is firmly within Excalibur's core coverage area — Ian and Adam regularly serve WA9, WA10, WA11, and WA12 postcodes. In most cases, response time is within one hour. The A580 and M6 connections mean access to most parts of St Helens is straightforward. Call ${SITE.phone} for a firm ETA.`,
+    question: 'How quickly can Mobile Auto Locksmith reach me in St Helens?',
+    answer: `St Helens is firmly within Mobile Auto Locksmith's core coverage area — Ian and Adam regularly serve WA9, WA10, WA11, and WA12 postcodes. In most cases, response time is within one hour. The A580 and M6 connections mean access to most parts of St Helens is straightforward. Call ${SITE.phone} for a firm ETA.`,
   },
   {
     question: "Can you replace car keys in St Helens if I have no spare?",
-    answer: `Yes. The majority of Excalibur's St Helens call-outs are for drivers who have lost their only key. We work from the vehicle identification number and the lock profile to generate a new key from scratch, without needing an original as a reference. The car stays where it is — we come to it.`,
+    answer: `Yes. The majority of Mobile Auto Locksmith's St Helens call-outs are for drivers who have lost their only key. We work from the vehicle identification number and the lock profile to generate a new key from scratch, without needing an original as a reference. The car stays where it is — we come to it.`,
   },
   {
     question: 'Do you cover Haydock, Newton-le-Willows, and surrounding WA postcodes?',
@@ -31,11 +31,11 @@ const FAQS = [
   },
   {
     question: 'How much cheaper are you than the dealer for St Helens customers?',
-    answer: `Most St Helens customers who have already received a dealer quote find that Excalibur comes in 40–60% lower. This is because we use quality compatible components (not OEM with manufacturer markup), have no dealer overhead, and our pricing reflects the actual job rather than a dealer service schedule rate.`,
+    answer: `Most St Helens customers who have already received a dealer quote find that Mobile Auto Locksmith comes in 40–60% lower. This is because we use quality compatible components (not OEM with manufacturer markup), have no dealer overhead, and our pricing reflects the actual job rather than a dealer service schedule rate.`,
   },
   {
     question: 'Are you available in St Helens at weekends and overnight?',
-    answer: `Yes, completely. Excalibur operates 24 hours a day, 7 days a week, 365 days a year — this includes Saturday nights, Sunday mornings, and bank holidays. There is no reduced-hours service and no answering machine. Ian or Adam will answer personally whenever you call.`,
+    answer: `Yes, completely. Mobile Auto Locksmith operates 24 hours a day, 7 days a week, 365 days a year — this includes Saturday nights, Sunday mornings, and bank holidays. There is no reduced-hours service and no answering machine. Ian or Adam will answer personally whenever you call.`,
   },
 ]
 
@@ -65,7 +65,7 @@ export default function LostCarKeysStHelens() {
             id="sthelens-heading"
             className="font-heading font-black text-3xl md:text-4xl lg:text-5xl text-white mb-4"
           >
-            Lost Car Keys in St Helens? Excalibur Replaces Them Fast
+            Lost Car Keys in St Helens? Mobile Auto Locksmith Replaces Them Fast
           </h1>
           <p className="text-white/70 text-xl mb-8">
             Mobile auto locksmith in St Helens — we come to your vehicle, same day,
@@ -86,11 +86,11 @@ export default function LostCarKeysStHelens() {
       <section className="section bg-white" aria-labelledby="sthelens-body-heading">
         <div className="container max-w-3xl">
           <h2 id="sthelens-body-heading" className="section-heading mb-6">
-            Lost Car Key Replacement in St Helens — Excalibur&apos;s Mobile Service
+            Lost Car Key Replacement in St Helens — Mobile Auto Locksmith&apos;s Mobile Service
           </h2>
           <div className="space-y-5 text-muted leading-relaxed">
             <p>
-              St Helens is one of Excalibur Auto Locksmiths&apos; most regularly served areas.
+              St Helens is one of Mobile Auto Locksmith&apos;s most regularly served areas.
               Positioned between the M6 and M62, with the busy East Lancs Road (A580) cutting
               through its heart, St Helens generates a consistent flow of car key emergencies — from
               commercial vehicles at the Haydock Industrial Estate to family cars in the residential
@@ -99,25 +99,25 @@ export default function LostCarKeysStHelens() {
             </p>
             <p>
               Losing car keys in St Helens is stressful because the options seem limited: the dealer
-              says wait and pay a lot, or a tow truck is called unnecessarily. Excalibur is the third
+              says wait and pay a lot, or a tow truck is called unnecessarily. Mobile Auto Locksmith is the third
               option that most drivers in St Helens don&apos;t know about until someone recommends them
               after their own experience. A mobile locksmith who comes to your car, programmes a new
               key in under 90 minutes, and charges 40–60% less than the dealer — that&apos;s the
-              service that keeps Excalibur busy across Merseyside every day.
+              service that keeps Mobile Auto Locksmith busy across Merseyside every day.
             </p>
             <p>
               When Ian or Adam responds to a call in St Helens, they come fully equipped with the
               key blanks and programming tools for all major manufacturers. Ford, Vauxhall, Renault,
               Toyota, Nissan, BMW, Volkswagen Group vehicles — all handled on-site. If your St Helens
-              postcode is WA9, WA10, WA11, or WA12, you&apos;re in the heart of Excalibur&apos;s
+              postcode is WA9, WA10, WA11, or WA12, you&apos;re in the heart of our
               regular coverage area. Typical arrival time: under one hour.
             </p>
             <p>
-              As with all Excalibur jobs, the process is: call, get a firm quote, wait for Ian or
+              As with all Mobile Auto Locksmith jobs, the process is: call, get a firm quote, wait for Ian or
               Adam to arrive, watch them cut and programme your key at your vehicle, and drive away.
               There is no part of that process that requires towing, a workshop visit, or waiting
               more than a day. St Helens drivers who&apos;ve used the dealer before consistently
-              report significant savings when switching to Excalibur — and the convenience of a
+              report significant savings when switching to Mobile Auto Locksmith — and the convenience of a
               mobile service rather than having to get the car to the dealer is a bonus on top.
             </p>
           </div>
@@ -136,11 +136,11 @@ export default function LostCarKeysStHelens() {
         </div>
       </section>
 
-      {/* Why Excalibur for St Helens */}
+      {/* Why Mobile Auto Locksmith for St Helens */}
       <section className="section bg-surface" aria-labelledby="why-sthelens-heading">
         <div className="container max-w-3xl">
           <h2 id="why-sthelens-heading" className="section-heading mb-6">
-            Why St Helens Drivers Choose Excalibur
+            Why St Helens Drivers Choose Mobile Auto Locksmith
           </h2>
           <ul className="flex flex-col gap-3">
             {[

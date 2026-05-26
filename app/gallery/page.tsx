@@ -1,11 +1,11 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { SITE } from '@/lib/siteConfig'
 import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { CTABanner } from '@/components/ui/CTABanner'
 
 export const metadata: Metadata = {
-  title: `Gallery | Excalibur Auto Locksmiths — Work Examples`,
-  description: `See examples of Excalibur Auto Locksmiths' work — car key replacement, mobile workshop, and on-site service across the North West. Call ${SITE.phone}.`,
+  title: `Gallery | Mobile Auto Locksmith — Work Examples`,
+  description: `See examples of Mobile Auto Locksmith' work — car key replacement, mobile workshop, and on-site service across the North West. Call ${SITE.phone}.`,
   alternates: { canonical: '/gallery' },
 }
 

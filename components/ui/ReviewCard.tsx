@@ -1,4 +1,4 @@
-type Props = {
+﻿type Props = {
   quote: string
   name: string
   city: string
@@ -31,7 +31,7 @@ export function ReviewCard({
         itemType="https://schema.org/LocalBusiness"
         hidden
       >
-        <meta itemProp="name" content="Excalibur Auto Locksmiths" />
+        <meta itemProp="name" content="Mobile Auto Locksmith" />
       </div>
 
       {/* reviewRating — required Rating type with ratingValue + bestRating */}

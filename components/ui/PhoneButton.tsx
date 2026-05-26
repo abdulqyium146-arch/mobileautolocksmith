@@ -1,4 +1,4 @@
-import { Phone } from 'lucide-react'
+﻿import { Phone } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 
 type Props = {
@@ -26,7 +26,7 @@ export function PhoneButton({
   return (
     <a
       href={SITE.phoneTel}
-      aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+      aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
       className={`
         inline-flex items-center justify-center rounded-btn font-bold
         transition-all duration-150 focus-visible:outline-none

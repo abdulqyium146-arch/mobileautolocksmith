@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
@@ -9,8 +9,8 @@ import { CTABanner } from '@/components/ui/CTABanner'
 
 // Legacy page — canonical preserved for backlink equity
 export const metadata: Metadata = {
-  title: `Lost Car Keys Wigan | Excalibur Auto Locksmiths — ${SITE.phone}`,
-  description: `Lost your car keys in Wigan? Excalibur Auto Locksmiths replaces all key types on-site, same day. Wigan's mobile auto locksmith — up to 60% cheaper than the dealer. Call ${SITE.phone}.`,
+  title: `Lost Car Keys Wigan | Mobile Auto Locksmith — ${SITE.phone}`,
+  description: `Lost your car keys in Wigan? Mobile Auto Locksmith replaces all key types on-site, same day. Wigan's mobile auto locksmith — up to 60% cheaper than the dealer. Call ${SITE.phone}.`,
   alternates: {
     canonical: '/lost-car-keys-wigan',
   },
@@ -26,8 +26,8 @@ const FAQS = [
     answer: `This is the most common scenario we handle in Wigan. When there's no spare key, we work from your vehicle's identification number and the door lock to generate a new key from scratch. Your car does not need to be towed — we come to wherever your vehicle is parked in Wigan and perform the entire job on-site.`,
   },
   {
-    question: 'Is Excalibur really cheaper than the main dealer in Wigan?',
-    answer: `Yes, consistently. Wigan's main dealers — including Peugeot, Ford, Vauxhall, and others — charge at manufacturer rates, which includes OEM parts and dealer profit margins. Excalibur uses quality compatible components and professional equipment, with none of the dealer overhead. Most Wigan customers save 40–60% compared to the dealer quote they've already received.`,
+    question: 'Is Mobile Auto Locksmith really cheaper than the main dealer in Wigan?',
+    answer: `Yes, consistently. Wigan's main dealers — including Peugeot, Ford, Vauxhall, and others — charge at manufacturer rates, which includes OEM parts and dealer profit margins. Mobile Auto Locksmith uses quality compatible components and professional equipment, with none of the dealer overhead. Most Wigan customers save 40–60% compared to the dealer quote they've already received.`,
   },
   {
     question: 'Do you cover all parts of Wigan and the WN postcodes?',
@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'Can you replace smart keys and proximity keys for Wigan drivers?',
-    answer: `Yes. Smart/proximity keys are among the most complex and most expensive to replace through the dealer. Excalibur carries the programming equipment for all major brands with proximity systems. The process takes slightly longer than a standard key but is fully achievable at your location anywhere in Wigan.`,
+    answer: `Yes. Smart/proximity keys are among the most complex and most expensive to replace through the dealer. Mobile Auto Locksmith carries the programming equipment for all major brands with proximity systems. The process takes slightly longer than a standard key but is fully achievable at your location anywhere in Wigan.`,
   },
 ]
 
@@ -65,7 +65,7 @@ export default function LostCarKeysWigan() {
             id="wigan-heading"
             className="font-heading font-black text-3xl md:text-4xl lg:text-5xl text-white mb-4"
           >
-            Lost Car Keys in Wigan? Excalibur Replaces Them Fast
+            Lost Car Keys in Wigan? Mobile Auto Locksmith Replaces Them Fast
           </h1>
           <p className="text-white/70 text-xl mb-8">
             Mobile auto locksmith in Wigan — we come to you, anywhere in the WN postcode area,
@@ -86,14 +86,14 @@ export default function LostCarKeysWigan() {
       <section className="section bg-white" aria-labelledby="wigan-body-heading">
         <div className="container max-w-3xl">
           <h2 id="wigan-body-heading" className="section-heading mb-6">
-            Lost Car Key Replacement in Wigan — The Excalibur Way
+            Lost Car Key Replacement in Wigan — The Mobile Auto Locksmith Way
           </h2>
           <div className="space-y-5 text-muted leading-relaxed">
             <p>
-              Losing your car keys in Wigan is a situation Ian and Adam at Excalibur Auto Locksmiths
+              Losing your car keys in Wigan is a situation Ian and Adam at Mobile Auto Locksmith
               handle every single day. Whether you&apos;ve lost them in the Grand Arcade car park,
               at Robin Park, at home in Ince or Scholes, or anywhere else across the WN postcode
-              areas, Excalibur&apos;s mobile workshop will come directly to your vehicle. No towing,
+              areas, our mobile workshop will come directly to your vehicle. No towing,
               no waiting days for a dealer appointment, no paying over the odds for an OEM key you
               could have for half the price.
             </p>
@@ -106,7 +106,7 @@ export default function LostCarKeysWigan() {
               knowledge of older vehicle systems.
             </p>
             <p>
-              When you call Excalibur for lost car key replacement in Wigan, here&apos;s what happens:
+              When you call Mobile Auto Locksmith for lost car key replacement in Wigan, here&apos;s what happens:
               Ian or Adam answers the phone directly, takes your vehicle details and location,
               confirms a firm price, and gives you a realistic arrival time. On arrival, they cut
               your new key to your vehicle&apos;s lock profile and programme the transponder chip
@@ -115,10 +115,10 @@ export default function LostCarKeysWigan() {
               move until you move it.
             </p>
             <p>
-              Wigan drivers who have tried the main dealer route before calling Excalibur are often
+              Wigan drivers who have tried the main dealer route before calling Mobile Auto Locksmith are often
               astonished at the difference. Dealer wait times of 3–14 days, towing costs, and key
               replacement prices starting at £200 and reaching £500+ for premium brands — none of
-              that applies with Excalibur. Most lost key replacements in Wigan are completed for
+              that applies with Mobile Auto Locksmith. Most lost key replacements in Wigan are completed for
               £95–£200, all-inclusive, same day. If you&apos;ve already received a dealer quote,
               call us before you commit — the saving is almost always significant.
             </p>
@@ -170,11 +170,11 @@ export default function LostCarKeysWigan() {
         </div>
       </section>
 
-      {/* Why Excalibur for Wigan */}
+      {/* Why Mobile Auto Locksmith for Wigan */}
       <section className="section bg-white" aria-labelledby="why-wigan-heading">
         <div className="container max-w-3xl">
           <h2 id="why-wigan-heading" className="section-heading mb-6">
-            Why Wigan Drivers Choose Excalibur
+            Why Wigan Drivers Choose Mobile Auto Locksmith
           </h2>
           <ul className="flex flex-col gap-3">
             {[

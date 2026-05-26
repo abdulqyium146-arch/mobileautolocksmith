@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, MapPin, ShieldCheck, Clock, Users, Key, Zap, AlertTriangle } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -36,7 +36,7 @@ export default function EmergencyPage() {
             href={SITE.phoneTel}
             className="block text-5xl md:text-7xl font-black text-white mb-4
                        hover:scale-105 transition-transform focus-ring"
-            aria-label={`Call Excalibur Auto Locksmiths emergency line on ${SITE.phone}`}
+            aria-label={`Call Mobile Auto Locksmith emergency line on ${SITE.phone}`}
           >
             {SITE.phone}
           </a>
@@ -116,7 +116,7 @@ export default function EmergencyPage() {
               come to your vehicle and perform the replacement on-site.
             </p>
             <p>
-              The total cost with Excalibur for a typical lost key replacement is £95–£200 depending
+              The total cost with Mobile Auto Locksmith for a typical lost key replacement is £95–£200 depending
               on the vehicle — all-inclusive, no tow, no dealer wait, same day. Call{' '}
               <a href={SITE.phoneTel} className="text-accent font-bold hover:underline focus-ring">
                 {SITE.phone}
@@ -135,7 +135,7 @@ export default function EmergencyPage() {
           </h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
-              If your keys are locked inside the car, don&apos;t smash a window. Excalibur&apos;s
+              If your keys are locked inside the car, don&apos;t smash a window. Mobile Auto Locksmith&apos;s
               car unlock service uses specialist automotive tools to open your vehicle without
               any damage to the door, glass, or weather seal — typically in under 30 minutes.
             </p>
@@ -191,13 +191,13 @@ export default function EmergencyPage() {
       {/* Trust Signals */}
       <section className="section bg-primary" aria-labelledby="trust-heading">
         <div className="container">
-          <h2 id="trust-heading" className="sr-only">Why Trust Excalibur</h2>
+          <h2 id="trust-heading" className="sr-only">Why Trust Mobile Auto Locksmith</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: ShieldCheck, title: '30+ Years Experience', desc: 'Ian and Adam between them have decades of specialist automotive locksmith expertise.' },
               { icon: Clock, title: 'Genuinely 24/7', desc: 'We answer the phone personally at any hour — midnight, bank holidays, Christmas Day.' },
               { icon: Users, title: 'Family Business', desc: 'You always speak to Ian or Adam directly. No call centres. No strangers. Personal service.' },
-              { icon: Key, title: 'All Makes & Models', desc: 'From a Ford Fiesta to a BMW X5 — Excalibur has the equipment and knowledge for every vehicle.' },
+              { icon: Key, title: 'All Makes & Models', desc: 'From a Ford Fiesta to a BMW X5 — Mobile Auto Locksmith has the equipment and knowledge for every vehicle.' },
             ].map(({ icon: Icon, title, desc }) => (
               <div key={title} className="text-center">
                 <Icon size={32} className="text-gold mx-auto mb-3" aria-hidden="true" />

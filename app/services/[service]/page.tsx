@@ -85,7 +85,7 @@ export default function ServicePage({ params }: Props) {
             <a
               href={SITE.phoneTel}
               className="btn-primary text-lg px-8 py-4 min-h-[60px]"
-              aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+              aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
             >
               <Phone size={20} aria-hidden="true" />
               Call {SITE.phone} — Available Now
@@ -183,7 +183,7 @@ export default function ServicePage({ params }: Props) {
           </h2>
           <p className="text-muted leading-relaxed mb-6">
             The cost of {service.name.toLowerCase()} depends on your vehicle&apos;s make, model,
-            and the specific key type required. Excalibur is consistently 40–60% cheaper than
+            and the specific key type required. Mobile Auto Locksmith is consistently 40–60% cheaper than
             main dealer pricing because we don&apos;t carry dealer overheads, and we use
             quality compatible components rather than OEM parts at manufacturer prices.
           </p>
@@ -269,7 +269,7 @@ export default function ServicePage({ params }: Props) {
             href={SITE.phoneTel}
             className="inline-flex items-center gap-3 bg-white text-accent font-black text-xl
                        px-8 py-4 rounded-btn hover:bg-gray-100 transition-colors focus-ring"
-            aria-label={`Call Excalibur on ${SITE.phone}`}
+            aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
           >
             <Phone size={22} aria-hidden="true" />
             {SITE.phone}

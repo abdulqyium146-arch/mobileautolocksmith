@@ -1,4 +1,4 @@
-export type Location = {
+﻿export type Location = {
   slug: string
   name: string
   county: string
@@ -38,7 +38,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.7360,
     nearbySlugs: ['wigan', 'warrington', 'haydock', 'newton-le-willows'],
     localContext:
-      "St Helens sits between the M6 and M62 corridors, with heavy commercial traffic along the East Lancs Road (A580) making it a frequent area for van and HGV key call-outs. The St Helens Linkway and Ravenhead Retail Park are locations Excalibur regularly covers.",
+      "St Helens sits between the M6 and M62 corridors, with heavy commercial traffic along the East Lancs Road (A580) making it a frequent area for van and HGV key call-outs. The St Helens Linkway and Ravenhead Retail Park are locations Mobile Auto Locksmith regularly covers.",
     priority: 'primary',
     sitemapPriority: 0.9,
   },
@@ -54,7 +54,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.4282,
     nearbySlugs: ['wigan', 'leigh', 'chorley', 'eccles'],
     localContext:
-      "Bolton's ring road system and proximity to the M61 mean drivers frequently find themselves in unfamiliar retail parks or industrial estates near Middlebrook or Horwich when key emergencies strike. The Arndale Centre and Great Lever areas see regular call-outs for Excalibur.",
+      "Bolton's ring road system and proximity to the M61 mean drivers frequently find themselves in unfamiliar retail parks or industrial estates near Middlebrook or Horwich when key emergencies strike. The Arndale Centre and Great Lever areas see regular call-outs for Mobile Auto Locksmith.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -68,7 +68,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.5970,
     nearbySlugs: ['runcorn', 'widnes', 'st-helens', 'newton-le-willows'],
     localContext:
-      "Warrington is one of the UK's largest inland retail locations, with the Golden Square shopping centre, Gemini Retail Park, and extensive business parks off the M62. Key emergencies at large car parks and commercial vehicle key problems on the A49 and A57 corridors are common call-outs for Excalibur.",
+      "Warrington is one of the UK's largest inland retail locations, with the Golden Square shopping centre, Gemini Retail Park, and extensive business parks off the M62. Key emergencies at large car parks and commercial vehicle key problems on the A49 and A57 corridors are common call-outs for Mobile Auto Locksmith.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -82,7 +82,7 @@ export const LOCATIONS: Location[] = [
     lng: -3.0056,
     nearbySlugs: ['ormskirk', 'skelmersdale', 'chorley', 'wigan'],
     localContext:
-      "Southport's seafront promenade, pier area, and Pleasureland car parks are popular destinations where visitors often find themselves locked out after a day out. The town's proximity to Formby and the Sefton coast means Excalibur regularly assists drivers who've parked on beachside car parks.",
+      "Southport's seafront promenade, pier area, and Pleasureland car parks are popular destinations where visitors often find themselves locked out after a day out. The town's proximity to Formby and the Sefton coast means Mobile Auto Locksmith regularly assists drivers who've parked on beachside car parks.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -110,7 +110,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.5155,
     nearbySlugs: ['wigan', 'bolton', 'eccles', 'golborne'],
     localContext:
-      "Leigh sits directly between Wigan and Salford on the A572 and is a quick drive from junction 23 of the M6. The Leigh Sports Village, Spinning Gate retail park, and extensive residential areas are among the frequent call-out locations Excalibur covers.",
+      "Leigh sits directly between Wigan and Salford on the A572 and is a quick drive from junction 23 of the M6. The Leigh Sports Village, Spinning Gate retail park, and extensive residential areas are among the frequent call-out locations Mobile Auto Locksmith covers.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -124,7 +124,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.7766,
     nearbySlugs: ['wigan', 'ormskirk', 'southport', 'st-helens'],
     localContext:
-      "Skelmersdale's distinctive Concourse shopping centre and the surrounding Grimshaw Lane industrial estates are common locations for key emergencies. Its position near junction 4 of the M58 makes it accessible for Excalibur's Wigan-based team in typically 20 minutes.",
+      "Skelmersdale's distinctive Concourse shopping centre and the surrounding Grimshaw Lane industrial estates are common locations for key emergencies. Its position near junction 4 of the M58 makes it accessible for Mobile Auto Locksmith's Wigan-based team in typically 20 minutes.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -138,7 +138,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.6322,
     nearbySlugs: ['bolton', 'wigan', 'southport', 'ormskirk'],
     localContext:
-      "Chorley's Market Street and the Morrisons Bridgend retail area are common settings for key emergencies. Drivers heading to and from the M61 at Clayton-le-Woods frequently call Excalibur for assistance on the A49 or A6 corridors through the town.",
+      "Chorley's Market Street and the Morrisons Bridgend retail area are common settings for key emergencies. Drivers heading to and from the M61 at Clayton-le-Woods frequently call Mobile Auto Locksmith for assistance on the A49 or A6 corridors through the town.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -180,7 +180,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.7276,
     nearbySlugs: ['runcorn', 'warrington', 'st-helens', 'liverpool'],
     localContext:
-      "Widnes spans the Mersey and is connected to Runcorn by the Silver Jubilee Bridge and the newer Mersey Gateway bridge. The Widnes Vikings stadium area, Hough Green, and the large retail park on Lacey Street are among the call-out locations Excalibur regularly serves.",
+      "Widnes spans the Mersey and is connected to Runcorn by the Silver Jubilee Bridge and the newer Mersey Gateway bridge. The Widnes Vikings stadium area, Hough Green, and the large retail park on Lacey Street are among the call-out locations Mobile Auto Locksmith regularly serves.",
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -224,7 +224,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.6414,
     nearbySlugs: ['wigan', 'haydock', 'leigh', 'st-helens'],
     localContext:
-      "Ashton-in-Makerfield sits directly off the A49 between Wigan and Haydock, making it one of the quickest Excalibur call-outs in the region. The Bryn and Garswood residential areas and the East Lancashire Road retail developments are typical call-out locations.",
+      "Ashton-in-Makerfield sits directly off the A49 between Wigan and Haydock, making it one of the quickest Mobile Auto Locksmith call-outs in the region. The Bryn and Garswood residential areas and the East Lancashire Road retail developments are typical call-out locations.",
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -238,7 +238,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.5970,
     nearbySlugs: ['leigh', 'wigan', 'newton-le-willows', 'ashton-in-makerfield'],
     localContext:
-      "Golborne is a small but busy town on the A573 between Leigh and Newton-le-Willows, with a notable number of retail haulage depots and commercial premises. It sits close to junction 23 of the M6, making it a short travel for Excalibur's team from Wigan.",
+      "Golborne is a small but busy town on the A573 between Leigh and Newton-le-Willows, with a notable number of retail haulage depots and commercial premises. It sits close to junction 23 of the M6, making it a short travel for Mobile Auto Locksmith's team from Wigan.",
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -252,7 +252,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.5757,
     nearbySlugs: ['wigan', 'leigh', 'ince', 'bolton'],
     localContext:
-      "Hindley is a residential suburb of Wigan with a town centre along Ladies Lane and a railway station on the Wigan–Manchester line. The area's large housing estates and proximity to Hindley Green generate regular domestic key call-outs for Excalibur.",
+      "Hindley is a residential suburb of Wigan with a town centre along Ladies Lane and a railway station on the Wigan–Manchester line. The area's large housing estates and proximity to Hindley Green generate regular domestic key call-outs for Mobile Auto Locksmith.",
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -266,7 +266,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.6000,
     nearbySlugs: ['wigan', 'hindley', 'leigh', 'ashton-in-makerfield'],
     localContext:
-      "Ince lies immediately east of Wigan town centre and is known for its dense residential streets and proximity to the Ince Moss area. It's one of Excalibur's closest call-out zones — Ian and Adam can often be on-site within 20 minutes of a call.",
+      "Ince lies immediately east of Wigan town centre and is known for its dense residential streets and proximity to the Ince Moss area. It's one of Mobile Auto Locksmith's closest call-out zones — Ian and Adam can often be on-site within 20 minutes of a call.",
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -322,7 +322,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.7760,
     nearbySlugs: ['st-helens', 'skelmersdale', 'ormskirk', 'billinge'],
     localContext:
-      "Rainford is a large village between St Helens and Skelmersdale on the B5203. Its rural roads and limited public transport options make a working car key particularly critical for residents — being stranded here without a key is especially inconvenient without Excalibur's mobile service.",
+      "Rainford is a large village between St Helens and Skelmersdale on the B5203. Its rural roads and limited public transport options make a working car key particularly critical for residents — being stranded here without a key is especially inconvenient without Mobile Auto Locksmith's mobile service.",
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -336,7 +336,7 @@ export const LOCATIONS: Location[] = [
     lng: -2.7100,
     nearbySlugs: ['wigan', 'st-helens', 'rainford', 'ashton-in-makerfield'],
     localContext:
-      "Billinge is a hilltop village between Wigan and St Helens, served by the B5206. Its location on the ridge above the Mersey plain means limited alternative transport links — making Excalibur's mobile service particularly valuable to residents who lose or break their keys.",
+      "Billinge is a hilltop village between Wigan and St Helens, served by the B5206. Its location on the ridge above the Mersey plain means limited alternative transport links — making Mobile Auto Locksmith's mobile service particularly valuable to residents who lose or break their keys.",
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },

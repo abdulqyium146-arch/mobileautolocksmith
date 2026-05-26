@@ -1,10 +1,10 @@
-'use client'
+﻿'use client'
 
 import { useState, useEffect } from 'react'
 import { X, Phone } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 
-const BANNER_KEY = 'excalibur_banner_dismissed'
+const BANNER_KEY = 'mobile_auto_locksmith_banner_dismissed'
 
 export function EmergencyBanner() {
   const [visible, setVisible] = useState(false)
@@ -32,7 +32,7 @@ export function EmergencyBanner() {
       <a
         href={SITE.phoneTel}
         className="inline-flex items-center gap-2 hover:underline"
-        aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+        aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
       >
         <Phone size={14} aria-hidden="true" />
         <span>24/7 Emergency: <strong>{SITE.phone}</strong></span>

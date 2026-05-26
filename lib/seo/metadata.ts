@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { SERVICES } from '@/lib/services'
 import { LOCATIONS } from '@/lib/locations'
 
 const BASE_URL = 'https://mobileautolocksmiths.co.uk'
-const SITE_NAME = 'Excalibur Auto Locksmiths'
+const SITE_NAME = 'Mobile Auto Locksmith'
 const PHONE = '07309 903 243'
 
 function og(title: string, description: string, url: string) {
@@ -22,7 +22,7 @@ function tw(title: string, description: string) {
 }
 
 export function getHomepageMetadata(): Metadata {
-  const title = 'Auto Locksmith Near Me | Car Key Replacement | Excalibur — 24/7 North West'
+  const title = 'Auto Locksmith Near Me | Car Key Replacement | Mobile Auto Locksmith — 24/7 North West'
   const description = `Mobile auto locksmith covering Wigan, St Helens & the North West. Lost car keys replaced same day — car key cutting, programming, car lockout service & key fob replacement. 24/7, up to 60% cheaper than dealers. Call ${PHONE}.`
   const url = BASE_URL
   return {
@@ -53,7 +53,7 @@ export function getServiceMetadata(slug: string): Metadata {
 export function getLocationMetadata(citySlug: string): Metadata {
   const loc = LOCATIONS.find(l => l.slug === citySlug)
   if (!loc) return {}
-  const title = `Car Locksmith ${loc.name} | Auto Locksmith Near Me — 24/7 | Excalibur`
+  const title = `Car Locksmith ${loc.name} | Auto Locksmith Near Me — 24/7 | Mobile Auto Locksmith`
   const description = `Mobile car locksmith in ${loc.name} — lost car keys replaced same day at your location. Car key cutting, programming, car lockout & key fob replacement. 24/7, up to 60% cheaper than ${loc.name} main dealers. Call ${PHONE}.`
   const url = `${BASE_URL}/locations/${citySlug}`
   return {
@@ -69,8 +69,8 @@ export function getLocationServiceMetadata(citySlug: string, serviceSlug: string
   const loc = LOCATIONS.find(l => l.slug === citySlug)
   const svc = SERVICES.find(s => s.slug === serviceSlug)
   if (!loc || !svc) return {}
-  const title = `${svc.name} ${loc.name} | Mobile Car Locksmith Near Me | Excalibur`
-  const description = `${svc.name} in ${loc.name}, ${loc.county} — Excalibur's mobile auto locksmith comes to your location. Same day, 24/7. ${svc.priceFrom}. Up to 60% cheaper than ${loc.name} main dealers. Call ${PHONE}.`
+  const title = `${svc.name} ${loc.name} | Mobile Car Locksmith Near Me | Mobile Auto Locksmith`
+  const description = `${svc.name} in ${loc.name}, ${loc.county} — Mobile Auto Locksmith's mobile auto locksmith comes to your location. Same day, 24/7. ${svc.priceFrom}. Up to 60% cheaper than ${loc.name} main dealers. Call ${PHONE}.`
   const url = `${BASE_URL}/locations/${citySlug}/${serviceSlug}`
   return {
     title,
@@ -82,8 +82,8 @@ export function getLocationServiceMetadata(citySlug: string, serviceSlug: string
 }
 
 export function getEmergencyMetadata(): Metadata {
-  const title = 'Emergency Car Locksmith 24/7 | Locked Out of Car Near Me | Excalibur'
-  const description = `Emergency auto locksmith — locked out of car, lost keys, keys locked in car, car lockout service. Excalibur answers 24hrs, 7 days across the North West. Typical response under 1 hour. Call ${PHONE}.`
+  const title = 'Emergency Car Locksmith 24/7 | Locked Out of Car Near Me | Mobile Auto Locksmith'
+  const description = `Emergency auto locksmith — locked out of car, lost keys, keys locked in car, car lockout service. Mobile Auto Locksmith answers 24hrs, 7 days across the North West. Typical response under 1 hour. Call ${PHONE}.`
   const url = `${BASE_URL}/emergency`
   return {
     title,
@@ -96,7 +96,7 @@ export function getEmergencyMetadata(): Metadata {
 
 export function getBlogPostMetadata(slug: string, title: string): Metadata {
   const description = `Read our guide on ${title}. Expert auto locksmith advice from Ian & Adam Casson — serving Wigan, St Helens & the North West since 1993.`
-  const fullTitle = `${title} | Excalibur Auto Locksmiths`
+  const fullTitle = `${title} | Mobile Auto Locksmith`
   const url = `${BASE_URL}/blog/${slug}`
   return {
     title: fullTitle,

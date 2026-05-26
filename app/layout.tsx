@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { Inter, Montserrat } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
@@ -24,8 +24,8 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: `Auto Locksmith Wigan & St Helens | Excalibur — ${SITE.phone} | 24/7 Mobile`,
-    template: `%s | Excalibur Auto Locksmiths`,
+    default: `Auto Locksmith Wigan & St Helens | Mobile Auto Locksmith — ${SITE.phone} | 24/7 Mobile`,
+    template: `%s | Mobile Auto Locksmith`,
   },
   description: SITE.description,
   keywords: [
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
     'immobiliser programming',
   ],
   authors: [{ name: 'Ian Casson' }],
-  creator: 'Excalibur Auto Locksmiths',
-  publisher: 'Excalibur Auto Locksmiths',
+  creator: 'Mobile Auto Locksmith',
+  publisher: 'Mobile Auto Locksmith',
   // TODO: Add Google Search Console verification
   // 1. Go to https://search.google.com/search-console
   // 2. Add property: https://mobileautolocksmiths.co.uk
@@ -66,13 +66,13 @@ export const metadata: Metadata = {
         url: '/images/og-default.jpg',
         width: 1200,
         height: 630,
-        alt: 'Excalibur Auto Locksmiths — Mobile Car Key Replacement North West',
+        alt: 'Mobile Auto Locksmith — Mobile Car Key Replacement North West',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: `Auto Locksmith Wigan & St Helens | Excalibur — 24/7 Mobile`,
+    title: `Auto Locksmith Wigan & St Helens | Mobile Auto Locksmith — 24/7 Mobile`,
     description: 'Mobile auto locksmith covering Wigan, St Helens & the North West. Lost car keys replaced same day — 24/7, up to 60% cheaper than main dealers. Call Ian or Adam on 07831 872 740.',
   },
   icons: {
@@ -109,7 +109,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Excalibur" />
+        <meta name="apple-mobile-web-app-title" content="Mobile Auto Locksmith" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className="font-body text-color-text bg-white antialiased">

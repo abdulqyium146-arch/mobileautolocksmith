@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
@@ -59,11 +59,11 @@ export function Header() {
           <Link
             href="/"
             className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded"
-            aria-label="Excalibur Auto Locksmiths — Home"
+            aria-label="Mobile Auto Locksmith — Home"
           >
             <Image
               src="/excaliburAuto_locksmith_logo.svg"
-              alt="Excalibur Auto Locksmiths"
+              alt="Mobile Auto Locksmith"
               width={220}
               height={68}
               priority
@@ -149,7 +149,7 @@ export function Header() {
             <a
               href={SITE.phoneTel}
               className="flex items-center gap-2 bg-accent text-white font-black px-5 py-3 rounded-full hover:bg-red-700 transition-colors focus-ring"
-              aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+              aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
             >
               <Phone size={16} aria-hidden="true" />
               <span className="text-base">{SITE.phone}</span>
@@ -186,11 +186,11 @@ export function Header() {
               href="/"
               onClick={() => setMobileOpen(false)}
               className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
-              aria-label="Excalibur Auto Locksmiths — Home"
+              aria-label="Mobile Auto Locksmith — Home"
             >
               <Image
                 src="/excaliburAuto_locksmith_logo.svg"
-                alt="Excalibur Auto Locksmiths"
+                alt="Mobile Auto Locksmith"
                 width={180}
                 height={56}
                 className="h-10 w-auto brightness-0 invert"

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import { Phone, Mail } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 
@@ -41,7 +41,7 @@ export function CTABanner({
           href={SITE.phoneTel}
           className="block text-4xl md:text-5xl font-black text-white mb-2
                      hover:scale-105 transition-transform focus-ring"
-          aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+          aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
         >
           {SITE.phone}
         </a>

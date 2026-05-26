@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Script from 'next/script'
 import { CheckCircle, Phone } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -7,8 +7,8 @@ import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { CTABanner } from '@/components/ui/CTABanner'
 
 export const metadata: Metadata = {
-  title: `About Excalibur Auto Locksmiths | Ian & Adam Casson | Wigan, North West`,
-  description: `Excalibur Auto Locksmiths — a father and son business with 30+ years experience serving Wigan, St Helens and the North West. Meet Ian & Adam Casson.`,
+  title: `About Mobile Auto Locksmith | Ian & Adam Casson | Wigan, North West`,
+  description: `Mobile Auto Locksmith — a father and son business with 30+ years experience serving Wigan, St Helens and the North West. Meet Ian & Adam Casson.`,
   alternates: { canonical: '/about' },
 }
 
@@ -42,7 +42,7 @@ export default function AboutPage() {
             id="about-heading"
             className="font-heading font-black text-4xl md:text-5xl text-white mb-4"
           >
-            About Excalibur — A Family Business Built on Trust
+            About Mobile Auto Locksmith — A Family Business Built on Trust
           </h1>
           <p className="text-white/70 text-xl">
             Father and son. 30+ years. Thousands of drivers helped across the North West.
@@ -55,11 +55,11 @@ export default function AboutPage() {
       <section className="section bg-white" aria-labelledby="story-heading">
         <div className="container max-w-3xl">
           <h2 id="story-heading" className="section-heading mb-8">
-            The Excalibur Story
+            The Mobile Auto Locksmith Story
           </h2>
           <div className="space-y-6 text-muted leading-relaxed text-base">
             <p>
-              Ian Casson founded Excalibur Auto Locksmiths over 30 years ago from a simple but
+              Ian Casson founded Mobile Auto Locksmith over 30 years ago from a simple but
               powerful conviction: drivers who lose their car keys in Wigan or anywhere across the
               North West deserve a specialist who comes to them, not the other way around. In an era
               when the only option for most drivers was an expensive dealer trip or a long wait, Ian
@@ -85,11 +85,11 @@ export default function AboutPage() {
               locksmithing that this pair hasn&apos;t encountered and resolved.
             </p>
             <p>
-              The reason Excalibur has never needed to advertise heavily is the nature of what Ian
+              The reason Mobile Auto Locksmith has never needed to advertise heavily is the nature of what Ian
               and Adam do. When someone calls at 2am, locked out of their car in a dark car park,
               and Ian answers immediately, drives to them, and has them back on the road within 90
               minutes — that person tells every driver they know. The same story plays out thousands
-              of times across the North West. The Excalibur reputation was built entirely by the
+              of times across the North West. The Mobile Auto Locksmith reputation was built entirely by the
               quality of service Ian and Adam deliver, call after call, year after year.
             </p>
           </div>
@@ -172,11 +172,11 @@ export default function AboutPage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Excalibur Auto Locksmiths — Wigan, Greater Manchester on Google Maps"
+                title="Mobile Auto Locksmith — Wigan, Greater Manchester on Google Maps"
               />
             </div>
             <figcaption className="bg-surface px-5 py-3 text-sm text-muted flex flex-wrap gap-x-4 gap-y-1">
-              <span><strong className="text-primary">Excalibur Auto Locksmiths</strong> · Wigan, Greater Manchester</span>
+              <span><strong className="text-primary">Mobile Auto Locksmith</strong> · Wigan, Greater Manchester</span>
               <span>30+ years serving the North West</span>
             </figcaption>
           </figure>
@@ -188,13 +188,13 @@ export default function AboutPage() {
         <div className="container max-w-xl text-center">
           <h2 className="section-heading mb-4">Talk to Ian or Adam Directly</h2>
           <p className="text-muted mb-6">
-            No call centres. No third parties. When you ring Excalibur, you speak to the person
+            No call centres. No third parties. When you ring Mobile Auto Locksmith, you speak to the person
             who will be at your car. Get a straight quote and an honest arrival time.
           </p>
           <a
             href={SITE.phoneTel}
             className="btn-primary text-xl px-8 py-4 min-h-[60px]"
-            aria-label={`Call Excalibur on ${SITE.phone}`}
+            aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
           >
             <Phone size={20} aria-hidden="true" />
             {SITE.phone}

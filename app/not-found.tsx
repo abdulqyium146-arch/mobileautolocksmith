@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import { Phone, Home, Search } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
 
@@ -24,7 +24,7 @@ export default function NotFound() {
           <a
             href={SITE.phoneTel}
             className="btn-primary text-lg px-8 py-4 w-full sm:w-auto"
-            aria-label={`Call Excalibur on ${SITE.phone}`}
+            aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
           >
             <Phone size={18} aria-hidden="true" />
             {SITE.phone}

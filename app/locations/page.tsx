@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { MapPin, ArrowRight } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -7,8 +7,8 @@ import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { CTABanner } from '@/components/ui/CTABanner'
 
 export const metadata: Metadata = {
-  title: `Auto Locksmith Service Areas — North West | Excalibur`,
-  description: `Excalibur Auto Locksmiths covers Wigan, St Helens, Bolton, Warrington, Liverpool and 18 more towns across the North West. Mobile 24/7. Call ${SITE.phone}.`,
+  title: `Auto Locksmith Service Areas — North West | Mobile Auto Locksmith`,
+  description: `Mobile Auto Locksmith covers Wigan, St Helens, Bolton, Warrington, Liverpool and 18 more towns across the North West. Mobile 24/7. Call ${SITE.phone}.`,
   alternates: { canonical: '/locations' },
 }
 

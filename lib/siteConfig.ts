@@ -1,5 +1,5 @@
 export const SITE = {
-  name: 'Excalibur Auto Locksmiths',
+  name: 'Mobile Auto Locksmith',
   phone: '07309 903 243',
   phoneTel: 'tel:07309903243',
   email: 'excalibursecurity@hotmail.co.uk',
@@ -23,7 +23,7 @@ export const SITE = {
   keyCount: '10,000+',
   tagline: 'Mobile Auto Locksmith — We Come to You',
   description:
-    'Excalibur Auto Locksmiths — family-run mobile locksmith serving Wigan, St Helens and the North West. 24/7, up to 60% cheaper than the main dealer.',
+    'Mobile Auto Locksmith — family-run mobile locksmith serving Wigan, St Helens and the North West. 24/7, up to 60% cheaper than the main dealer.',
   social: {
     facebook: '',
     google: '',

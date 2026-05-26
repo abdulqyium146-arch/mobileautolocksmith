@@ -1,4 +1,4 @@
-export type ServiceProcess = {
+﻿export type ServiceProcess = {
   step: number
   title: string
   detail: string
@@ -35,9 +35,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'lost-vehicle-key-replacement',
     name: 'Lost Vehicle Key Replacement',
-    metaTitle: 'Lost Car Keys Near Me | Same Day Replacement | Excalibur Auto Locksmiths',
+    metaTitle: 'Lost Car Keys Near Me | Same Day Replacement | Mobile Auto Locksmith',
     metaDescription:
-      "Lost your car keys? Excalibur's mobile auto locksmith replaces lost car keys same day — all key types, all makes, across Wigan, St Helens & the North West. Up to 60% cheaper than the dealer. Call 07309 903 243.",
+      "Lost your car keys? Mobile Auto Locksmith's mobile auto locksmith replaces lost car keys same day — all key types, all makes, across Wigan, St Helens & the North West. Up to 60% cheaper than the dealer. Call 07309 903 243.",
     h1: 'Lost Vehicle Key Replacement — On-Site, Same Day',
     tagline: "We replace your lost car key wherever you are — no tow truck, no waiting days.",
     painPoint:
@@ -45,10 +45,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       'We replace lost vehicle keys for all makes and models at your location. Cut, coded and programmed on the spot — often within the hour.',
     bodyParagraphs: [
-      "Losing your only set of car keys is one of the most stressful situations a driver can face. Whether you've lost them at home, at work, in a car park, or out shopping across the North West, you're suddenly without transport and facing what feels like an expensive, time-consuming problem. Excalibur Auto Locksmiths specialises in lost vehicle key replacement for every major car make and model — and we do it all from our fully equipped mobile workshop, at your location, the same day you call.",
-      "The main dealer is most drivers' first instinct when they lose a key. The reality? You'll be quoted anything from £200 to £600, told to arrange a tow, and asked to wait between 3 and 14 working days for a new key to arrive and be programmed. In that time, you're without your vehicle, paying for alternative transport, and enduring the delay. There is no technical reason your key can't be replaced on-site — the equipment exists, and Ian and Adam at Excalibur carry it in their mobile workshop every single day.",
-      "When you call Excalibur, Ian or Adam will take your vehicle's make, model, year, and VIN if available. They'll confirm the exact key type your vehicle uses — whether that's a standard transponder key, a proximity smart key, a flip key, or a coded key card — and give you a firm quote before travelling. On arrival, the new key blank is cut to your lock profile using specialist cutting equipment, then programmed directly to your vehicle's immobiliser and ECU using dealer-grade diagnostic tools. In most cases, this entire process takes between 30 and 90 minutes, and you're back on the road without having moved the car an inch.",
-      "Ian Casson founded Excalibur over 30 years ago, and his son Adam joined the business to bring modern programming expertise to the already-deep knowledge base. Between them, they've replaced keys for tens of thousands of vehicles across Wigan, St Helens, and the wider North West region. When you call, you speak to one of them directly — not a call centre. You get a straight quote, a realistic arrival time, and the job done right first time. For most vehicles, Excalibur's price for lost key replacement is 40–60% less than the main dealer equivalent.",
+      "Losing your only set of car keys is one of the most stressful situations a driver can face. Whether you've lost them at home, at work, in a car park, or out shopping across the North West, you're suddenly without transport and facing what feels like an expensive, time-consuming problem. Mobile Auto Locksmith specialises in lost vehicle key replacement for every major car make and model — and we do it all from our fully equipped mobile workshop, at your location, the same day you call.",
+      "The main dealer is most drivers' first instinct when they lose a key. The reality? You'll be quoted anything from £200 to £600, told to arrange a tow, and asked to wait between 3 and 14 working days for a new key to arrive and be programmed. In that time, you're without your vehicle, paying for alternative transport, and enduring the delay. There is no technical reason your key can't be replaced on-site — the equipment exists, and Ian and Adam at Mobile Auto Locksmith carry it in their mobile workshop every single day.",
+      "When you call Mobile Auto Locksmith, Ian or Adam will take your vehicle's make, model, year, and VIN if available. They'll confirm the exact key type your vehicle uses — whether that's a standard transponder key, a proximity smart key, a flip key, or a coded key card — and give you a firm quote before travelling. On arrival, the new key blank is cut to your lock profile using specialist cutting equipment, then programmed directly to your vehicle's immobiliser and ECU using dealer-grade diagnostic tools. In most cases, this entire process takes between 30 and 90 minutes, and you're back on the road without having moved the car an inch.",
+      "Ian Casson founded Mobile Auto Locksmith over 30 years ago, and his son Adam joined the business to bring modern programming expertise to the already-deep knowledge base. Between them, they've replaced keys for tens of thousands of vehicles across Wigan, St Helens, and the wider North West region. When you call, you speak to one of them directly — not a call centre. You get a straight quote, a realistic arrival time, and the job done right first time. For most vehicles, Mobile Auto Locksmith's price for lost key replacement is 40–60% less than the main dealer equivalent.",
     ],
     process: [
       {
@@ -128,7 +128,7 @@ export const SERVICES: Service[] = [
   {
     slug: 'car-key-cutting',
     name: 'Car Key Cutting',
-    metaTitle: 'Car Key Cutting Near Me | Mobile Service Wigan & North West | Excalibur',
+    metaTitle: 'Car Key Cutting Near Me | Mobile Service Wigan & North West | Mobile Auto Locksmith',
     metaDescription:
       "Mobile car key cutting across Wigan, St Helens & the North West — all key types cut at your location. Laser, standard & high-security blades. Same day, no dealer wait. Call 07309 903 243.",
     h1: 'Mobile Car Key Cutting — All Makes, All Key Types',
@@ -138,10 +138,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       "Professional car key cutting for all makes and models at your location. Laser, standard, and high-security blades — cut precisely on our mobile workshop.",
     bodyParagraphs: [
-      "Car key cutting is the mechanical foundation of any key replacement — it's the process of shaping a blank key to match the exact profile of your vehicle's locks. Modern automotive keys use several different cutting types: standard milled-blade keys, laser-cut (also called sidewinder) keys with their distinctive wavy internal cut, and high-security blades used by manufacturers including BMW, Mercedes-Benz, and Volkswagen Group. Excalibur carries dedicated cutting machinery for all key types, operating from a fully equipped mobile workshop that comes directly to your vehicle, wherever you are across the North West.",
-      "Many drivers don't realise that car key cutting is only half of what's required for a working modern key. The key blank must be cut precisely — even a fraction of a millimetre out will cause a key to refuse a lock or wear prematurely. Beyond the cut itself, most keys manufactured after 2000 also contain a transponder chip that must be programmed to match your vehicle's immobiliser. Going to a high-street shoe-repair kiosk for key cutting risks imprecise work and, crucially, they won't be able to programme the electronics. Excalibur handles the complete job — cut and code — in a single visit.",
+      "Car key cutting is the mechanical foundation of any key replacement — it's the process of shaping a blank key to match the exact profile of your vehicle's locks. Modern automotive keys use several different cutting types: standard milled-blade keys, laser-cut (also called sidewinder) keys with their distinctive wavy internal cut, and high-security blades used by manufacturers including BMW, Mercedes-Benz, and Volkswagen Group. Mobile Auto Locksmith carries dedicated cutting machinery for all key types, operating from a fully equipped mobile workshop that comes directly to your vehicle, wherever you are across the North West.",
+      "Many drivers don't realise that car key cutting is only half of what's required for a working modern key. The key blank must be cut precisely — even a fraction of a millimetre out will cause a key to refuse a lock or wear prematurely. Beyond the cut itself, most keys manufactured after 2000 also contain a transponder chip that must be programmed to match your vehicle's immobiliser. Going to a high-street shoe-repair kiosk for key cutting risks imprecise work and, crucially, they won't be able to programme the electronics. Mobile Auto Locksmith handles the complete job — cut and code — in a single visit.",
       "Ian and Adam's mobile workshop is equipped with industry-leading key-cutting machines including automotive-specific equipment for laser-cut and high-security keys. When you call, we confirm the exact key type for your vehicle, source the correct blank, cut it to your lock profile, and programme the transponder chip — all at your location. We test the finished key in every lock before we leave, so you're never left with a key that doesn't work. For vehicles where a visual key cut isn't possible due to damaged locks, we can decode the lock to generate the correct key code.",
-      "Over 30 years in automotive locksmithing means Ian and Adam have cut keys for virtually every make and model sold in the UK. From a basic Ford Fiesta key to a BMW blade key with proximity function, the process is second nature. Excalibur's pricing for mobile key cutting — including transponder programming — consistently comes in 40 to 60% below the equivalent main dealer service, and you don't need to arrange a tow or take time off work. One call and we'll be with you the same day.",
+      "Over 30 years in automotive locksmithing means Ian and Adam have cut keys for virtually every make and model sold in the UK. From a basic Ford Fiesta key to a BMW blade key with proximity function, the process is second nature. Mobile Auto Locksmith's pricing for mobile key cutting — including transponder programming — consistently comes in 40 to 60% below the equivalent main dealer service, and you don't need to arrange a tow or take time off work. One call and we'll be with you the same day.",
     ],
     process: [
       {
@@ -185,7 +185,7 @@ export const SERVICES: Service[] = [
       {
         question: "What's the difference between standard and laser-cut car keys?",
         answer:
-          "A standard key has cuts milled along its edge — like a traditional front-door key. A laser-cut key (also called a sidewinder key) has a distinctive wavy channel cut into the centre of the blade on both sides. Laser-cut keys require specialist equipment to copy and are harder to duplicate fraudulently, which is why most cars made after 2010 use them. Both types are handled by Excalibur's mobile workshop.",
+          "A standard key has cuts milled along its edge — like a traditional front-door key. A laser-cut key (also called a sidewinder key) has a distinctive wavy channel cut into the centre of the blade on both sides. Laser-cut keys require specialist equipment to copy and are harder to duplicate fraudulently, which is why most cars made after 2010 use them. Both types are handled by Mobile Auto Locksmith's mobile workshop.",
       },
       {
         question: 'Can you cut a car key from just the lock, with no existing key?',
@@ -215,9 +215,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'immobiliser-programming',
     name: 'Immobiliser Programming',
-    metaTitle: 'Car Immobiliser Programming Near Me | Wigan & North West | Excalibur',
+    metaTitle: 'Car Immobiliser Programming Near Me | Wigan & North West | Mobile Auto Locksmith',
     metaDescription:
-      "Car won't start? Immobiliser fault in Wigan, St Helens or across the North West? Excalibur programmes all makes on-site — 24/7 mobile service, same day. Call 07309 903 243.",
+      "Car won't start? Immobiliser fault in Wigan, St Helens or across the North West? Mobile Auto Locksmith programmes all makes on-site — 24/7 mobile service, same day. Call 07309 903 243.",
     h1: 'Car Immobiliser Programming — On-Site Across the North West',
     tagline: "Your car won't start because the immobiliser doesn't recognise the key — we fix that on the spot.",
     painPoint:
@@ -225,10 +225,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       "Mobile immobiliser programming for all major makes and models. We match your keys to your vehicle's ECU at your location — same day.",
     bodyParagraphs: [
-      "Every modern vehicle sold in the UK since 1998 is legally required to have an electronic immobiliser fitted. The immobiliser works by communicating with a transponder chip embedded in your ignition key — if the key isn't recognised, the engine management system refuses to allow the car to start. While this is excellent anti-theft technology, it also means that any key-related issue — a new key, a faulty transponder, or after-market key fitting — requires the immobiliser to be re-programmed to recognise the new key or reset to accept a replacement. This is exactly what Excalibur specialises in.",
-      "The main dealer charges a significant premium for immobiliser programming because it requires specialist software and licensing agreements. For many drivers, this is the largest unexpected expense after a key loss. Worse, dealers often insist on towing the vehicle to their workshop before even starting the diagnostic process. The truth is that immobiliser programming can be done at the roadside or on your driveway with the right equipment — the same dealer-grade software and OBD interface that we carry in Excalibur's mobile workshop every day.",
+      "Every modern vehicle sold in the UK since 1998 is legally required to have an electronic immobiliser fitted. The immobiliser works by communicating with a transponder chip embedded in your ignition key — if the key isn't recognised, the engine management system refuses to allow the car to start. While this is excellent anti-theft technology, it also means that any key-related issue — a new key, a faulty transponder, or after-market key fitting — requires the immobiliser to be re-programmed to recognise the new key or reset to accept a replacement. This is exactly what Mobile Auto Locksmith specialises in.",
+      "The main dealer charges a significant premium for immobiliser programming because it requires specialist software and licensing agreements. For many drivers, this is the largest unexpected expense after a key loss. Worse, dealers often insist on towing the vehicle to their workshop before even starting the diagnostic process. The truth is that immobiliser programming can be done at the roadside or on your driveway with the right equipment — the same dealer-grade software and OBD interface that we carry in Mobile Auto Locksmith's mobile workshop every day.",
       "Ian and Adam use manufacturer-level diagnostic tools to communicate directly with your vehicle's ECU via the OBD-II port. For lost key situations, we write a new key to the immobiliser and delete the old key from its memory — meaning no one with the lost key can start your vehicle. For vehicles where the immobiliser has developed a fault or failed to recognise an existing key, we run a full diagnostic, identify the cause, and reprogram accordingly. We cover all major platforms including VAG (VW, Audi, SEAT, Škoda), Ford, GM/Vauxhall, BMW, Mercedes-Benz, Renault, and many more.",
-      "Excalibur's 30-year track record in automotive locksmithing means Ian and Adam have encountered — and solved — virtually every immobiliser scenario imaginable. From a straightforward key-to-ECU sync to complex situations involving after-market alarm upgrades or ECU replacements, we approach each job methodically. Our pricing is consistent and transparent: we quote before we start, and we don't charge extra for the complexity of the programming process. Across the North West — from Wigan and St Helens to Liverpool and Bolton — drivers trust Excalibur to get the electronics right.",
+      "Mobile Auto Locksmith's 30-year track record in automotive locksmithing means Ian and Adam have encountered — and solved — virtually every immobiliser scenario imaginable. From a straightforward key-to-ECU sync to complex situations involving after-market alarm upgrades or ECU replacements, we approach each job methodically. Our pricing is consistent and transparent: we quote before we start, and we don't charge extra for the complexity of the programming process. Across the North West — from Wigan and St Helens to Liverpool and Bolton — drivers trust Mobile Auto Locksmith to get the electronics right.",
     ],
     process: [
       {
@@ -309,9 +309,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'coded-vehicle-keys',
     name: 'Coded Vehicle Keys',
-    metaTitle: 'Coded Car Keys Made Near Me | Cut & Programmed | Excalibur Auto Locksmiths',
+    metaTitle: 'Coded Car Keys Made Near Me | Cut & Programmed | Mobile Auto Locksmith',
     metaDescription:
-      'Coded car key replacement for all makes across Wigan, St Helens & the North West. Excalibur programmes coded keys on-site, same day — car key cutting & programming. Call 07309 903 243.',
+      'Coded car key replacement for all makes across Wigan, St Helens & the North West. Mobile Auto Locksmith programmes coded keys on-site, same day — car key cutting & programming. Call 07309 903 243.',
     h1: 'Coded Vehicle Keys — Cut and Programmed at Your Location',
     tagline: 'Coded keys for every modern vehicle — done on-site, not at the dealer.',
     painPoint:
@@ -319,10 +319,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Specialist coded vehicle key service for all modern cars. We cut the key and programme the code to your vehicle on the spot — no dealer required.',
     bodyParagraphs: [
-      "Coded vehicle keys — also known as programmed or chipped keys — are the standard for all modern cars manufactured in the UK since the mid-1990s. Unlike older mechanical keys, a coded key contains a transponder chip embedded in the head of the key. When the key is placed in the ignition, the transponder communicates a unique rolling or fixed code to the vehicle's ECU. If that code doesn't match, the immobiliser prevents engine start. Excalibur Auto Locksmiths provides a complete coded vehicle key service — key cutting and transponder programming — at your location, with no need to visit a dealer or workshop.",
-      "What makes coded keys more complex than simple blanks is the programming step. It isn't enough to cut the key to the correct profile; the transponder chip must be registered to your specific vehicle. Each car's ECU holds a database of authorised key codes, and any new key must be written to that database before it will be accepted. Main dealers charge heavily for this because they hold the manufacturer licences for the programming software. However, Excalibur uses the same category of diagnostic tools as the dealers — and at a significantly lower cost to you.",
-      "The process at Excalibur is streamlined by 30 years of practice. Ian or Adam will confirm your vehicle's exact key specification before travelling — make, model, year, and in some cases the VIN to ensure the correct key blank is sourced. On arrival, the key is cut and the transponder is programmed via the vehicle's OBD port using manufacturer-appropriate protocols. We always test the coded key fully — including starting the engine and operating all remote functions — before we consider the job complete.",
-      "Ian and Adam have programmed coded keys for every major manufacturer sold in the UK: Ford, Vauxhall, Volkswagen Group, BMW, Mercedes-Benz, Renault, Toyota, Nissan, Honda, Fiat, Peugeot, Citroën, Hyundai, Kia, and more. Whether it's a 2006 Ford Focus or a 2023 Audi Q5, the approach is the same: diagnostic first, programming second, test before leaving. Excalibur is consistently 40–60% cheaper than main dealers for coded key services across the North West.",
+      "Coded vehicle keys — also known as programmed or chipped keys — are the standard for all modern cars manufactured in the UK since the mid-1990s. Unlike older mechanical keys, a coded key contains a transponder chip embedded in the head of the key. When the key is placed in the ignition, the transponder communicates a unique rolling or fixed code to the vehicle's ECU. If that code doesn't match, the immobiliser prevents engine start. Mobile Auto Locksmith provides a complete coded vehicle key service — key cutting and transponder programming — at your location, with no need to visit a dealer or workshop.",
+      "What makes coded keys more complex than simple blanks is the programming step. It isn't enough to cut the key to the correct profile; the transponder chip must be registered to your specific vehicle. Each car's ECU holds a database of authorised key codes, and any new key must be written to that database before it will be accepted. Main dealers charge heavily for this because they hold the manufacturer licences for the programming software. However, Mobile Auto Locksmith uses the same category of diagnostic tools as the dealers — and at a significantly lower cost to you.",
+      "The process at Mobile Auto Locksmith is streamlined by 30 years of practice. Ian or Adam will confirm your vehicle's exact key specification before travelling — make, model, year, and in some cases the VIN to ensure the correct key blank is sourced. On arrival, the key is cut and the transponder is programmed via the vehicle's OBD port using manufacturer-appropriate protocols. We always test the coded key fully — including starting the engine and operating all remote functions — before we consider the job complete.",
+      "Ian and Adam have programmed coded keys for every major manufacturer sold in the UK: Ford, Vauxhall, Volkswagen Group, BMW, Mercedes-Benz, Renault, Toyota, Nissan, Honda, Fiat, Peugeot, Citroën, Hyundai, Kia, and more. Whether it's a 2006 Ford Focus or a 2023 Audi Q5, the approach is the same: diagnostic first, programming second, test before leaving. Mobile Auto Locksmith is consistently 40–60% cheaper than main dealers for coded key services across the North West.",
     ],
     process: [
       {
@@ -377,12 +377,12 @@ export const SERVICES: Service[] = [
       {
         question: "Why can't I just get a coded key cut at a supermarket kiosk?",
         answer:
-          "High-street kiosks and key-cutting booths can cut the mechanical blade, but they do not have the automotive diagnostic equipment required to programme the transponder chip to your specific vehicle's ECU. Without programming, the cut key will operate your locks but not start the engine. Excalibur provides the complete service — cutting and programming — in a single visit.",
+          "High-street kiosks and key-cutting booths can cut the mechanical blade, but they do not have the automotive diagnostic equipment required to programme the transponder chip to your specific vehicle's ECU. Without programming, the cut key will operate your locks but not start the engine. Mobile Auto Locksmith provides the complete service — cutting and programming — in a single visit.",
       },
       {
         question: 'How do you programme a coded key without the original?',
         answer:
-          "When no original key exists, we use the vehicle's OBD port to access the ECU directly and generate the correct initialisation data for the new key's transponder. This requires manufacturer-specific software and authorisation — not all tools on the market can access all vehicles, but Excalibur's equipment covers all mainstream UK market makes and models.",
+          "When no original key exists, we use the vehicle's OBD port to access the ECU directly and generate the correct initialisation data for the new key's transponder. This requires manufacturer-specific software and authorisation — not all tools on the market can access all vehicles, but Mobile Auto Locksmith's equipment covers all mainstream UK market makes and models.",
       },
       {
         question: 'Will a second programmed key affect the original key?',
@@ -402,9 +402,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'remote-key-fob-replacement',
     name: 'Remote Key Fob Replacement',
-    metaTitle: 'Car Key Fob Replacement Near Me | Remote Key Fob | Excalibur Auto Locksmiths',
+    metaTitle: 'Car Key Fob Replacement Near Me | Remote Key Fob | Mobile Auto Locksmith',
     metaDescription:
-      "Car key fob stopped working or lost? Excalibur replaces & programmes remote key fobs for all makes across Wigan, St Helens & the North West. Mobile, same-day service. Call 07309 903 243.",
+      "Car key fob stopped working or lost? Mobile Auto Locksmith replaces & programmes remote key fobs for all makes across Wigan, St Helens & the North West. Mobile, same-day service. Call 07309 903 243.",
     h1: 'Remote Key Fob Replacement — Programmed On-Site the Same Day',
     tagline: "Broken, lost, or water-damaged key fob? We replace and programme it at your location.",
     painPoint:
@@ -412,10 +412,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Mobile remote key fob replacement for all makes and models. We supply, cut, and programme new fobs at your location — often within the hour.',
     bodyParagraphs: [
-      "Remote key fobs have become the standard way to interact with your vehicle — locking and unlocking doors, opening the boot, and in keyless-entry vehicles, starting the engine without physically inserting a key. When your key fob fails — whether through damage, water ingress, battery failure beyond replacement, or simply being lost — you're not just locked out of convenience features; on many modern vehicles with push-button start, you may not be able to drive the car at all. Excalibur Auto Locksmiths carries replacement key fobs and the programming equipment to match them to your vehicle, all from our mobile workshop across the North West.",
-      "Main dealers charge a premium for key fob replacement because they supply OEM (original equipment manufacturer) parts with their own profit margin and programme them in-house. Many drivers are shocked to be quoted £200–£400 for what seems like a simple remote control. The reality is that the fob itself — which contains the transponder, the RF transmitter, and the emergency blade key — can be sourced at a fraction of dealer cost, and programming is a routine process with the right tools. Excalibur consistently offers key fob replacement at 40–60% less than main dealer pricing.",
+      "Remote key fobs have become the standard way to interact with your vehicle — locking and unlocking doors, opening the boot, and in keyless-entry vehicles, starting the engine without physically inserting a key. When your key fob fails — whether through damage, water ingress, battery failure beyond replacement, or simply being lost — you're not just locked out of convenience features; on many modern vehicles with push-button start, you may not be able to drive the car at all. Mobile Auto Locksmith carries replacement key fobs and the programming equipment to match them to your vehicle, all from our mobile workshop across the North West.",
+      "Main dealers charge a premium for key fob replacement because they supply OEM (original equipment manufacturer) parts with their own profit margin and programme them in-house. Many drivers are shocked to be quoted £200–£400 for what seems like a simple remote control. The reality is that the fob itself — which contains the transponder, the RF transmitter, and the emergency blade key — can be sourced at a fraction of dealer cost, and programming is a routine process with the right tools. Mobile Auto Locksmith consistently offers key fob replacement at 40–60% less than main dealer pricing.",
       "When you call, Ian or Adam will ask for your vehicle's make, model, year, and frequency specification to confirm we have the correct replacement fob. On arrival, we program the new fob to your vehicle using the appropriate method — which varies by manufacturer, ranging from a simple sequence of button presses and ignition cycles to full OBD-level programming. For vehicles using rolling-code or crypto-encrypted remotes, we use our dealer-grade diagnostic tools to synchronise the new fob securely. We also programme the mechanical blade key within the fob to your locks where required.",
-      "Over 30 years working across the North West, Ian and Adam have programmed key fobs for thousands of vehicles. Brands handled include Ford, Vauxhall, Volkswagen, Audi, BMW, Mercedes-Benz, Renault, Toyota, Honda, Nissan, Peugeot, Citroën, Hyundai, Kia, SEAT, Škoda, Land Rover, Volvo, and many more. Whether you need a replacement for a lost fob or an additional fob programmed as a spare, Excalibur provides a same-day service wherever your vehicle is parked across the North West region.",
+      "Over 30 years working across the North West, Ian and Adam have programmed key fobs for thousands of vehicles. Brands handled include Ford, Vauxhall, Volkswagen, Audi, BMW, Mercedes-Benz, Renault, Toyota, Honda, Nissan, Peugeot, Citroën, Hyundai, Kia, SEAT, Škoda, Land Rover, Volvo, and many more. Whether you need a replacement for a lost fob or an additional fob programmed as a spare, Mobile Auto Locksmith provides a same-day service wherever your vehicle is parked across the North West region.",
     ],
     process: [
       {
@@ -496,9 +496,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'broken-car-key-extraction',
     name: 'Broken Car Key Extraction',
-    metaTitle: 'Broken Car Key Repair Near Me | Key Stuck in Ignition or Lock | Excalibur',
+    metaTitle: 'Broken Car Key Repair Near Me | Key Stuck in Ignition or Lock | Mobile Auto Locksmith',
     metaDescription:
-      'Broken car key stuck in ignition or door lock? Excalibur extracts broken keys without damage across Wigan, St Helens & the North West. Mobile, no towing. Call 07309 903 243.',
+      'Broken car key stuck in ignition or door lock? Mobile Auto Locksmith extracts broken keys without damage across Wigan, St Helens & the North West. Mobile, no towing. Call 07309 903 243.',
     h1: 'Broken Car Key Extraction — Removed Without Damage',
     tagline: 'Key snapped in the lock or ignition? We extract it cleanly at your location.',
     painPoint:
@@ -506,7 +506,7 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Professional broken key extraction from door locks and ignition barrels — for all makes and models. Clean, damage-free removal at your location.',
     bodyParagraphs: [
-      "A key breaking off in a car door lock or ignition barrel is more common than many drivers expect, particularly with older keys that have developed micro-fractures through daily use, or keys that have been bent or subjected to sideways force. When it happens, the broken section blocks the lock, meaning neither the original key stub nor a replacement key can operate the barrel. Attempting to extract the fragment with household tools — tweezers, strong glue on a stick, or similar — almost always drives the fragment deeper or scratches the barrel, complicating a routine job into a potentially costly lock replacement. Excalibur's first recommendation: don't try it yourself. Call us instead.",
+      "A key breaking off in a car door lock or ignition barrel is more common than many drivers expect, particularly with older keys that have developed micro-fractures through daily use, or keys that have been bent or subjected to sideways force. When it happens, the broken section blocks the lock, meaning neither the original key stub nor a replacement key can operate the barrel. Attempting to extract the fragment with household tools — tweezers, strong glue on a stick, or similar — almost always drives the fragment deeper or scratches the barrel, complicating a routine job into a potentially costly lock replacement. Mobile Auto Locksmith's first recommendation: don't try it yourself. Call us instead.",
       "Broken key extraction is a precision job. The lock barrel is a finely engineered mechanism with tight tolerances, and the broken fragment must be removed without damaging the barrel's internal pins or the lock housing. For a damaged or forced barrel, the cost escalates from a simple extraction to a full barrel replacement — which means parts, more labour, and significant cost. Professional extraction tools — including specialist hook picks and thin-profile extractors designed specifically for automotive barrels — allow the fragment to be removed cleanly in most cases, preserving the lock for normal use with a new key.",
       "Ian and Adam carry a comprehensive set of broken key extraction tools as a standard part of their mobile workshop. On arrival, they assess whether the key is broken flush with the barrel face (the most straightforward extraction) or recessed deeper (requiring a different approach). The majority of extractions are completed within 20 to 40 minutes without barrel removal. Once the fragment is clear, we can immediately cut a new key to replace the broken one — meaning you're driving again within an hour of calling, in most cases.",
       "When the break is at the ignition barrel, there is an additional consideration: depending on how the break occurred, the barrel may still be in the 'on' position, keeping the electrics live. Ian and Adam are experienced in handling ignition barrel extractions safely, including preventing any accidental drain on the vehicle's battery during the process. After extraction, they'll advise on the condition of the barrel and whether a replacement is recommended. After 30 years and thousands of extractions across the North West, there are very few broken key scenarios they haven't encountered and resolved.",
@@ -588,9 +588,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'spare-vehicle-keys',
     name: 'Spare Vehicle Keys',
-    metaTitle: 'Spare Car Key Made Near Me | Cut & Programmed | Excalibur Auto Locksmiths',
+    metaTitle: 'Spare Car Key Made Near Me | Cut & Programmed | Mobile Auto Locksmith',
     metaDescription:
-      "Get a spare car key made near you — cut & programmed for any make or model across Wigan, St Helens & the North West. Excalibur's mobile service comes to you. From £65. Call 07309 903 243.",
+      "Get a spare car key made near you — cut & programmed for any make or model across Wigan, St Helens & the North West. Mobile Auto Locksmith's mobile service comes to you. From £65. Call 07309 903 243.",
     h1: 'Spare Vehicle Keys — Cut and Programmed at Your Location',
     tagline: 'Having a spare key is the cheapest insurance against the most expensive emergency.',
     painPoint:
@@ -598,10 +598,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       "Get a spare key cut and programmed for your vehicle at your home, workplace, or anywhere across the North West. Fast, affordable, and fully functional.",
     bodyParagraphs: [
-      "A spare vehicle key is one of the smartest investments a car owner can make — and one of the most frequently postponed. The reason most people don't have a spare is simple: when you have a working key, the urgency doesn't feel pressing, and the dealer quotes can be off-putting enough to put it in the 'do it later' pile indefinitely. Then the day comes when the key is lost, broken, or stolen, and that 'later' decision becomes an expensive emergency. Excalibur Auto Locksmiths provides spare key cutting and programming for all vehicle makes and models at your location — and the cost of a spare key is always a fraction of the cost of an emergency replacement.",
+      "A spare vehicle key is one of the smartest investments a car owner can make — and one of the most frequently postponed. The reason most people don't have a spare is simple: when you have a working key, the urgency doesn't feel pressing, and the dealer quotes can be off-putting enough to put it in the 'do it later' pile indefinitely. Then the day comes when the key is lost, broken, or stolen, and that 'later' decision becomes an expensive emergency. Mobile Auto Locksmith provides spare key cutting and programming for all vehicle makes and models at your location — and the cost of a spare key is always a fraction of the cost of an emergency replacement.",
       "The process for cutting a spare when you have an existing working key is faster and often cheaper than a full lost-key replacement, because we don't need to do the full diagnostic work — we have a working reference key to copy the mechanical cut from, and the programming process is a straightforward add-to-existing-memory operation rather than a full initialisation. This means you can have a spare key cut and programmed while you're at home, at work, or anywhere else convenient — it typically takes 30 to 60 minutes and can be booked in advance rather than reactively.",
       "Ian and Adam recommend booking a spare key when you call for any other service. If we're already on-site for a lost key replacement, a spare cut and programmed at the same visit costs significantly less in combined labour than two separate call-outs. Similarly, if your car is newer and you haven't yet had a spare cut, a proactive booking — at your convenience — gives you the peace of mind of knowing you're never a single key loss away from an expensive rescue situation. We advise every customer to have at least two working keys for their vehicle.",
-      "Excalibur's spare key service covers the full spectrum of modern key types: standard transponder keys, remote key fobs, flip/folding keys, laser-cut blades, smart keys, proximity keys, and Renault key cards. Whatever your vehicle requires, Ian and Adam have the equipment to supply, cut, and programme it. Our pricing is transparent and consistent — we quote before we start, we don't have hidden charges for programming, and we're always significantly cheaper than the main dealer equivalent. Across Wigan, St Helens, and the wider North West region, hundreds of drivers have chosen Excalibur for a preventative spare rather than an expensive emergency.",
+      "Mobile Auto Locksmith's spare key service covers the full spectrum of modern key types: standard transponder keys, remote key fobs, flip/folding keys, laser-cut blades, smart keys, proximity keys, and Renault key cards. Whatever your vehicle requires, Ian and Adam have the equipment to supply, cut, and programme it. Our pricing is transparent and consistent — we quote before we start, we don't have hidden charges for programming, and we're always significantly cheaper than the main dealer equivalent. Across Wigan, St Helens, and the wider North West region, hundreds of drivers have chosen Mobile Auto Locksmith for a preventative spare rather than an expensive emergency.",
     ],
     process: [
       {
@@ -647,7 +647,7 @@ export const SERVICES: Service[] = [
       {
         question: 'Is a spare key cheaper than an emergency replacement?',
         answer:
-          "Yes, almost always significantly so. When you have an existing working key, the programming process is a simpler add-to-memory operation rather than a full ECU initialisation, which reduces the time and complexity. Additionally, booking in advance removes the call-out urgency premium. A spare key cut and programmed with Excalibur at your convenience will typically cost 30–40% less than the same operation as an emergency lost-key replacement.",
+          "Yes, almost always significantly so. When you have an existing working key, the programming process is a simpler add-to-memory operation rather than a full ECU initialisation, which reduces the time and complexity. Additionally, booking in advance removes the call-out urgency premium. A spare key cut and programmed with Mobile Auto Locksmith at your convenience will typically cost 30–40% less than the same operation as an emergency lost-key replacement.",
       },
       {
         question: 'Can I have a spare key made if my car has only one key?',
@@ -677,9 +677,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'stolen-key-deletion',
     name: 'Lost & Stolen Key Deletion',
-    metaTitle: 'Stolen Car Key Replacement | Delete Lost Keys from Immobiliser | Excalibur',
+    metaTitle: 'Stolen Car Key Replacement | Delete Lost Keys from Immobiliser | Mobile Auto Locksmith',
     metaDescription:
-      "Had your car keys stolen? Excalibur deletes stolen keys from your vehicle's immobiliser & supplies replacement keys on-site. 24/7, North West. Call 07309 903 243.",
+      "Had your car keys stolen? Mobile Auto Locksmith deletes stolen keys from your vehicle's immobiliser & supplies replacement keys on-site. 24/7, North West. Call 07309 903 243.",
     h1: 'Lost & Stolen Key Deletion — Protect Your Vehicle Today',
     tagline: "If your keys have been stolen, your car is only as secure as whoever found them. Delete the old key now.",
     painPoint:
@@ -687,9 +687,9 @@ export const SERVICES: Service[] = [
     shortDesc:
       "We delete lost or stolen keys from your vehicle's immobiliser memory and supply programmed replacements — same day, at your location.",
     bodyParagraphs: [
-      "When your car keys are stolen — whether from your home, pocket, or workplace — the immediate concern is obvious: someone has a key that can start your vehicle. What many drivers don't realise is that simply having the car re-keyed isn't enough if the original keys are still programmed into the ECU. The vehicle's immobiliser holds a list of authorised key codes, and unless the stolen key's code is explicitly deleted from that list, it will still start the car. Excalibur's lost and stolen key deletion service removes all previously programmed keys from the ECU, then re-programs new keys — leaving the old stolen key completely dead.",
-      "The process of deleting keys from an immobiliser requires the same dealer-grade diagnostic equipment as key programming — you need to access the ECU, authenticate with the correct security credentials, and overwrite or remove the stored key codes. This is not something that can be done with generic tools or a code reader — it requires manufacturer-specific software with the appropriate access level. Main dealers will perform this service, but typically only during business hours, after a significant wait, and at a cost that reflects their overheads. Excalibur provides the same technically identical service, mobile, 24/7, and at a fraction of the dealer cost.",
-      "If you've just discovered your keys are stolen, call Excalibur immediately — 07309 903 243. Ian or Adam will come to your vehicle, connect to the OBD port, delete all previously programmed keys from the immobiliser database, and programme a fresh set of new keys. This means the stolen key is completely useless for starting your vehicle. Combined with a change to your home security if the keys also included a house key or fob, you significantly reduce the risk of vehicle theft. Ian and Adam understand the urgency of this situation and will prioritise call-outs where security is at risk.",
+      "When your car keys are stolen — whether from your home, pocket, or workplace — the immediate concern is obvious: someone has a key that can start your vehicle. What many drivers don't realise is that simply having the car re-keyed isn't enough if the original keys are still programmed into the ECU. The vehicle's immobiliser holds a list of authorised key codes, and unless the stolen key's code is explicitly deleted from that list, it will still start the car. Mobile Auto Locksmith's lost and stolen key deletion service removes all previously programmed keys from the ECU, then re-programs new keys — leaving the old stolen key completely dead.",
+      "The process of deleting keys from an immobiliser requires the same dealer-grade diagnostic equipment as key programming — you need to access the ECU, authenticate with the correct security credentials, and overwrite or remove the stored key codes. This is not something that can be done with generic tools or a code reader — it requires manufacturer-specific software with the appropriate access level. Main dealers will perform this service, but typically only during business hours, after a significant wait, and at a cost that reflects their overheads. Mobile Auto Locksmith provides the same technically identical service, mobile, 24/7, and at a fraction of the dealer cost.",
+      "If you've just discovered your keys are stolen, call Mobile Auto Locksmith immediately — 07309 903 243. Ian or Adam will come to your vehicle, connect to the OBD port, delete all previously programmed keys from the immobiliser database, and programme a fresh set of new keys. This means the stolen key is completely useless for starting your vehicle. Combined with a change to your home security if the keys also included a house key or fob, you significantly reduce the risk of vehicle theft. Ian and Adam understand the urgency of this situation and will prioritise call-outs where security is at risk.",
       "Beyond the immediate security concern, there are practical steps to consider after stolen key deletion. If the thieves know your vehicle's location, it may be worth moving the vehicle or informing the police before we arrive. Ian and Adam will always advise on the best order of operations. Over 30 years across the North West, they have handled countless stolen key situations, and they understand the anxiety that comes with it. The goal is to restore your sense of security as quickly as possible — a new set of keys in your hand and the old ones dead in the system.",
     ],
     process: [
@@ -736,7 +736,7 @@ export const SERVICES: Service[] = [
       {
         question: "What should I do immediately after my car keys are stolen?",
         answer:
-          "Report the theft to the police immediately and get a crime reference number — you'll need this for any insurance claim. If the thieves know your vehicle's location, consider whether you can safely move it before calling us. Call Excalibur on 07309 903 243 to arrange immediate key deletion and replacement. Do not leave the vehicle in the same location where the theft occurred if it can be avoided.",
+          "Report the theft to the police immediately and get a crime reference number — you'll need this for any insurance claim. If the thieves know your vehicle's location, consider whether you can safely move it before calling us. Call Mobile Auto Locksmith on 07309 903 243 to arrange immediate key deletion and replacement. Do not leave the vehicle in the same location where the theft occurred if it can be avoided.",
       },
       {
         question: "Can the thief still use the stolen key after you've deleted it?",
@@ -746,7 +746,7 @@ export const SERVICES: Service[] = [
       {
         question: 'Does insurance cover key deletion and replacement after theft?',
         answer:
-          "Many comprehensive insurance policies include key cover as standard or as an add-on. The crime reference number from your police report is usually required when making a claim. Check your policy documents or call your insurer before paying out of pocket — you may be entitled to full reimbursement. Excalibur can provide a receipt and job description that satisfies most insurance claim requirements.",
+          "Many comprehensive insurance policies include key cover as standard or as an add-on. The crime reference number from your police report is usually required when making a claim. Check your policy documents or call your insurer before paying out of pocket — you may be entitled to full reimbursement. Mobile Auto Locksmith can provide a receipt and job description that satisfies most insurance claim requirements.",
       },
       {
         question: "What if I've lost my keys rather than had them stolen?",
@@ -756,7 +756,7 @@ export const SERVICES: Service[] = [
       {
         question: 'Can you do this service outside normal business hours?',
         answer:
-          "Yes. Excalibur operates 24 hours a day, 7 days a week, 365 days a year. Stolen key situations are emergencies, and Ian and Adam treat them as such regardless of the time of day or night. Call 07309 903 243 at any hour.",
+          "Yes. Mobile Auto Locksmith operates 24 hours a day, 7 days a week, 365 days a year. Stolen key situations are emergencies, and Ian and Adam treat them as such regardless of the time of day or night. Call 07309 903 243 at any hour.",
       },
     ],
     relatedSlugs: ['immobiliser-programming', 'lost-vehicle-key-replacement', 'lock-changes'],
@@ -766,9 +766,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'renault-key-card-replacement',
     name: 'Renault Key Card Replacement',
-    metaTitle: 'Renault Key Card Replacement Near Me | Clio, Megane, Laguna | Excalibur',
+    metaTitle: 'Renault Key Card Replacement Near Me | Clio, Megane, Laguna | Mobile Auto Locksmith',
     metaDescription:
-      "Lost or broken Renault key card? Excalibur replaces & programmes Renault key cards on-site across Wigan, St Helens & the North West — same day. Call 07309 903 243.",
+      "Lost or broken Renault key card? Mobile Auto Locksmith replaces & programmes Renault key cards on-site across Wigan, St Helens & the North West — same day. Call 07309 903 243.",
     h1: 'Renault Key Card Replacement — On-Site, Same Day',
     tagline: "Lost your Renault Clio, Megane, or Laguna card? We'll replace it wherever you are.",
     painPoint:
@@ -776,10 +776,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Renault key card replacement for Clio, Megane, Laguna, Scenic, and all Renault key card models. Supplied, programmed, and tested at your location.',
     bodyParagraphs: [
-      "Renault's hands-free key card system is one of the most distinctive key systems in the automotive market — and one of the most inconvenient to replace when things go wrong. Unlike a conventional key, the Renault card is a flat, credit-card-shaped device containing a transponder chip, an RF remote, and an internal mechanical key blade for emergency use. When a Renault card is lost, damaged, or stops communicating with the vehicle, it needs to be replaced with an exact specification match and programmed to the car's UCH (unified command housing) unit. Excalibur Auto Locksmiths specialises in Renault key card replacement, providing a mobile service to Renault drivers across the North West.",
-      "Renault dealers are the traditional source for replacement key cards, but the costs can be startling — replacement card plus programming often exceeds £300, and lead times for the card itself can stretch to a week or more. Excalibur carries Renault key card blanks for the most common models — Clio, Megane, Laguna, Scenic, Grand Scenic, Zoe, Koleos, and others — and has the specialist programming equipment required to initialise new cards to Renault's UCH system. Our pricing is consistently and significantly below Renault main dealer rates.",
+      "Renault's hands-free key card system is one of the most distinctive key systems in the automotive market — and one of the most inconvenient to replace when things go wrong. Unlike a conventional key, the Renault card is a flat, credit-card-shaped device containing a transponder chip, an RF remote, and an internal mechanical key blade for emergency use. When a Renault card is lost, damaged, or stops communicating with the vehicle, it needs to be replaced with an exact specification match and programmed to the car's UCH (unified command housing) unit. Mobile Auto Locksmith specialises in Renault key card replacement, providing a mobile service to Renault drivers across the North West.",
+      "Renault dealers are the traditional source for replacement key cards, but the costs can be startling — replacement card plus programming often exceeds £300, and lead times for the card itself can stretch to a week or more. Mobile Auto Locksmith carries Renault key card blanks for the most common models — Clio, Megane, Laguna, Scenic, Grand Scenic, Zoe, Koleos, and others — and has the specialist programming equipment required to initialise new cards to Renault's UCH system. Our pricing is consistently and significantly below Renault main dealer rates.",
       "The programming process for Renault key cards involves connecting to the vehicle's OBD port and communicating with the UCH using Renault-specific diagnostic software. The card is assigned to the vehicle, the transponder is initialised, and the remote functions are synced. Where the original card has been lost rather than just damaged, we also ensure the old card is deleted from the UCH memory, preventing it from being used to enter or start the vehicle if found by a third party. For customers who still have a working card, programming a replacement as a spare is strongly recommended.",
-      "Ian and Adam at Excalibur have replaced Renault key cards for hundreds of Renault owners across the North West over the years. From a common Clio 3 to a Laguna with the full Hands Free Card system, the procedure is well-practised. Our mobile service means you don't need to organise a tow to the Renault dealer — we come to wherever your car is parked, in Wigan, St Helens, or anywhere else across the North West, and have you driving again within the hour in most cases.",
+      "Ian and Adam at Mobile Auto Locksmith have replaced Renault key cards for hundreds of Renault owners across the North West over the years. From a common Clio 3 to a Laguna with the full Hands Free Card system, the procedure is well-practised. Our mobile service means you don't need to organise a tow to the Renault dealer — we come to wherever your car is parked, in Wigan, St Helens, or anywhere else across the North West, and have you driving again within the hour in most cases.",
     ],
     process: [
       {
@@ -842,7 +842,7 @@ export const SERVICES: Service[] = [
       {
         question: 'How much does a Renault key card replacement cost?',
         answer:
-          "Renault dealers typically charge between £250 and £350 for a replacement key card including programming. Excalibur's pricing for a full replacement card, programming, and mobile call-out is significantly lower — typically starting from £120. Call 07309 903 243 for an exact quote for your specific Renault model.",
+          "Renault dealers typically charge between £250 and £350 for a replacement key card including programming. Mobile Auto Locksmith's pricing for a full replacement card, programming, and mobile call-out is significantly lower — typically starting from £120. Call 07309 903 243 for an exact quote for your specific Renault model.",
       },
       {
         question: 'Do I need both my existing cards present when you programme a new one?',
@@ -857,9 +857,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'lock-changes',
     name: 'Vehicle Lock Changes',
-    metaTitle: 'Car Door Lock Repair Near Me | Vehicle Lock Changes | Excalibur North West',
+    metaTitle: 'Car Door Lock Repair Near Me | Vehicle Lock Changes | Mobile Auto Locksmith North West',
     metaDescription:
-      "Car door lock repair & vehicle lock changes for cars and vans across Wigan, St Helens & the North West. Excalibur replaces & re-keys vehicle locks on-site. 24/7. Call 07309 903 243.",
+      "Car door lock repair & vehicle lock changes for cars and vans across Wigan, St Helens & the North West. Mobile Auto Locksmith replaces & re-keys vehicle locks on-site. 24/7. Call 07309 903 243.",
     h1: 'Vehicle Lock Changes — On-Site Replacement Across the North West',
     tagline: 'Security compromised, stolen keys, or worn locks? We change your vehicle locks at your location.',
     painPoint:
@@ -867,10 +867,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       "Professional vehicle lock changes for all makes and models. We replace door locks, boot locks, and ignition barrels at your location — no workshop required.",
     bodyParagraphs: [
-      "There are several situations that call for a vehicle lock change: keys stolen with no ability to delete them from the immobiliser, a break-in attempt that has damaged or compromised a door lock, worn lock barrels that are becoming unreliable, or insurance requirements following a theft or security incident. Vehicle lock changes are a specialist job because automotive lock barrels are precision-machined components that must be fitted correctly and, in most modern vehicles, re-coded to work with new or existing keys. Excalibur Auto Locksmiths carries out vehicle lock changes for all major makes and models from our mobile workshop — no towing, no workshop visit required.",
-      "Changing a vehicle lock isn't simply a matter of swapping the barrel — on modern vehicles, the replacement barrel must be coded to match the new key set, and the door lock actuator and handle mechanism must be correctly reassembled. Done incorrectly, the lock can seize, the handle mechanism can fail, or the central locking may stop functioning correctly. Excalibur's approach is methodical: we assess the lock and mechanism before disassembly, use quality replacement components, and test all functions — manual and electronic — before handing back the vehicle.",
-      "The most common lock change scenario Excalibur handles is following key theft where the stolen key holder knows the vehicle's location. In these cases, Ian and Adam can change all relevant lock barrels and code them to a new key in a single visit — combining the lock change with the stolen key deletion and new key programming services. This is often the fastest and most cost-effective way to restore full security after a theft incident. We can prioritise these call-outs and are available 24/7 across the North West.",
-      "Ian and Adam's 30 years of experience means they have worked on vehicle lock systems for virtually every mainstream UK-market brand. Lock barrel wear patterns, common failure modes, and the nuances of each manufacturer's locking mechanism are knowledge accumulated through thousands of hands-on jobs. Where a dealership might quote a full door mechanism replacement for a barrel that can be re-cut and refitted, Excalibur will give you an honest assessment of what's genuinely needed — and carry out only the work that's necessary.",
+      "There are several situations that call for a vehicle lock change: keys stolen with no ability to delete them from the immobiliser, a break-in attempt that has damaged or compromised a door lock, worn lock barrels that are becoming unreliable, or insurance requirements following a theft or security incident. Vehicle lock changes are a specialist job because automotive lock barrels are precision-machined components that must be fitted correctly and, in most modern vehicles, re-coded to work with new or existing keys. Mobile Auto Locksmith carries out vehicle lock changes for all major makes and models from our mobile workshop — no towing, no workshop visit required.",
+      "Changing a vehicle lock isn't simply a matter of swapping the barrel — on modern vehicles, the replacement barrel must be coded to match the new key set, and the door lock actuator and handle mechanism must be correctly reassembled. Done incorrectly, the lock can seize, the handle mechanism can fail, or the central locking may stop functioning correctly. Mobile Auto Locksmith's approach is methodical: we assess the lock and mechanism before disassembly, use quality replacement components, and test all functions — manual and electronic — before handing back the vehicle.",
+      "The most common lock change scenario Mobile Auto Locksmith handles is following key theft where the stolen key holder knows the vehicle's location. In these cases, Ian and Adam can change all relevant lock barrels and code them to a new key in a single visit — combining the lock change with the stolen key deletion and new key programming services. This is often the fastest and most cost-effective way to restore full security after a theft incident. We can prioritise these call-outs and are available 24/7 across the North West.",
+      "Ian and Adam's 30 years of experience means they have worked on vehicle lock systems for virtually every mainstream UK-market brand. Lock barrel wear patterns, common failure modes, and the nuances of each manufacturer's locking mechanism are knowledge accumulated through thousands of hands-on jobs. Where a dealership might quote a full door mechanism replacement for a barrel that can be re-cut and refitted, Mobile Auto Locksmith will give you an honest assessment of what's genuinely needed — and carry out only the work that's necessary.",
     ],
     process: [
       {
@@ -933,7 +933,7 @@ export const SERVICES: Service[] = [
       {
         question: "Will my car warranty be affected by a mobile lock change?",
         answer:
-          "Using an independent specialist for lock work does not automatically void your manufacturer's warranty — this is protected under European block exemption regulations. However, any damage caused by poor workmanship would not be covered. Excalibur's standard is identical to dealership-quality work, and we use appropriate tools and quality parts. We can provide documentation of work carried out for your records.",
+          "Using an independent specialist for lock work does not automatically void your manufacturer's warranty — this is protected under European block exemption regulations. However, any damage caused by poor workmanship would not be covered. Mobile Auto Locksmith's standard is identical to dealership-quality work, and we use appropriate tools and quality parts. We can provide documentation of work carried out for your records.",
       },
     ],
     relatedSlugs: ['stolen-key-deletion', 'broken-car-key-extraction', 'immobiliser-programming'],
@@ -943,9 +943,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'keyless-entry-keys',
     name: 'Keyless Entry Keys',
-    metaTitle: 'Keyless Entry Key Replacement Near Me | Smart Car Key | Excalibur',
+    metaTitle: 'Keyless Entry Key Replacement Near Me | Smart Car Key | Mobile Auto Locksmith',
     metaDescription:
-      "Lost keyless entry smart key? Excalibur programmes replacement smart car keys for all makes across Wigan, St Helens & the North West. Mobile, 24/7. Call 07309 903 243.",
+      "Lost keyless entry smart key? Mobile Auto Locksmith programmes replacement smart car keys for all makes across Wigan, St Helens & the North West. Mobile, 24/7. Call 07309 903 243.",
     h1: 'Keyless Entry Key Replacement — Smart Keys Programmed On-Site',
     tagline: "Lost your hands-free smart key? We programme a replacement at your vehicle — no dealer wait.",
     painPoint:
@@ -953,10 +953,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Replacement keyless entry and smart key programming for all makes and models. Push-button start, proximity detection, and remote functions — all programmed on-site.',
     bodyParagraphs: [
-      "Keyless entry systems — where the vehicle detects your key's proximity and unlocks automatically, and starts with a push button rather than an ignition turn — have become standard equipment on most new vehicles sold in the UK over the past decade. These smart keys are sophisticated pieces of technology, containing a transponder chip, an RF proximity transmitter operating at 433MHz or 868MHz, a rolling-code remote, and in many cases a physical emergency key blade within the housing. They are also among the most expensive items to replace if lost — main dealer quotes for a replacement smart key including programming routinely run between £300 and £700 depending on the brand. Excalibur offers an on-site alternative at a significantly lower cost.",
-      "The programming of keyless entry keys is more complex than standard transponder programming because it involves two simultaneous tasks: programming the proximity transponder to the vehicle's PKES (Passive Keyless Entry and Start) controller, and programming the remote functions. Some systems also require synchronisation with the vehicle's central locking ECU, the engine start ECU, and the alarm system. This complexity is why dealers command a high price — the programming requires manufacturer-specific software licences and expertise. Excalibur's investment in professional-grade diagnostic equipment means this can be done on-site without dealer involvement.",
+      "Keyless entry systems — where the vehicle detects your key's proximity and unlocks automatically, and starts with a push button rather than an ignition turn — have become standard equipment on most new vehicles sold in the UK over the past decade. These smart keys are sophisticated pieces of technology, containing a transponder chip, an RF proximity transmitter operating at 433MHz or 868MHz, a rolling-code remote, and in many cases a physical emergency key blade within the housing. They are also among the most expensive items to replace if lost — main dealer quotes for a replacement smart key including programming routinely run between £300 and £700 depending on the brand. Mobile Auto Locksmith offers an on-site alternative at a significantly lower cost.",
+      "The programming of keyless entry keys is more complex than standard transponder programming because it involves two simultaneous tasks: programming the proximity transponder to the vehicle's PKES (Passive Keyless Entry and Start) controller, and programming the remote functions. Some systems also require synchronisation with the vehicle's central locking ECU, the engine start ECU, and the alarm system. This complexity is why dealers command a high price — the programming requires manufacturer-specific software licences and expertise. Mobile Auto Locksmith's investment in professional-grade diagnostic equipment means this can be done on-site without dealer involvement.",
       "One concern with keyless entry systems that's worth highlighting: relay theft. Thieves can use signal relay devices to amplify your key's proximity signal while it's inside your home, effectively tricking the car into thinking the key is present and allowing them to drive away. After we programme a new or spare keyless key, Ian and Adam will advise you on keeping your key in a signal-blocking (Faraday) pouch at home to prevent relay theft — a simple and inexpensive measure that can be the difference between keeping and losing your vehicle.",
-      "Excalibur programmes keyless entry keys for all major brands with proximity systems, including BMW, Mercedes-Benz, Audi, Volkswagen, Ford (Intelligent Access), Toyota, Honda, Nissan, Hyundai, Kia, Land Rover, Volvo, and others. Ian and Adam's 30+ years of experience in automotive locksmithing, combined with their commitment to staying current with evolving key technology, means no smart key system is too new or too complex for Excalibur to handle across the North West.",
+      "Mobile Auto Locksmith programmes keyless entry keys for all major brands with proximity systems, including BMW, Mercedes-Benz, Audi, Volkswagen, Ford (Intelligent Access), Toyota, Honda, Nissan, Hyundai, Kia, Land Rover, Volvo, and others. Ian and Adam's 30+ years of experience in automotive locksmithing, combined with their commitment to staying current with evolving key technology, means no smart key system is too new or too complex for Mobile Auto Locksmith to handle across the North West.",
     ],
     process: [
       {
@@ -1023,7 +1023,7 @@ export const SERVICES: Service[] = [
       {
         question: "Why is keyless entry key replacement so expensive at the dealer?",
         answer:
-          "The high dealer price reflects the cost of the OEM key hardware, their programming labour rate, the manufacturer software licence fee, and dealer profit margin. The actual programming process, once you have the right tools, takes similar time to standard key programming. Excalibur uses high-quality aftermarket smart key hardware (functionally identical to OEM) and professional programming equipment, allowing us to offer the same result at substantially lower cost.",
+          "The high dealer price reflects the cost of the OEM key hardware, their programming labour rate, the manufacturer software licence fee, and dealer profit margin. The actual programming process, once you have the right tools, takes similar time to standard key programming. Mobile Auto Locksmith uses high-quality aftermarket smart key hardware (functionally identical to OEM) and professional programming equipment, allowing us to offer the same result at substantially lower cost.",
       },
       {
         question: 'My keyless key battery is flat — will it still work?',
@@ -1038,7 +1038,7 @@ export const SERVICES: Service[] = [
   {
     slug: 'ford-vehicle-keys',
     name: 'Ford Vehicle Keys',
-    metaTitle: 'Ford Car Key Replacement Near Me | All Ford Models | Excalibur Auto Locksmiths',
+    metaTitle: 'Ford Car Key Replacement Near Me | All Ford Models | Mobile Auto Locksmith',
     metaDescription:
       "Ford car key replacement & programming across the North West. All Ford models — Fiesta, Focus, Mondeo, Transit. Mobile, same day. Up to 60% cheaper than Ford dealer. Call 07309 903 243.",
     h1: 'Ford Vehicle Key Replacement — All Models, On-Site Service',
@@ -1048,10 +1048,10 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Specialist Ford key cutting and programming for all Ford models including Fiesta, Focus, Mondeo, Transit, and more. Mobile service across the North West.',
     bodyParagraphs: [
-      "Ford is the UK's most popular car brand by registration volume, which means Excalibur Auto Locksmiths replaces more Ford keys than any other make. From the ubiquitous Ford Fiesta and Focus to the Transit van, Mondeo, Kuga, Puma, and EcoSport, Excalibur carries key blanks and programming capability for every Ford model sold in the UK market. Ford keys span several technology generations — from older tibbe-blade keys used on the Fiesta Mk5 and earlier to the sophisticated Intelligent Access proximity keys on current models — and Ian and Adam have the tools and experience to handle every one of them.",
-      "Ford's key technology has evolved significantly over the years. Older Ford vehicles used the distinctive Tibbe key — a round-profiled blade with circular cut positions unique to Ford and Jaguar — while mid-generation Fords (2005–2015 roughly) moved to standard transponder flip keys. The latest Ford models use Intelligent Access, a keyless entry and push-button start system where the key must be programmed to both the PATS (Passive Anti-Theft System) and the Intelligent Access module. Each generation requires different equipment and programming knowledge — Excalibur is equipped for all of them.",
-      "Ian and Adam use Ford-compatible diagnostic tools that communicate with PATS using the same protocols as Ford's own dealer equipment, IDS. This means they can programme keys, delete lost keys from the system, and perform PATS module resets where necessary. For Ford Transit and Transit Custom vans — a staple of North West businesses — Excalibur also handles commercial fleet key situations, including programming multiple keys for vehicles shared across teams. The mobile workshop comes to your van's location, whether that's a depot, a road, or a car park.",
-      "For every Ford model, Excalibur's price is consistently 40–60% below the equivalent Ford dealer service. Ford dealers charge a significant premium on PATS programming labour and on OEM key hardware. Excalibur uses quality compatible hardware and the same programming capability, without the dealer margin. The Ford Fiesta, Focus, and Transit van are among the most common vehicles Ian and Adam service — and years of repetition means these jobs are handled with the speed and confidence that only comes from genuine specialism.",
+      "Ford is the UK's most popular car brand by registration volume, which means Mobile Auto Locksmith replaces more Ford keys than any other make. From the ubiquitous Ford Fiesta and Focus to the Transit van, Mondeo, Kuga, Puma, and EcoSport, Mobile Auto Locksmith carries key blanks and programming capability for every Ford model sold in the UK market. Ford keys span several technology generations — from older tibbe-blade keys used on the Fiesta Mk5 and earlier to the sophisticated Intelligent Access proximity keys on current models — and Ian and Adam have the tools and experience to handle every one of them.",
+      "Ford's key technology has evolved significantly over the years. Older Ford vehicles used the distinctive Tibbe key — a round-profiled blade with circular cut positions unique to Ford and Jaguar — while mid-generation Fords (2005–2015 roughly) moved to standard transponder flip keys. The latest Ford models use Intelligent Access, a keyless entry and push-button start system where the key must be programmed to both the PATS (Passive Anti-Theft System) and the Intelligent Access module. Each generation requires different equipment and programming knowledge — Mobile Auto Locksmith is equipped for all of them.",
+      "Ian and Adam use Ford-compatible diagnostic tools that communicate with PATS using the same protocols as Ford's own dealer equipment, IDS. This means they can programme keys, delete lost keys from the system, and perform PATS module resets where necessary. For Ford Transit and Transit Custom vans — a staple of North West businesses — Mobile Auto Locksmith also handles commercial fleet key situations, including programming multiple keys for vehicles shared across teams. The mobile workshop comes to your van's location, whether that's a depot, a road, or a car park.",
+      "For every Ford model, Mobile Auto Locksmith's price is consistently 40–60% below the equivalent Ford dealer service. Ford dealers charge a significant premium on PATS programming labour and on OEM key hardware. Mobile Auto Locksmith uses quality compatible hardware and the same programming capability, without the dealer margin. The Ford Fiesta, Focus, and Transit van are among the most common vehicles Ian and Adam service — and years of repetition means these jobs are handled with the speed and confidence that only comes from genuine specialism.",
     ],
     process: [
       {
@@ -1103,27 +1103,27 @@ export const SERVICES: Service[] = [
       {
         question: "What is a Ford tibbe key and can you replace them?",
         answer:
-          "The Ford tibbe key (also called the tibbe blade or round key) is a distinctive cylindrical-profile key used on Ford and Jaguar vehicles roughly from the 1980s to mid-2000s. Instead of cuts along the edge of the blade, tibbe keys have circular rotating cut positions at fixed points along the shaft. They require specialist tibbe-cutting equipment which most generic key shops don't carry. Excalibur has the correct equipment and carries tibbe blanks for Ford models.",
+          "The Ford tibbe key (also called the tibbe blade or round key) is a distinctive cylindrical-profile key used on Ford and Jaguar vehicles roughly from the 1980s to mid-2000s. Instead of cuts along the edge of the blade, tibbe keys have circular rotating cut positions at fixed points along the shaft. They require specialist tibbe-cutting equipment which most generic key shops don't carry. Mobile Auto Locksmith has the correct equipment and carries tibbe blanks for Ford models.",
       },
       {
         question: "My Ford Focus shows a 'No Key Detected' message — what does this mean?",
         answer:
-          "'No Key Detected' on Ford models with Intelligent Access typically means the key fob's battery is critically low, the key's transponder has failed, or the vehicle's antenna for proximity detection is faulty. Start by replacing the fob battery. If that doesn't resolve it, call Excalibur — we can diagnose whether the key needs replacement or whether there's a vehicle-side fault with the IA sensor.",
+          "'No Key Detected' on Ford models with Intelligent Access typically means the key fob's battery is critically low, the key's transponder has failed, or the vehicle's antenna for proximity detection is faulty. Start by replacing the fob battery. If that doesn't resolve it, call Mobile Auto Locksmith — we can diagnose whether the key needs replacement or whether there's a vehicle-side fault with the IA sensor.",
       },
       {
         question: "Can you programme Ford keys for my business fleet of Transit vans?",
         answer:
-          "Yes. Excalibur regularly handles Ford Transit fleet key situations. Whether you need additional programmed keys for a single Transit or a key audit and replacement across multiple vehicles at a depot, Ian and Adam can accommodate this. Multiple keys can be programmed in a single site visit. Call to discuss fleet requirements.",
+          "Yes. Mobile Auto Locksmith regularly handles Ford Transit fleet key situations. Whether you need additional programmed keys for a single Transit or a key audit and replacement across multiple vehicles at a depot, Ian and Adam can accommodate this. Multiple keys can be programmed in a single site visit. Call to discuss fleet requirements.",
       },
       {
         question: "How much does it cost to replace a Ford Fiesta key?",
         answer:
-          "Ford Fiesta key replacement cost depends on the key type. For a standard HU101 transponder key on a Fiesta Mk6/Mk7, expect to pay from around £75–£95 with Excalibur. For a Fiesta with a remote flip key (Mk7.5 and later), expect from £95–£135. These are all-inclusive prices covering supply of the blank, cutting, and programming. Compare this to Ford dealer pricing which typically starts at £180+ for the same job.",
+          "Ford Fiesta key replacement cost depends on the key type. For a standard HU101 transponder key on a Fiesta Mk6/Mk7, expect to pay from around £75–£95 with Mobile Auto Locksmith. For a Fiesta with a remote flip key (Mk7.5 and later), expect from £95–£135. These are all-inclusive prices covering supply of the blank, cutting, and programming. Compare this to Ford dealer pricing which typically starts at £180+ for the same job.",
       },
       {
         question: "My Ford's immobiliser light is flashing — is the key the problem?",
         answer:
-          "A flashing immobiliser light after a failed start usually means the key's transponder wasn't read correctly. This can be caused by a dying transponder chip, a key that was near a strong electromagnetic field, or a very flat key battery (on models with batteries in the key). Try the other key if you have one. If the problem is consistent on both keys, the PATS receiver in the vehicle may have an issue. Call Excalibur to diagnose — we can determine whether it's the key or the vehicle's PATS system.",
+          "A flashing immobiliser light after a failed start usually means the key's transponder wasn't read correctly. This can be caused by a dying transponder chip, a key that was near a strong electromagnetic field, or a very flat key battery (on models with batteries in the key). Try the other key if you have one. If the problem is consistent on both keys, the PATS receiver in the vehicle may have an issue. Call Mobile Auto Locksmith to diagnose — we can determine whether it's the key or the vehicle's PATS system.",
       },
     ],
     relatedSlugs: ['coded-vehicle-keys', 'immobiliser-programming', 'lost-vehicle-key-replacement'],
@@ -1133,9 +1133,9 @@ export const SERVICES: Service[] = [
   {
     slug: 'emergency-locksmith',
     name: '24/7 Emergency Locksmith',
-    metaTitle: 'Emergency Car Locksmith 24/7 | Locked Out of Car Near Me | Excalibur',
+    metaTitle: 'Emergency Car Locksmith 24/7 | Locked Out of Car Near Me | Mobile Auto Locksmith',
     metaDescription:
-      "Emergency car locksmith — locked out of car, lost keys, car lockout service, keys locked inside. Excalibur covers the North West 24/7. Call Ian or Adam on 07309 903 243 right now.",
+      "Emergency car locksmith — locked out of car, lost keys, car lockout service, keys locked inside. Mobile Auto Locksmith covers the North West 24/7. Call Ian or Adam on 07309 903 243 right now.",
     h1: 'Emergency Car Locksmith 24/7 — Locked Out or Lost Keys? We Come to You',
     tagline: "Locked out of your car or lost your keys at 3am? Ian or Adam will answer — guaranteed.",
     painPoint:
@@ -1143,9 +1143,9 @@ export const SERVICES: Service[] = [
     shortDesc:
       'Emergency car locksmith & car lockout service for the entire North West. Locked out of car, lost keys, keys locked inside — we answer every call 24/7 and come to you.',
     bodyParagraphs: [
-      "Car key emergencies don't respect office hours. A key that breaks in the ignition at midnight, a key locked inside the car in a remote car park, or the realisation at 6am that your only car key is nowhere to be found — these situations happen every day across the North West, at all hours. Excalibur Auto Locksmiths operates a genuine 24-hour, 7-day, 365-day emergency service. When you call 07309 903 243 at any time of day or night, you'll speak to Ian or Adam Casson directly — not a call centre, not an answering service, not a machine.",
-      "The urgency of a genuine car key emergency means that how quickly help arrives matters enormously. Being stranded at night in an unfamiliar area, missing a flight, being late for work, or simply being stuck with children in the car are all situations where every extra minute of waiting adds to the stress and cost. Excalibur's mobile workshop means there's no need to tow the vehicle to a workshop — Ian or Adam travel directly to you, wherever your car is, and perform the work on-site. In most cases across the North West, response time is under one hour.",
-      "The emergency locksmith service covers all of Excalibur's core capabilities — lost key replacement, broken key extraction, locked-out vehicle opening, immobiliser programming, key fob replacement, and any other key or lock emergency. There is no job too complex for an emergency call-out, and Ian and Adam carry a comprehensive toolkit and key blank stock to handle the most common scenarios without needing to source parts. For less common vehicles or unusual key types, they will advise honestly on whether they can assist immediately or whether a brief delay to source parts is required.",
+      "Car key emergencies don't respect office hours. A key that breaks in the ignition at midnight, a key locked inside the car in a remote car park, or the realisation at 6am that your only car key is nowhere to be found — these situations happen every day across the North West, at all hours. Mobile Auto Locksmith operates a genuine 24-hour, 7-day, 365-day emergency service. When you call 07309 903 243 at any time of day or night, you'll speak to Ian or Adam Casson directly — not a call centre, not an answering service, not a machine.",
+      "The urgency of a genuine car key emergency means that how quickly help arrives matters enormously. Being stranded at night in an unfamiliar area, missing a flight, being late for work, or simply being stuck with children in the car are all situations where every extra minute of waiting adds to the stress and cost. Mobile Auto Locksmith's mobile workshop means there's no need to tow the vehicle to a workshop — Ian or Adam travel directly to you, wherever your car is, and perform the work on-site. In most cases across the North West, response time is under one hour.",
+      "The emergency locksmith service covers all of Mobile Auto Locksmith's core capabilities — lost key replacement, broken key extraction, locked-out vehicle opening, immobiliser programming, key fob replacement, and any other key or lock emergency. There is no job too complex for an emergency call-out, and Ian and Adam carry a comprehensive toolkit and key blank stock to handle the most common scenarios without needing to source parts. For less common vehicles or unusual key types, they will advise honestly on whether they can assist immediately or whether a brief delay to source parts is required.",
       "What distinguishes a genuine 24/7 locksmith from a company that simply claims the label? You can call any time — including 3am on Christmas Day — and get Ian or Adam on the phone within moments. They will give you a realistic arrival time, a firm quote, and a reassuring voice that knows exactly what they're doing. After 30 years operating across Wigan, St Helens, and the wider North West, they have handled emergencies in every conceivable scenario — and they approach every one with the same calm professionalism. One call ends the stress.",
     ],
     process: [
@@ -1189,7 +1189,7 @@ export const SERVICES: Service[] = [
       {
         question: 'What counts as a car key emergency?',
         answer:
-          "Any situation where you're unable to use your vehicle due to a key or lock problem qualifies as an emergency that Excalibur can assist with at any hour. This includes: locked out of the vehicle with keys inside, lost all keys with no spare, broken key in lock or ignition, key or fob stopped working unexpectedly, stolen keys, and immobiliser faults preventing engine start. If you're stranded or unable to proceed, call us — day or night.",
+          "Any situation where you're unable to use your vehicle due to a key or lock problem qualifies as an emergency that Mobile Auto Locksmith can assist with at any hour. This includes: locked out of the vehicle with keys inside, lost all keys with no spare, broken key in lock or ignition, key or fob stopped working unexpectedly, stolen keys, and immobiliser faults preventing engine start. If you're stranded or unable to proceed, call us — day or night.",
       },
       {
         question: 'How quickly can you reach me in an emergency?',
@@ -1199,7 +1199,7 @@ export const SERVICES: Service[] = [
       {
         question: "Do you charge extra for night-time or weekend emergency call-outs?",
         answer:
-          "Excalibur's pricing is transparent and is discussed before we travel. There may be a modest out-of-hours supplement for calls received between midnight and 6am — this will always be declared upfront so you can make an informed decision. There is no hidden premium added after the job. Call for a quote at any time and we'll give you a full cost before committing.",
+          "Mobile Auto Locksmith's pricing is transparent and is discussed before we travel. There may be a modest out-of-hours supplement for calls received between midnight and 6am — this will always be declared upfront so you can make an informed decision. There is no hidden premium added after the job. Call for a quote at any time and we'll give you a full cost before committing.",
       },
       {
         question: "I'm locked out of my car but the keys are inside — can you open it without damage?",
@@ -1209,7 +1209,7 @@ export const SERVICES: Service[] = [
       {
         question: 'Should I call a tow truck or an emergency locksmith first?',
         answer:
-          "Call the locksmith first — always. In the vast majority of car key emergencies, the vehicle does not need to be towed. Towing adds significant cost, requires your vehicle to be transported to a workshop, and creates additional delays. Excalibur can resolve almost every key emergency at your location. Only if there is a genuine mechanical fault beyond our scope — which is rare — would a tow be necessary. Call us first, and we'll tell you honestly within minutes whether you need a tow truck.",
+          "Call the locksmith first — always. In the vast majority of car key emergencies, the vehicle does not need to be towed. Towing adds significant cost, requires your vehicle to be transported to a workshop, and creates additional delays. Mobile Auto Locksmith can resolve almost every key emergency at your location. Only if there is a genuine mechanical fault beyond our scope — which is rare — would a tow be necessary. Call us first, and we'll tell you honestly within minutes whether you need a tow truck.",
       },
     ],
     relatedSlugs: ['lost-vehicle-key-replacement', 'broken-car-key-extraction', 'immobiliser-programming'],

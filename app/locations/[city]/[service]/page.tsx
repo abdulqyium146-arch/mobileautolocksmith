@@ -98,7 +98,7 @@ export default function CityServicePage({ params }: Props) {
             <a
               href={SITE.phoneTel}
               className="btn-primary text-lg px-8 py-4 min-h-[60px]"
-              aria-label={`Call Excalibur on ${SITE.phone}`}
+              aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
             >
               <Phone size={20} aria-hidden="true" />
               Call {SITE.phone}
@@ -111,12 +111,12 @@ export default function CityServicePage({ params }: Props) {
       <section className="section bg-white" aria-labelledby="intro-heading">
         <div className="container max-w-3xl">
           <h2 id="intro-heading" className="section-heading mb-6">
-            {svc.name} in {loc.name} — How Excalibur Can Help
+            {svc.name} in {loc.name} — How Mobile Auto Locksmith Can Help
           </h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
               {loc.localContext} If you&apos;re in {loc.name} and need {svc.name.toLowerCase()},
-              Excalibur Auto Locksmiths is your best option — mobile, available 24/7, and
+              Mobile Auto Locksmith is your best option — mobile, available 24/7, and
               consistently cheaper than any {loc.name} main dealer.
             </p>
             <p>
@@ -160,11 +160,11 @@ export default function CityServicePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Why Excalibur in this city */}
+      {/* Why Mobile Auto Locksmith in this city */}
       <section className="section bg-white" aria-labelledby="why-heading">
         <div className="container max-w-3xl">
           <h2 id="why-heading" className="section-heading mb-6">
-            Why {loc.name} Drivers Choose Excalibur
+            Why {loc.name} Drivers Choose Mobile Auto Locksmith
           </h2>
           <ul className="grid sm:grid-cols-2 gap-4">
             {[

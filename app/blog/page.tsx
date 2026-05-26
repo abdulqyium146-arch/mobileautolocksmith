@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowRight, Clock } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -6,8 +6,8 @@ import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { CTABanner } from '@/components/ui/CTABanner'
 
 export const metadata: Metadata = {
-  title: `Auto Locksmith Advice & Guides | Excalibur Blog`,
-  description: `Expert advice on car key replacement, lost keys, transponder programming, and more — from Ian Casson at Excalibur Auto Locksmiths. Call ${SITE.phone}.`,
+  title: `Auto Locksmith Advice & Guides | Mobile Auto Locksmith Blog`,
+  description: `Expert advice on car key replacement, lost keys, transponder programming, and more — from Ian Casson at Mobile Auto Locksmith. Call ${SITE.phone}.`,
   alternates: { canonical: '/blog' },
 }
 
@@ -60,7 +60,7 @@ export default function BlogPage() {
           </h1>
           <p className="text-white/70 text-xl max-w-2xl">
             Honest advice on car key replacement, lost keys, and everything the main dealer
-            doesn&apos;t tell you — from Ian Casson at Excalibur.
+            doesn&apos;t tell you — from Ian Casson at Mobile Auto Locksmith.
           </p>
         </div>
       </section>

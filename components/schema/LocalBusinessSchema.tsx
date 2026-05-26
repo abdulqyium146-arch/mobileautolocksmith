@@ -1,4 +1,4 @@
-import { LOCATIONS } from '@/lib/locations'
+﻿import { LOCATIONS } from '@/lib/locations'
 
 const BASE_URL = 'https://mobileautolocksmiths.co.uk'
 
@@ -17,7 +17,7 @@ export function LocalBusinessSchema({ city, region, service }: Props) {
     '@context': 'https://schema.org',
     '@type': 'Locksmith',
     '@id': `${BASE_URL}/#business`,
-    name: 'Excalibur Auto Locksmiths',
+    name: 'Mobile Auto Locksmith',
     image: `${BASE_URL}/excaliburAuto_locksmith_logo.svg`,
     url: BASE_URL,
     telephone: '+447831872740',

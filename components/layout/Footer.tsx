@@ -1,4 +1,4 @@
-import Link from 'next/link'
+﻿import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -21,7 +21,7 @@ export function Footer() {
           <a
             href={SITE.phoneTel}
             className="flex items-center gap-2 bg-white text-accent font-black text-xl px-6 py-3 rounded-full hover:bg-gray-100 transition-colors focus-ring whitespace-nowrap"
-            aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+            aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
           >
             <Phone size={18} aria-hidden="true" />
             {SITE.phone}
@@ -36,7 +36,7 @@ export function Footer() {
           <div className="mb-4">
             <Image
               src="/excaliburAuto_locksmith_logo.svg"
-              alt="Excalibur Auto Locksmiths"
+              alt="Mobile Auto Locksmith"
               width={200}
               height={62}
               className="h-12 w-auto brightness-0 invert"
@@ -167,7 +167,7 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10 py-6">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/40">
-          <p>© {new Date().getFullYear()} Excalibur Auto Locksmiths. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mobile Auto Locksmith. All rights reserved.</p>
           <p>Serving Wigan, St Helens &amp; the North West · 24/7 Mobile Service</p>
           <div className="flex gap-4">
             <Link href="/sitemap.xml" className="hover:text-white/70 transition-colors focus-ring">Sitemap</Link>

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, AlertTriangle, Star, CheckCircle, ArrowRight, MapPin } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -20,7 +20,7 @@ export const metadata: Metadata = getHomepageMetadata()
 const HOMEPAGE_FAQS = [
   {
     question: 'How much does car key replacement cost in Wigan?',
-    answer: `The cost depends on your vehicle make, model, and key type. Standard transponder keys typically start from £95 with Excalibur Auto Locksmiths — up to 60% less than what Wigan's main dealers charge. Remote key fobs start from around £75, and smart/proximity keys from £150. Call ${SITE.phone} for an exact quote for your vehicle.`,
+    answer: `The cost depends on your vehicle make, model, and key type. Standard transponder keys typically start from £95 with Mobile Auto Locksmith — up to 60% less than what Wigan's main dealers charge. Remote key fobs start from around £75, and smart/proximity keys from £150. Call ${SITE.phone} for an exact quote for your vehicle.`,
   },
   {
     question: `How quickly can you reach me in Wigan or St Helens?`,
@@ -28,11 +28,11 @@ const HOMEPAGE_FAQS = [
   },
   {
     question: 'Can you programme keys for all car makes?',
-    answer: `Yes — Excalibur covers all major makes and models sold in the UK, including Ford, Vauxhall, Volkswagen, Audi, BMW, Mercedes-Benz, Renault, Toyota, Honda, Nissan, and many more. If we haven't programmed a particular make, it's extremely unusual. Call us to confirm before making any alternative arrangements.`,
+    answer: `Yes — Mobile Auto Locksmith covers all major makes and models sold in the UK, including Ford, Vauxhall, Volkswagen, Audi, BMW, Mercedes-Benz, Renault, Toyota, Honda, Nissan, and many more. If we haven't programmed a particular make, it's extremely unusual. Call us to confirm before making any alternative arrangements.`,
   },
   {
     question: 'Is it really cheaper than going to the main dealer?',
-    answer: `Yes, consistently. Main dealers charge for OEM parts, dealer labour rates, programming licence fees, and their own margin. Excalibur uses quality compatible hardware and professional programming equipment without the dealer overhead. Most customers save 40–60% compared to their main dealer quote. Call ${SITE.phone} for a direct comparison.`,
+    answer: `Yes, consistently. Main dealers charge for OEM parts, dealer labour rates, programming licence fees, and their own margin. Mobile Auto Locksmith uses quality compatible hardware and professional programming equipment without the dealer overhead. Most customers save 40–60% compared to their main dealer quote. Call ${SITE.phone} for a direct comparison.`,
   },
   {
     question: 'What if my car has a transponder chip or smart key system?',
@@ -40,7 +40,7 @@ const HOMEPAGE_FAQS = [
   },
   {
     question: 'Do you offer a car lockout service if my keys are locked inside?',
-    answer: `Yes — if your keys are locked inside the car, Excalibur's car unlock service opens the vehicle without any damage to doors, glass, or seals. We use specialist non-destructive entry tools. While we're on-site we can also cut a spare key so you're never locked out again. Call ${SITE.phone} and we'll come to you.`,
+    answer: `Yes — if your keys are locked inside the car, Mobile Auto Locksmith's car unlock service opens the vehicle without any damage to doors, glass, or seals. We use specialist non-destructive entry tools. While we're on-site we can also cut a spare key so you're never locked out again. Call ${SITE.phone} and we'll come to you.`,
   },
   {
     question: 'Do you cover car key replacement for BMW, Audi, VW, Mercedes and other prestige brands?',
@@ -124,7 +124,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-white/80 text-xl leading-relaxed mb-4 max-w-2xl">
-              Excalibur&apos;s mobile auto locksmiths come to you anywhere across the North West —
+              Mobile Auto Locksmith comes to you anywhere across the North West —
               24 hours a day, always cheaper than the main dealer.
             </p>
             <p className="text-white/60 text-sm mb-8 max-w-2xl">
@@ -137,7 +137,7 @@ export default function HomePage() {
               <a
                 href={SITE.phoneTel}
                 className="btn-primary text-lg px-8 py-4 min-h-[60px] text-xl font-black bg-accent hover:bg-red-700"
-                aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+                aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
               >
                 <Phone size={20} aria-hidden="true" />
                 {SITE.phone}
@@ -208,7 +208,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-accent font-bold text-sm uppercase tracking-wider mb-3">
-                About Excalibur
+                About Mobile Auto Locksmith
               </p>
               <h2
                 id="family-heading"
@@ -218,7 +218,7 @@ export default function HomePage() {
               </h2>
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  Ian Casson founded Excalibur over 30 years ago with a simple idea: bring specialist
+                  Ian Casson founded Mobile Auto Locksmith over 30 years ago with a simple idea: bring specialist
                   automotive locksmith skills directly to the driver, not the other way around. What
                   started as a one-man mobile operation has grown into one of the most trusted names
                   in car key replacement across the North West.
@@ -230,7 +230,7 @@ export default function HomePage() {
                   Together, they handle every call personally.
                 </p>
                 <p>
-                  When you call Excalibur, you speak to Ian or Adam directly. You get a straight
+                  When you call Mobile Auto Locksmith, you speak to Ian or Adam directly. You get a straight
                   quote, an honest arrival time, and the job done right — the first time. No call
                   centres. No sub-contractors. No surprises.
                 </p>
@@ -345,16 +345,16 @@ export default function HomePage() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 id="dealer-heading" className="font-heading font-black text-3xl md:text-4xl text-white mb-4">
-              Why Call Excalibur Instead of the Main Dealer?
+              Why Call Mobile Auto Locksmith Instead of the Main Dealer?
             </h2>
           </div>
 
           <div className="overflow-x-auto rounded-card">
-            <table className="comparison-table min-w-[600px]" aria-label="Excalibur vs Main Dealer comparison">
+            <table className="comparison-table min-w-[600px]" aria-label="Mobile Auto Locksmith vs Main Dealer comparison">
               <thead>
                 <tr>
                   <th scope="col" className="bg-dark text-white"><span className="sr-only">Feature</span></th>
-                  <th scope="col" className="bg-accent text-white">Excalibur</th>
+                  <th scope="col" className="bg-accent text-white">Mobile Auto Locksmith</th>
                   <th scope="col" className="bg-dark text-white/70">Main Dealer</th>
                 </tr>
               </thead>
@@ -366,12 +366,12 @@ export default function HomePage() {
                   ['Hours', '24/7, 365 days', 'Mon–Fri business hours'],
                   ['Who you deal with', 'Ian or Adam personally', 'Different tech each time'],
                   ['Experience', '30+ years specialist', 'General service team'],
-                ].map(([aspect, excalibur, dealer]) => (
+                ].map(([aspect, ours, dealer]) => (
                   <tr key={aspect}>
                     <td className="font-semibold text-primary">{aspect}</td>
                     <td className="text-green-700 font-semibold">
                       <CheckCircle size={14} className="inline mr-1.5 text-green-600" aria-hidden="true" />
-                      {excalibur}
+                      {ours}
                     </td>
                     <td className="text-muted">{dealer}</td>
                   </tr>

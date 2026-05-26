@@ -31,7 +31,7 @@ function buildCityFAQs(loc: ReturnType<typeof getLocationBySlug>) {
   return [
     {
       question: `How quickly can you reach ${loc.name} in an emergency?`,
-      answer: `In most cases, Ian or Adam can reach ${loc.name} within one hour of your call. ${loc.name} in ${loc.county} is well within Excalibur's regular coverage area. Call ${SITE.phone} and we'll give you a firm arrival time straight away.`,
+      answer: `In most cases, Ian or Adam can reach ${loc.name} within one hour of your call. ${loc.name} in ${loc.county} is well within our regular coverage area. Call ${SITE.phone} and we'll give you a firm arrival time straight away.`,
     },
     {
       question: `Do you cover all postcodes in ${loc.name}?`,
@@ -39,7 +39,7 @@ function buildCityFAQs(loc: ReturnType<typeof getLocationBySlug>) {
     },
     {
       question: `Are you available in ${loc.name} at weekends and bank holidays?`,
-      answer: `Absolutely. Excalibur operates 24 hours a day, 7 days a week, 365 days a year — including all bank holidays. A key emergency doesn't pick a convenient time, and neither do we. Ian or Adam will answer your call personally whenever you need us in ${loc.name}.`,
+      answer: `Absolutely. Mobile Auto Locksmith operates 24 hours a day, 7 days a week, 365 days a year — including all bank holidays. A key emergency doesn't pick a convenient time, and neither do we. Ian or Adam will answer your call personally whenever you need us in ${loc.name}.`,
     },
     {
       question: `Can you come to a car park or roadside location in ${loc.name}?`,
@@ -93,7 +93,7 @@ export default function CityPage({ params }: Props) {
             <a
               href={SITE.phoneTel}
               className="btn-primary text-lg px-8 py-4 min-h-[60px]"
-              aria-label={`Call Excalibur Auto Locksmiths on ${SITE.phone}`}
+              aria-label={`Call Mobile Auto Locksmith on ${SITE.phone}`}
             >
               <Phone size={20} aria-hidden="true" />
               Call {SITE.phone} — Available Now
@@ -123,7 +123,7 @@ export default function CityPage({ params }: Props) {
       <section className="section bg-white" aria-labelledby="local-heading">
         <div className="container max-w-3xl">
           <h2 id="local-heading" className="section-heading mb-6">
-            Why {loc.name} Drivers Trust Excalibur
+            Why {loc.name} Drivers Trust Mobile Auto Locksmith
           </h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
@@ -134,7 +134,7 @@ export default function CityPage({ params }: Props) {
               regular coverage area.
             </p>
             <p>
-              Every service Excalibur provides is performed at your vehicle&apos;s location in
+              Every service Mobile Auto Locksmith provides is performed at your vehicle&apos;s location in
               {' '}{loc.name}. That means your {loc.postcodePrefixes[0]} postcode is no barrier — we bring
               the workshop to you. Lost key replacement, broken key extraction, immobiliser
               programming, remote fob replacement — all done on-site, the same day you call, at

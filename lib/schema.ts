@@ -1,4 +1,4 @@
-import { SITE } from './siteConfig'
+﻿import { SITE } from './siteConfig'
 import type { Service } from './services'
 
 export type FAQ = { question: string; answer: string }
@@ -8,7 +8,7 @@ export function buildLocalBusiness(city?: string) {
     '@context': 'https://schema.org',
     '@type': 'Locksmith',
     name: SITE.name,
-    image: `${SITE.domain}/images/excalibur-auto-locksmiths.jpg`,
+    image: `${SITE.domain}/images/mobile-auto-locksmith.jpg`,
     '@id': `${SITE.domain}/#localbusiness`,
     url: SITE.domain,
     telephone: SITE.phone,
@@ -149,7 +149,7 @@ export function buildOrganization() {
     url: SITE.domain,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE.domain}/images/excalibur-logo.png`,
+      url: `${SITE.domain}/images/mobile-auto-locksmith-logo.png`,
       width: 300,
       height: 60,
     },
@@ -237,7 +237,7 @@ export function buildArticle(params: {
       name: SITE.name,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE.domain}/images/excalibur-logo.png`,
+        url: `${SITE.domain}/images/mobile-auto-locksmith-logo.png`,
       },
     },
     datePublished: params.datePublished,

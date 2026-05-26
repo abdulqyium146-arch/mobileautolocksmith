@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Script from 'next/script'
 import { Star, Phone } from 'lucide-react'
 import { SITE } from '@/lib/siteConfig'
@@ -8,8 +8,8 @@ import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 import { CTABanner } from '@/components/ui/CTABanner'
 
 export const metadata: Metadata = {
-  title: `Customer Reviews | Excalibur Auto Locksmiths — ${SITE.reviewScore}/5 Stars`,
-  description: `Read ${SITE.reviewCount} genuine customer reviews for Excalibur Auto Locksmiths. Rated ${SITE.reviewScore}/5 across Wigan, St Helens and the North West. Call ${SITE.phone}.`,
+  title: `Customer Reviews | Mobile Auto Locksmith — ${SITE.reviewScore}/5 Stars`,
+  description: `Read ${SITE.reviewCount} genuine customer reviews for Mobile Auto Locksmith. Rated ${SITE.reviewScore}/5 across Wigan, St Helens and the North West. Call ${SITE.phone}.`,
   alternates: { canonical: '/reviews' },
 }
 
@@ -64,7 +64,7 @@ const ALL_REVIEWS = [
     rating: 5,
   },
   {
-    quote: "Used Excalibur after being told by two other locksmiths they couldn't programme keys for my Land Rover Discovery. Ian handled it no problem. Arrived on time, did the job, tested everything. Professional from start to finish.",
+    quote: "Used Mobile Auto Locksmith after being told by two other locksmiths they couldn't programme keys for my Land Rover Discovery. Ian handled it no problem. Arrived on time, did the job, tested everything. Professional from start to finish.",
     name: 'Andrew K.',
     city: 'Chorley',
     platform: 'Google Review',
@@ -122,7 +122,7 @@ export default function ReviewsPage() {
         <div className="container max-w-xl">
           <h2 className="section-heading mb-4">Had a Good Experience?</h2>
           <p className="text-muted mb-6">
-            If Excalibur helped you, we&apos;d be grateful for an honest Google review.
+            If Mobile Auto Locksmith helped you, we&apos;d be grateful for an honest Google review.
             It helps other drivers find us when they need help most.
           </p>
           <a

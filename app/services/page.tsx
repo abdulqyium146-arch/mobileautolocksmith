@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import { SITE } from '@/lib/siteConfig'
 import { SERVICES } from '@/lib/services'
 import { ServiceCard } from '@/components/ui/ServiceCard'
@@ -6,8 +6,8 @@ import { CTABanner } from '@/components/ui/CTABanner'
 import { BreadcrumbNav } from '@/components/layout/BreadcrumbNav'
 
 export const metadata: Metadata = {
-  title: `Auto Locksmith Services Wigan & North West | Excalibur`,
-  description: `All 13 auto locksmith services from Excalibur — lost key replacement, immobiliser programming, Renault key cards, emergency locksmith and more. Mobile, 24/7. Call ${SITE.phone}.`,
+  title: `Auto Locksmith Services Wigan & North West | Mobile Auto Locksmith`,
+  description: `All 13 auto locksmith services from Mobile Auto Locksmith — lost key replacement, immobiliser programming, Renault key cards, emergency locksmith and more. Mobile, 24/7. Call ${SITE.phone}.`,
   alternates: { canonical: '/services' },
 }
 
