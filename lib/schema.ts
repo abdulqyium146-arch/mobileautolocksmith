@@ -8,7 +8,7 @@ export function buildLocalBusiness(city?: string) {
     '@context': 'https://schema.org',
     '@type': 'Locksmith',
     name: SITE.name,
-    image: `${SITE.domain}/images/mobile-auto-locksmith.jpg`,
+    image: `${SITE.domain}/logo.webp`,
     '@id': `${SITE.domain}/#localbusiness`,
     url: SITE.domain,
     telephone: SITE.phone,
@@ -149,7 +149,7 @@ export function buildOrganization() {
     url: SITE.domain,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE.domain}/images/mobile-auto-locksmith-logo.png`,
+      url: `${SITE.domain}/logo.webp`,
       width: 300,
       height: 60,
     },
@@ -237,7 +237,7 @@ export function buildArticle(params: {
       name: SITE.name,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE.domain}/images/mobile-auto-locksmith-logo.png`,
+        url: `${SITE.domain}/logo.webp`,
       },
     },
     datePublished: params.datePublished,

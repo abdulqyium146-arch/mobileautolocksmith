@@ -35,11 +35,11 @@ export function Footer() {
         <div>
           <div className="mb-4">
             <Image
-              src="/excaliburAuto_locksmith_logo.svg"
+              src="/logo.webp"
               alt="Mobile Auto Locksmith"
               width={200}
               height={62}
-              className="h-12 w-auto brightness-0 invert"
+              className="h-12 w-auto"
             />
           </div>
           <p className="text-white/70 text-sm leading-relaxed mb-4">

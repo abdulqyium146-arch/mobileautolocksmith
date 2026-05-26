@@ -62,7 +62,7 @@ export function Header() {
             aria-label="Mobile Auto Locksmith — Home"
           >
             <Image
-              src="/excaliburAuto_locksmith_logo.svg"
+              src="/logo.webp"
               alt="Mobile Auto Locksmith"
               width={220}
               height={68}
@@ -189,11 +189,11 @@ export function Header() {
               aria-label="Mobile Auto Locksmith — Home"
             >
               <Image
-                src="/excaliburAuto_locksmith_logo.svg"
+                src="/logo.webp"
                 alt="Mobile Auto Locksmith"
                 width={180}
                 height={56}
-                className="h-10 w-auto brightness-0 invert"
+                className="h-10 w-auto"
               />
             </Link>
             <button
