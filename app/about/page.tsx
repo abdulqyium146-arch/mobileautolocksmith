@@ -167,7 +167,7 @@ export default function AboutPage() {
           <figure className="overflow-hidden rounded-xl shadow-md border border-border">
             <div className="relative w-full h-[300px] md:h-[420px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.4502290865667!2d-2.7086666999999998!3d53.4961523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b1adc0e522e6f%3A0x90f5a3eacc1dc9fc!2sExcalibur%20Auto%20Locksmith!5e0!3m2!1sen!2s!4v1777100503673!5m2!1sen!2s"
+                src="https://maps.google.com/maps?q=53.4961523,-2.7086667&hl=en&z=15&output=embed"
                 className="absolute inset-0 w-full h-full border-0"
                 allowFullScreen
                 loading="lazy"
