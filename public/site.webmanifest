@@ -1,0 +1,28 @@
+{
+  "name": "Mobile Auto Locksmith",
+  "short_name": "Mobile Auto Locksmith",
+  "description": "Mobile auto locksmith serving Wigan, St Helens & the North West. 24/7, up to 60% cheaper than main dealers.",
+  "lang": "en-GB",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0b0c2a",
+  "background_color": "#ffffff",
+  "categories": ["utilities"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
