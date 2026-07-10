@@ -62,11 +62,12 @@ export function Header() {
             aria-label="Mobile Auto Locksmith — Home"
           >
             <Image
-              src="/excaliburAuto_locksmith_logo.svg"
+              src="/logo.webp"
               alt="Mobile Auto Locksmith"
-              width={220}
-              height={68}
+              width={160}
+              height={61}
               priority
+              sizes="160px"
               className="h-12 lg:h-14 w-auto"
             />
           </Link>
@@ -188,13 +189,16 @@ export function Header() {
               className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
               aria-label="Mobile Auto Locksmith — Home"
             >
-              <Image
-                src="/excaliburAuto_locksmith_logo.svg"
-                alt="Mobile Auto Locksmith"
-                width={180}
-                height={56}
-                className="h-10 w-auto brightness-0 invert"
-              />
+              <span className="inline-block bg-white rounded-md px-2 py-1">
+                <Image
+                  src="/logo.webp"
+                  alt="Mobile Auto Locksmith"
+                  width={140}
+                  height={54}
+                  sizes="140px"
+                  className="h-9 w-auto"
+                />
+              </span>
             </Link>
             <button
               onClick={() => setMobileOpen(false)}

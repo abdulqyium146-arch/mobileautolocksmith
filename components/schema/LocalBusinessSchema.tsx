@@ -18,7 +18,7 @@ export function LocalBusinessSchema({ city, region, service }: Props) {
     '@type': 'Locksmith',
     '@id': `${BASE_URL}/#business`,
     name: 'Mobile Auto Locksmith',
-    image: `${BASE_URL}/excaliburAuto_locksmith_logo.svg`,
+    image: `${BASE_URL}/logo.webp`,
     url: BASE_URL,
     telephone: '+447831872740',
     priceRange: '££',

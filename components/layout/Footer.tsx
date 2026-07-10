@@ -33,13 +33,14 @@ export function Footer() {
       <div className="container py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
-          <div className="mb-4">
+          <div className="mb-4 inline-block bg-white rounded-md px-3 py-2">
             <Image
-              src="/excaliburAuto_locksmith_logo.svg"
+              src="/logo.webp"
               alt="Mobile Auto Locksmith"
-              width={200}
-              height={62}
-              className="h-12 w-auto brightness-0 invert"
+              width={160}
+              height={61}
+              sizes="160px"
+              className="h-10 w-auto"
             />
           </div>
           <p className="text-white/70 text-sm leading-relaxed mb-4">

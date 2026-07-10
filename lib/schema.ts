@@ -149,9 +149,9 @@ export function buildOrganization() {
     url: SITE.domain,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE.domain}/images/mobile-auto-locksmith-logo.png`,
-      width: 300,
-      height: 60,
+      url: `${SITE.domain}/logo.webp`,
+      width: 2031,
+      height: 776,
     },
     contactPoint: {
       '@type': 'ContactPoint',
@@ -237,7 +237,7 @@ export function buildArticle(params: {
       name: SITE.name,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE.domain}/images/mobile-auto-locksmith-logo.png`,
+        url: `${SITE.domain}/logo.webp`,
       },
     },
     datePublished: params.datePublished,
