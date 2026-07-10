@@ -8,6 +8,9 @@
   lng: number
   nearbySlugs: string[]
   localContext: string
+  nearbyAreas: string[]
+  travelTime: string
+  popularVehicles: string[]
   priority: 'primary' | 'secondary' | 'tertiary'
   sitemapPriority: number
 }
@@ -25,6 +28,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['leigh', 'bolton', 'st-helens', 'skelmersdale'],
     localContext:
       "Wigan sits at the heart of the North West motorway network, with the M6 and A49 making it a natural hub for drivers travelling across Lancashire and Greater Manchester. The town centre car parks around Grand Arcade and Robin Park Retail Park are among the most common locations Ian and Adam attend for lost key call-outs.",
+    nearbyAreas: ['Standish', 'Ince', 'Winstanley', 'Pemberton', 'Abram', 'Shevington', 'Orrell', 'Worsley Mesnes'],
+    travelTime: '15–20 minutes',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'BMW', 'Audi'],
     priority: 'primary',
     sitemapPriority: 0.9,
   },
@@ -39,6 +45,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'warrington', 'haydock', 'newton-le-willows'],
     localContext:
       "St Helens sits between the M6 and M62 corridors, with heavy commercial traffic along the East Lancs Road (A580) making it a frequent area for van and HGV key call-outs. The St Helens Linkway and Ravenhead Retail Park are locations Mobile Auto Locksmith regularly covers.",
+    nearbyAreas: ['Eccleston', 'Rainhill', 'Sutton', 'Thatto Heath', 'Clock Face', 'Bold Heath', 'Moss Bank', 'Fingerpost'],
+    travelTime: '20–30 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Nissan', 'Toyota', 'Renault'],
     priority: 'primary',
     sitemapPriority: 0.9,
   },
@@ -55,6 +64,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'leigh', 'chorley', 'eccles'],
     localContext:
       "Bolton's ring road system and proximity to the M61 mean drivers frequently find themselves in unfamiliar retail parks or industrial estates near Middlebrook or Horwich when key emergencies strike. The Arndale Centre and Great Lever areas see regular call-outs for Mobile Auto Locksmith.",
+    nearbyAreas: ['Farnworth', 'Horwich', 'Westhoughton', 'Little Lever', 'Breightmet', 'Smithills', 'Tonge Moor', 'Harwood'],
+    travelTime: '25–35 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'BMW', 'Audi', 'Volkswagen'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -69,6 +81,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['runcorn', 'widnes', 'st-helens', 'newton-le-willows'],
     localContext:
       "Warrington is one of the UK's largest inland retail locations, with the Golden Square shopping centre, Gemini Retail Park, and extensive business parks off the M62. Key emergencies at large car parks and commercial vehicle key problems on the A49 and A57 corridors are common call-outs for Mobile Auto Locksmith.",
+    nearbyAreas: ['Stockton Heath', 'Penketh', 'Latchford', 'Great Sankey', 'Birchwood', 'Culcheth', 'Fearnhead', 'Padgate'],
+    travelTime: '30–40 minutes from our Wigan base',
+    popularVehicles: ['BMW', 'Audi', 'Volkswagen', 'Ford', 'Mercedes-Benz'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -83,6 +98,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['ormskirk', 'skelmersdale', 'chorley', 'wigan'],
     localContext:
       "Southport's seafront promenade, pier area, and Pleasureland car parks are popular destinations where visitors often find themselves locked out after a day out. The town's proximity to Formby and the Sefton coast means Mobile Auto Locksmith regularly assists drivers who've parked on beachside car parks.",
+    nearbyAreas: ['Birkdale', 'Ainsdale', 'Churchtown', 'Banks', 'Crossens', 'Hesketh Park', 'Marshside', 'Kew'],
+    travelTime: '35–50 minutes from our Wigan base',
+    popularVehicles: ['BMW', 'Mercedes-Benz', 'Audi', 'Ford', 'Volkswagen'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -97,6 +115,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['st-helens', 'widnes', 'runcorn', 'prescot'],
     localContext:
       "Liverpool's busy city centre, with multiple multi-storey car parks on Liverpool ONE, the waterfront, and around the hospitals and universities, generates frequent emergency locksmith call-outs. The M62 corridor between Liverpool and Wigan is a regular route for Ian and Adam.",
+    nearbyAreas: ['Wavertree', 'Mossley Hill', 'Allerton', 'West Derby', 'Norris Green', 'Aintree', 'Anfield', 'Croxteth'],
+    travelTime: '35–50 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'Audi', 'BMW'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -111,6 +132,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'bolton', 'eccles', 'golborne'],
     localContext:
       "Leigh sits directly between Wigan and Salford on the A572 and is a quick drive from junction 23 of the M6. The Leigh Sports Village, Spinning Gate retail park, and extensive residential areas are among the frequent call-out locations Mobile Auto Locksmith covers.",
+    nearbyAreas: ['Astley', 'Tyldesley', 'Atherton', 'Lowton', 'Glazebury', 'Bedford', 'Westleigh', 'Pennington'],
+    travelTime: '15–20 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Nissan', 'Toyota', 'Renault'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -125,6 +149,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'ormskirk', 'southport', 'st-helens'],
     localContext:
       "Skelmersdale's distinctive Concourse shopping centre and the surrounding Grimshaw Lane industrial estates are common locations for key emergencies. Its position near junction 4 of the M58 makes it accessible for Mobile Auto Locksmith's Wigan-based team in typically 20 minutes.",
+    nearbyAreas: ['Digmoor', 'Tanhouse', 'Birch Green', 'Ashurst', 'Pennylands', 'Upholland', 'Roby Mill', 'Dalton'],
+    travelTime: '20–25 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Nissan', 'Renault', 'Peugeot'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -139,6 +166,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['bolton', 'wigan', 'southport', 'ormskirk'],
     localContext:
       "Chorley's Market Street and the Morrisons Bridgend retail area are common settings for key emergencies. Drivers heading to and from the M61 at Clayton-le-Woods frequently call Mobile Auto Locksmith for assistance on the A49 or A6 corridors through the town.",
+    nearbyAreas: ['Adlington', 'Euxton', 'Coppull', 'Heath Charnock', 'Whittle-le-Woods', 'Buckshaw Village', 'Eccleston', 'Charnock Richard'],
+    travelTime: '20–30 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'BMW', 'Audi', 'Volkswagen'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -153,6 +183,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['skelmersdale', 'southport', 'wigan', 'rainford'],
     localContext:
       "Ormskirk is a busy market town with a large Edge Hill University student population — a demographic that regularly encounters key problems. The town centre parking around the Morrisons and Aughton Street, along with the A570 route to Southport, are frequent call-out zones.",
+    nearbyAreas: ['Aughton', 'Burscough', 'Halsall', 'Lathom', 'Rufford', 'Scarisbrick', 'Bickerstaffe', 'Westhead'],
+    travelTime: '25–35 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'BMW', 'Renault'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -167,6 +200,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['warrington', 'widnes', 'st-helens', 'haydock'],
     localContext:
       "Runcorn's large industrial and retail zones — including Astmoor and Murdishaw business parks — generate a steady flow of commercial vehicle key call-outs. The Runcorn Shopping City car park and the approach roads to the Runcorn-Widnes Bridge are noted locations.",
+    nearbyAreas: ['Halton', 'Astmoor', 'Palacefields', 'Norton', 'Moore', 'Weston', 'Beechwood', 'Brookvale'],
+    travelTime: '35–45 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Nissan', 'Peugeot', 'Renault'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -181,6 +217,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['runcorn', 'warrington', 'st-helens', 'liverpool'],
     localContext:
       "Widnes spans the Mersey and is connected to Runcorn by the Silver Jubilee Bridge and the newer Mersey Gateway bridge. The Widnes Vikings stadium area, Hough Green, and the large retail park on Lacey Street are among the call-out locations Mobile Auto Locksmith regularly serves.",
+    nearbyAreas: ['Ditton', 'Hough Green', 'Upton', 'Appleton', 'Kingsway', 'Moorfield', 'Simms Cross', 'Farnworth'],
+    travelTime: '35–45 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Renault', 'Nissan', 'Peugeot'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -195,6 +234,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['st-helens', 'newton-le-willows', 'wigan', 'warrington'],
     localContext:
       "Haydock is best known for its racecourse and for the vast Haydock Industrial Estate, one of the North West's largest — generating consistent commercial vehicle key call-outs. The proximity to the M6 at junction 23 makes it a natural stopping point for long-distance drivers who encounter key problems.",
+    nearbyAreas: ['Collins Green', 'Blackbrook', 'Peel Hall', 'Florida Farm', 'Church Road area', 'Clipsley Lane area', 'Legh Road area'],
+    travelTime: '15–20 minutes from our Wigan base',
+    popularVehicles: ['Ford Transit', 'Volkswagen Transporter', 'Mercedes Sprinter', 'Ford', 'Vauxhall Vivaro'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -209,6 +251,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['haydock', 'st-helens', 'warrington', 'wigan'],
     localContext:
       "Newton-le-Willows sits at the junction of the A49 and A572, a natural crossroads between Wigan and Warrington. Its Vulcan Village industrial zone and town centre car parks are regular call-out locations, and the Earlestown area within the town generates frequent key replacement enquiries.",
+    nearbyAreas: ['Earlestown', 'Vulcan Village', 'Wargrave', 'Kenyon', 'Croft', 'Hermitage Green', "Lowton St Mary's", 'Newton Common'],
+    travelTime: '20–30 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Renault', 'Toyota', 'Nissan'],
     priority: 'secondary',
     sitemapPriority: 0.78,
   },
@@ -225,6 +270,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'haydock', 'leigh', 'st-helens'],
     localContext:
       "Ashton-in-Makerfield sits directly off the A49 between Wigan and Haydock, making it one of the quickest Mobile Auto Locksmith call-outs in the region. The Bryn and Garswood residential areas and the East Lancashire Road retail developments are typical call-out locations.",
+    nearbyAreas: ['Bryn', 'Garswood', 'Downall Green', 'Haydock Road area', "Gerard's Bridge", 'Park Lane area', 'Stubshaw Cross'],
+    travelTime: '10–15 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'BMW', 'Nissan'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -239,6 +287,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['leigh', 'wigan', 'newton-le-willows', 'ashton-in-makerfield'],
     localContext:
       "Golborne is a small but busy town on the A573 between Leigh and Newton-le-Willows, with a notable number of retail haulage depots and commercial premises. It sits close to junction 23 of the M6, making it a short travel for Mobile Auto Locksmith's team from Wigan.",
+    nearbyAreas: ['Lowton', 'Abram', 'Kenyon', 'Culcheth', 'Lane Head', 'Stone Cross', 'High Street area'],
+    travelTime: '15–20 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Renault', 'Nissan', 'Toyota'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -253,6 +304,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'leigh', 'ince', 'bolton'],
     localContext:
       "Hindley is a residential suburb of Wigan with a town centre along Ladies Lane and a railway station on the Wigan–Manchester line. The area's large housing estates and proximity to Hindley Green generate regular domestic key call-outs for Mobile Auto Locksmith.",
+    nearbyAreas: ['Hindley Green', 'Platt Bridge', 'Wigan Road area', 'Ladies Lane area', 'Bickershaw', 'Leyland Mill Lane area', 'Ince Moss'],
+    travelTime: '10–15 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'Renault', 'Nissan'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -267,6 +321,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'hindley', 'leigh', 'ashton-in-makerfield'],
     localContext:
       "Ince lies immediately east of Wigan town centre and is known for its dense residential streets and proximity to the Ince Moss area. It's one of Mobile Auto Locksmith's closest call-out zones — Ian and Adam can often be on-site within 20 minutes of a call.",
+    nearbyAreas: ['Platt Bridge', 'Abram', 'Hindley', 'Winstanley', 'Worsley Hall', 'Spring View', 'Higher Ince', 'Lower Ince'],
+    travelTime: '5–10 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Renault', 'Peugeot', 'Nissan'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -281,6 +338,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['salford', 'leigh', 'bolton', 'hindley'],
     localContext:
       "Eccles sits on the A57 between Salford and Leigh, close to the M60/M602 interchange. The Barton Square area of the Trafford Centre — one of the UK's largest shopping destinations — is just minutes away and generates a high volume of car park key emergencies.",
+    nearbyAreas: ['Winton', 'Monton', 'Patricroft', 'Barton', 'Peel Green', 'Boothstown', 'Worsley', 'Cadishead'],
+    travelTime: '35–45 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'BMW', 'Audi'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -295,6 +355,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['eccles', 'leigh', 'bolton', 'hindley'],
     localContext:
       "Salford includes the MediaCityUK development at Salford Quays — a modern business hub where employees regularly need key assistance in the large surface car parks. The A57 Chapel Street corridor and the University of Salford campus area generate varied key call-outs.",
+    nearbyAreas: ['MediaCityUK', 'Salford Quays', 'Swinton', 'Pendleton', 'Ordsall', 'Weaste', 'Irlam', 'Cadishead'],
+    travelTime: '40–50 minutes from our Wigan base',
+    popularVehicles: ['BMW', 'Audi', 'Volkswagen', 'Ford', 'Mercedes-Benz'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -309,6 +372,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['st-helens', 'liverpool', 'haydock', 'rainford'],
     localContext:
       "Prescot is a Merseyside market town on the A57 between St Helens and Liverpool. Its proximity to the Knowsley Industrial Park — one of Europe's largest business parks — means a high volume of commercial vehicle call-outs in addition to regular private car key emergencies.",
+    nearbyAreas: ['Eccleston', 'Rainhill', 'Whiston', 'Knowsley Village', 'Cronton', 'Huyton', 'Roby', 'Dovecot'],
+    travelTime: '25–35 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'Nissan', 'Toyota'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -323,6 +389,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['st-helens', 'skelmersdale', 'ormskirk', 'billinge'],
     localContext:
       "Rainford is a large village between St Helens and Skelmersdale on the B5203. Its rural roads and limited public transport options make a working car key particularly critical for residents — being stranded here without a key is especially inconvenient without Mobile Auto Locksmith's mobile service.",
+    nearbyAreas: ['Billinge', 'Crank', 'Seneley Green', 'Lea Green', 'Moss Nook', 'Rookery', 'Mill Lane area'],
+    travelTime: '15–20 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Land Rover', 'Volkswagen', 'BMW'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },
@@ -337,6 +406,9 @@ export const LOCATIONS: Location[] = [
     nearbySlugs: ['wigan', 'st-helens', 'rainford', 'ashton-in-makerfield'],
     localContext:
       "Billinge is a hilltop village between Wigan and St Helens, served by the B5206. Its location on the ridge above the Mersey plain means limited alternative transport links — making Mobile Auto Locksmith's mobile service particularly valuable to residents who lose or break their keys.",
+    nearbyAreas: ['Winstanley', 'Garswood', 'Rainford', 'Crank', 'Five Ways', 'Birchley Heath', 'Birch Green'],
+    travelTime: '15–20 minutes from our Wigan base',
+    popularVehicles: ['Ford', 'Vauxhall', 'Volkswagen', 'Land Rover', 'BMW'],
     priority: 'tertiary',
     sitemapPriority: 0.7,
   },

@@ -39,15 +39,23 @@ function buildCityServiceFAQs(
   return [
     {
       question: `How quickly can you provide ${svc.name.toLowerCase()} in ${loc.name}?`,
-      answer: `In most cases, Ian or Adam can reach ${loc.name} within one hour of your call. We know the ${loc.county} area well and travel directly to your vehicle. Call ${SITE.phone} for a firm ETA.`,
+      answer: `From our base we typically reach ${loc.name} in ${loc.travelTime}, so in most cases Ian or Adam are with you within one hour of your call. We cover all ${loc.name} postcodes including ${loc.postcodePrefixes.join(', ')} and travel directly to your vehicle. Call ${SITE.phone} for a firm ETA.`,
     },
     {
       question: `How much does ${svc.name.toLowerCase()} cost in ${loc.name}?`,
-      answer: `Pricing for ${svc.name.toLowerCase()} in ${loc.name} starts ${svc.priceFrom}. This is all-inclusive — there are no hidden call-out charges. We're consistently 40–60% cheaper than what the main dealer would charge ${loc.name} drivers. Call ${SITE.phone} for your exact quote.`,
+      answer: `Pricing for ${svc.name.toLowerCase()} in ${loc.name} starts ${svc.priceFrom}. This is all-inclusive — there are no hidden call-out charges. We're consistently 40–60% cheaper than what the main dealer would charge ${loc.name} drivers. Call ${SITE.phone} for your exact quote before we travel.`,
     },
     {
       question: `Do you need to tow my car to a workshop in ${loc.name}?`,
-      answer: `No. All ${svc.name.toLowerCase()} work is carried out at your vehicle's location in ${loc.name}. Our fully equipped mobile workshop has everything needed for ${svc.name.toLowerCase()} on-site. You don't need to move your car.`,
+      answer: `No. All ${svc.name.toLowerCase()} work is carried out at your vehicle's location in ${loc.name} — whether that's in ${loc.nearbyAreas[0]}, ${loc.nearbyAreas[1]}, or anywhere else across the ${loc.postcodePrefixes[0]} area. Our fully equipped mobile workshop has everything needed on-site.`,
+    },
+    {
+      question: `Which areas within ${loc.name} do you cover for ${svc.name.toLowerCase()}?`,
+      answer: `We cover the whole of ${loc.name} and surrounding ${loc.county} for ${svc.name.toLowerCase()}, including ${loc.nearbyAreas.join(', ')}. If you're unsure whether your specific location is within our coverage, call ${SITE.phone} and we'll confirm straight away.`,
+    },
+    {
+      question: `What makes and models do you cover for ${svc.name.toLowerCase()} in ${loc.name}?`,
+      answer: `We cover all makes and models for ${svc.name.toLowerCase()} in ${loc.name}. The most common vehicles we service in the ${loc.name} area include ${loc.popularVehicles.join(', ')}, though our equipment covers virtually every make sold in the UK market. Call ${SITE.phone} with your make, model, and year and we'll confirm we can assist before travelling.`,
     },
   ]
 }
@@ -125,10 +133,16 @@ export default function CityServicePage({ params }: Props) {
             <p>
               Ian and Adam serve {loc.name} and the surrounding {loc.county} area regularly.
               The postcodes {loc.postcodePrefixes.join(', ')} are all well within our coverage
-              area — we travel directly to your vehicle wherever it is in {loc.name}.
+              area — we travel directly to your vehicle wherever it is in {loc.name},
+              whether that&apos;s {loc.nearbyAreas.slice(0, 3).join(', ')}, or any other
+              part of the {loc.name} area.
             </p>
             <p>
-              {svc.bodyParagraphs[2]}
+              From our base, we typically reach {loc.name} in {loc.travelTime} — which means
+              for most {loc.name} drivers, help is under an hour away from the moment you call.
+              The most common makes we service in {loc.name} are {loc.popularVehicles.join(', ')},
+              though we carry blanks and programming capability for virtually every make and
+              model sold in the UK market.
             </p>
           </div>
         </div>
@@ -181,6 +195,36 @@ export default function CityServicePage({ params }: Props) {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* Local Areas */}
+      <section className="section bg-surface" aria-labelledby="areas-heading">
+        <div className="container max-w-3xl">
+          <h2 id="areas-heading" className="section-heading mb-4">
+            Areas Within {loc.name} We Cover for {svc.name}
+          </h2>
+          <p className="text-muted mb-4">
+            Our mobile workshop covers the whole of {loc.name} and surrounding districts for {svc.name.toLowerCase()}.
+            Specific areas we regularly serve include:
+          </p>
+          <ul className="flex flex-wrap gap-2 mb-4">
+            {loc.nearbyAreas.map(area => (
+              <li
+                key={area}
+                className="bg-white border border-border text-primary font-semibold px-4 py-1.5 rounded-full text-sm"
+              >
+                {area}
+              </li>
+            ))}
+          </ul>
+          <p className="text-muted text-sm">
+            Don&apos;t see your specific area listed?{' '}
+            <a href={SITE.phoneTel} className="text-accent font-bold hover:underline focus-ring">
+              Call us on {SITE.phone}
+            </a>{' '}
+            — we cover all surrounding {loc.county} locations and typically reach {loc.name} in {loc.travelTime}.
+          </p>
         </div>
       </section>
 
