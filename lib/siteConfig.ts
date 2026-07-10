@@ -1,0 +1,31 @@
+export const SITE = {
+  name: 'Mobile Auto Locksmith',
+  phone: '07309 903 243',
+  phoneTel: 'tel:07309903243',
+  email: 'excalibursecurity@hotmail.co.uk',
+  emailHref: 'mailto:excalibursecurity@hotmail.co.uk',
+  primaryCity: 'Wigan',
+  secondaryCity: 'St Helens',
+  region: 'North West England',
+  county: 'Greater Manchester',
+  owners: ['Ian Casson', 'Adam Casson'],
+  experience: '30+',
+  hours: '24 hours a day, 7 days a week, 365 days a year',
+  address: {
+    city: 'Wigan',
+    county: 'Greater Manchester',
+    country: 'England',
+    countryCode: 'GB',
+  },
+  domain: 'https://mobileautolocksmiths.co.uk',
+  reviewCount: 127,
+  reviewScore: 4.9,
+  keyCount: '10,000+',
+  tagline: 'Mobile Auto Locksmith — We Come to You',
+  description:
+    'Mobile Auto Locksmith — family-run mobile locksmith serving Wigan, St Helens and the North West. 24/7, up to 60% cheaper than the main dealer.',
+  social: {
+    facebook: '',
+    google: '',
+  },
+} as const
