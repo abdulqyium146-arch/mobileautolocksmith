@@ -135,10 +135,17 @@ export default function CityPage({ params }: Props) {
             </p>
             <p>
               Every service we provide is performed at your vehicle&apos;s location in
-              {' '}{loc.name}. That means your {loc.postcodePrefixes[0]} postcode is no barrier — we bring
+              {' '}{loc.name}. Whether you&apos;re in {loc.nearbyAreas.slice(0, 3).join(', ')}, or
+              anywhere else across the {loc.postcodePrefixes.join(' or ')} postcode area, we bring
               the workshop to you. Lost key replacement, broken key extraction, immobiliser
               programming, remote fob replacement — all done on-site, the same day you call, at
               prices consistently 40–60% lower than {loc.name}&apos;s main dealers would charge.
+            </p>
+            <p>
+              From our base we typically reach {loc.name} in {loc.travelTime}, so most {loc.name}{' '}
+              drivers are back on the road within an hour of calling. The most common makes we
+              service in the {loc.name} area are {loc.popularVehicles.join(', ')} — though we carry
+              blanks and programming equipment for virtually every make and model sold in the UK.
             </p>
           </div>
         </div>
@@ -166,6 +173,37 @@ export default function CityPage({ params }: Props) {
               Call us
             </a>{' '}
             — we cover all surrounding areas.
+          </p>
+        </div>
+      </section>
+
+      {/* Specific areas within city */}
+      <section className="section bg-white" aria-labelledby="specific-areas-heading">
+        <div className="container max-w-3xl">
+          <h2 id="specific-areas-heading" className="section-heading mb-4">
+            Specific Areas We Cover in {loc.name}
+          </h2>
+          <p className="text-muted mb-4">
+            Our mobile workshop covers the whole of {loc.name} and surrounding districts,
+            including:
+          </p>
+          <ul className="flex flex-wrap gap-2 mb-4">
+            {loc.nearbyAreas.map(area => (
+              <li
+                key={area}
+                className="bg-surface border border-border text-primary font-semibold px-4 py-1.5 rounded-full text-sm"
+              >
+                {area}
+              </li>
+            ))}
+          </ul>
+          <p className="text-muted text-sm">
+            Don&apos;t see your area?{' '}
+            <a href={SITE.phoneTel} className="text-accent font-bold hover:underline focus-ring">
+              Call {SITE.phone}
+            </a>{' '}
+            — we cover all surrounding {loc.county} locations and typically reach {loc.name} in{' '}
+            {loc.travelTime}.
           </p>
         </div>
       </section>
