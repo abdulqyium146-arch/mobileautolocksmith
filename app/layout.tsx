@@ -97,6 +97,7 @@ export default function RootLayout({
   return (
     <html lang="en-GB" className={`${inter.variable} ${montserrat.variable}`}>
       <head>
+        <meta name="google-site-verification" content="aJuAjPAvPDbC-rMbtEXMqoEvLtot3n0hFshvrSapm_U" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="theme-color" content="#0b0c2a" />
